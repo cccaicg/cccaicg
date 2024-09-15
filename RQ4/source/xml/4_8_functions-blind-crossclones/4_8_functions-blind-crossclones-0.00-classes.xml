@@ -1,0 +1,94 @@
+<root>
+&lt;clones&gt;
+&lt;systeminfo processor="nicad6" system="4_8" system2="search_results" granularity="functions-blind" threshold="0%" minlines="4" maxlines="2500"/&gt;
+&lt;cloneinfo npcs="2150" npairs="48"/&gt;
+&lt;runinfo ncompares="163513" cputime="19702"/&gt;
+&lt;classinfo nclasses="9"/&gt;
+
+&lt;class classid="1" nclones="6" nlines="4" similarity="100"&gt;
+<source file="systems/4_8/prompt_01124.java" startline="7" endline="12" pcid="37"&gt;&lt;/source>
+<source file="systems/search_results/77/MonsterEvolver.java" startline="1921" endline="1925" pcid="1176"&gt;&lt;/source>
+<source file="systems/4_8/prompt_01234.java" startline="7" endline="11" pcid="733"&gt;&lt;/source>
+<source file="systems/4_8/prompt_01222.java" startline="8" endline="12" pcid="602"&gt;&lt;/source>
+<source file="systems/4_8/prompt_00081.java" startline="4" endline="8" pcid="363"&gt;&lt;/source>
+<source file="systems/4_8/prompt_00574.java" startline="7" endline="11" pcid="144"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="2" nclones="2" nlines="10" similarity="100"&gt;
+<source file="systems/4_8/prompt_00752.java" startline="5" endline="19" pcid="453"&gt;&lt;/source>
+<source file="systems/search_results/752/ClientReceiver.java" startline="20" endline="29" pcid="1463"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="3" nclones="19" nlines="9" similarity="100"&gt;
+<source file="systems/4_8/prompt_00959.java" startline="8" endline="19" pcid="520"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_9.java" startline="105" endline="112" pcid="1737"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_15.java" startline="130" endline="137" pcid="1535"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_11.java" startline="108" endline="116" pcid="1645"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_10.java" startline="106" endline="114" pcid="1824"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_18.java" startline="102" endline="109" pcid="1715"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_13.java" startline="105" endline="112" pcid="1513"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_5.java" startline="105" endline="112" pcid="1868"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_14.java" startline="105" endline="112" pcid="1803"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_7.java" startline="116" endline="123" pcid="1492"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_6.java" startline="95" endline="102" pcid="1579"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_4.java" startline="108" endline="116" pcid="1623"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_2.java" startline="106" endline="113" pcid="1782"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_16.java" startline="105" endline="112" pcid="1667"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_1.java" startline="114" endline="121" pcid="1760"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag.java" startline="101" endline="108" pcid="1688"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_8.java" startline="95" endline="102" pcid="1846"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_12.java" startline="108" endline="116" pcid="1556"&gt;&lt;/source>
+<source file="systems/search_results/959/CompoundTag_3.java" startline="108" endline="116" pcid="1601"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="4" nclones="5" nlines="11" similarity="100"&gt;
+<source file="systems/4_8/prompt_00289.java" startline="7" endline="21" pcid="564"&gt;&lt;/source>
+<source file="systems/search_results/289/UniqueHashedArray.java" startline="128" endline="138" pcid="1918"&gt;&lt;/source>
+<source file="systems/search_results/289/JTestContainer.java" startline="239" endline="249" pcid="1932"&gt;&lt;/source>
+<source file="systems/search_results/289/JTestContainer.java" startline="298" endline="308" pcid="1935"&gt;&lt;/source>
+<source file="systems/search_results/289/ReferenzImageList.java" startline="57" endline="69" pcid="1885"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="5" nclones="11" nlines="7" similarity="100"&gt;
+<source file="systems/4_8/prompt_00077.java" startline="2" endline="11" pcid="586"&gt;&lt;/source>
+<source file="systems/search_results/77/Screen.java" startline="41" endline="48" pcid="1184"&gt;&lt;/source>
+<source file="systems/search_results/77/Environment.java" startline="22" endline="28" pcid="1255"&gt;&lt;/source>
+<source file="systems/search_results/77/BattleField.java" startline="45" endline="51" pcid="1082"&gt;&lt;/source>
+<source file="systems/search_results/77/Game.java" startline="46" endline="52" pcid="1078"&gt;&lt;/source>
+<source file="systems/search_results/77/GameBoard.java" startline="22" endline="28" pcid="1318"&gt;&lt;/source>
+<source file="systems/search_results/77/Cine.java" startline="27" endline="33" pcid="1095"&gt;&lt;/source>
+<source file="systems/search_results/77/MonsterEvolver.java" startline="505" endline="514" pcid="1112"&gt;&lt;/source>
+<source file="systems/search_results/77/Exercise0.java" startline="18" endline="24" pcid="1283"&gt;&lt;/source>
+<source file="systems/search_results/77/Main.java" startline="226" endline="232" pcid="1242"&gt;&lt;/source>
+<source file="systems/search_results/77/Display.java" startline="182" endline="188" pcid="1293"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="6" nclones="2" nlines="9" similarity="100"&gt;
+<source file="systems/4_8/prompt_00793.java" startline="4" endline="15" pcid="589"&gt;&lt;/source>
+<source file="systems/search_results/793/SujikoSolver.java" startline="103" endline="111" pcid="1459"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="7" nclones="3" nlines="4" similarity="100"&gt;
+<source file="systems/4_8/prompt_01237.java" startline="7" endline="11" pcid="711"&gt;&lt;/source>
+<source file="systems/search_results/77/MonsterEvolver.java" startline="891" endline="895" pcid="1122"&gt;&lt;/source>
+<source file="systems/search_results/77/Environment.java" startline="245" endline="248" pcid="1274"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="8" nclones="4" nlines="5" similarity="100"&gt;
+<source file="systems/4_8/prompt_01616.java" startline="9" endline="15" pcid="805"&gt;&lt;/source>
+<source file="systems/search_results/1616/Data.java" startline="21" endline="25" pcid="1396"&gt;&lt;/source>
+<source file="systems/search_results/1616/MathUtils.java" startline="31" endline="35" pcid="1344"&gt;&lt;/source>
+<source file="systems/search_results/1616/Data_1.java" startline="21" endline="25" pcid="1349"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="9" nclones="5" nlines="7" similarity="100"&gt;
+<source file="systems/4_8/prompt_01065.java" startline="4" endline="16" pcid="994"&gt;&lt;/source>
+<source file="systems/search_results/1065/ViewInfo_1.java" startline="308" endline="314" pcid="2120"&gt;&lt;/source>
+<source file="systems/search_results/1065/ViewInfo.java" startline="241" endline="247" pcid="2060"&gt;&lt;/source>
+<source file="systems/search_results/1065/ViewInfo_2.java" startline="268" endline="274" pcid="2078"&gt;&lt;/source>
+<source file="systems/search_results/1065/ViewInfo_1.java" startline="286" endline="292" pcid="2118"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;/clones&gt;
+
+</root>

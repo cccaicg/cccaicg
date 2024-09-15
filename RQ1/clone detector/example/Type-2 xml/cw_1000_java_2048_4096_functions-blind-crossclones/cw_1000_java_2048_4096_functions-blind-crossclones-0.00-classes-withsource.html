@@ -1,0 +1,3725 @@
+<html>
+<head>
+    <title>NiCad6 Clone Report</title>
+    <style type="text/css">
+        body {font-family:sans-serif;}
+        table {background-color:white; border:0px; padding:0px; border-spacing:4px; width:auto; margin-left:30px; margin-right:auto;}
+        td {background-color:rgba(192,212,238,0.8); border:0px; padding:8px; width:auto; vertical-align:top; border-radius:8px}
+        pre {background-color:white; padding:4px;}
+        a {color:darkblue;}
+    </style>
+</head>
+<body>
+<h2>NiCad6 Clone Report</h2>
+<table>
+<tr style="font-size:14pt">
+<td><b>System 1:</b> &nbsp; cw_1000_java_2048_4096</td>
+<td><b>System 2:</b> &nbsp; source</td>
+<td><b>Clone pairs:</b> &nbsp; 397</td>
+<td><b>Clone classes:</b> &nbsp; 62</td>
+</tr>
+<tr style="font-size:12pt">
+<td style="background-color:white">Clone type: &nbsp; 2</td>
+<td style="background-color:white">Granularity: &nbsp; functions-blind</td>
+<td style="background-color:white">Max diff threshold: &nbsp; 0%</td>
+<td style="background-color:white">Clone size: &nbsp; 4 - 2500 lines</td>
+<td style="background-color:white">Total functions-blind: &nbsp; 3040</td>
+</tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 1:</b> &nbsp; 25 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00017.java: 7-11
+</a>
+<div class="mid" id="frag14" style="display:none"><pre>
+public SpruceBuilder sortWith(SortFunction function) 
+{
+    this.sortFunction = function;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1873')" href="javascript:;">
+source/00832.java: 8-11
+</a>
+<div class="mid" id="frag1873" style="display:none"><pre>
+public DistributedLogNamespaceBuilder conf(DistributedLogConfiguration conf){
+    this._conf = conf;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1860')" href="javascript:;">
+source/00823.java: 8-11
+</a>
+<div class="mid" id="frag1860" style="display:none"><pre>
+public DistributedLogNamespaceBuilder clientId(String clientId){
+    this._clientId = clientId;
+    return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1046')" href="javascript:;">
+source/00010.java: 10-13
+</a>
+<div class="mid" id="frag1046" style="display:none"><pre>
+public SpruceBuilder addInterpolator(Interpolator interpolator){
+    this.interpolator = interpolator;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1054')" href="javascript:;">
+source/00017.java: 7-10
+</a>
+<div class="mid" id="frag1054" style="display:none"><pre>
+public SpruceBuilder sortWith(SortFunction function){
+    this.sortFunction = function;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1095')" href="javascript:;">
+source/00063.java: 6-9
+</a>
+<div class="mid" id="frag1095" style="display:none"><pre>
+public ApiClient setTempFolderPath(String tempFolderPath){
+  this.tempFolderPath = tempFolderPath;
+  return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2967')" href="javascript:;">
+source/01926.java: 7-10
+</a>
+<div class="mid" id="frag2967" style="display:none"><pre>
+public Builder strategy(InternetObservingStrategy strategy){
+  this.strategy = strategy;
+  return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2972')" href="javascript:;">
+source/01931.java: 6-9
+</a>
+<div class="mid" id="frag2972" style="display:none"><pre>
+public Builder errorHandler(ErrorHandler errorHandler){
+  this.errorHandler = errorHandler;
+  return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1863')" href="javascript:;">
+source/00826.java: 8-11
+</a>
+<div class="mid" id="frag1863" style="display:none"><pre>
+public Builder setInputStream(InputStream in){
+    this.in = in;
+    return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2974')" href="javascript:;">
+source/01933.java: 6-9
+</a>
+<div class="mid" id="frag2974" style="display:none"><pre>
+public Builder host(String host){
+  this.host = host;
+  return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1862')" href="javascript:;">
+source/00825.java: 9-12
+</a>
+<div class="mid" id="frag1862" style="display:none"><pre>
+public DistributedLogNamespaceBuilder uri(URI uri){
+    this._uri = uri;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1644')" href="javascript:;">
+source/00607.java: 7-10
+</a>
+<div class="mid" id="frag1644" style="display:none"><pre>
+public Builder setHeaderClickListener(OnHeaderClickListener headerClickListener){
+    this.headerClickListener = headerClickListener;
+    return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1874')" href="javascript:;">
+source/00833.java: 8-11
+</a>
+<div class="mid" id="frag1874" style="display:none"><pre>
+public DistributedLogNamespaceBuilder statsLogger(StatsLogger statsLogger){
+    this._statsLogger = statsLogger;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2360')" href="javascript:;">
+source/01305.java: 7-10
+</a>
+<div class="mid" id="frag2360" style="display:none"><pre>
+public Builder attachTo(View actionView){
+    this.actionView = actionView;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2362')" href="javascript:;">
+source/01307.java: 6-9
+</a>
+<div class="mid" id="frag2362" style="display:none"><pre>
+public Builder setAnimationHandler(MenuAnimationHandler animationHandler){
+    this.animationHandler = animationHandler;
+    return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1703')" href="javascript:;">
+source/00672.java: 9-12
+</a>
+<div class="mid" id="frag1703" style="display:none"><pre>
+public Crouton setOnClickListener(OnClickListener onClickListener){
+  this.onClickListener = onClickListener;
+  return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag438')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00825.java: 9-13
+</a>
+<div class="mid" id="frag438" style="display:none"><pre>
+public DistributedLogNamespaceBuilder uri(URI uri) 
+{
+    this.uri = uri;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1000')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01933.java: 6-10
+</a>
+<div class="mid" id="frag1000" style="display:none"><pre>
+public Builder host(String host) 
+{
+    this.host = host;
+    return this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag439')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00826.java: 8-12
+</a>
+<div class="mid" id="frag439" style="display:none"><pre>
+public Builder setInputStream(InputStream in) 
+{
+    this.inputStream = in;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag972')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01858.java: 7-11
+</a>
+<div class="mid" id="frag972" style="display:none"><pre>
+public TeamBuilder updatePrefix(JsonMessage prefix) 
+{
+    this.prefix = prefix;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag916')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01745.java: 10-14
+</a>
+<div class="mid" id="frag916" style="display:none"><pre>
+public RetryTemplateBuilder customPolicy(RetryPolicy policy) 
+{
+    this.policy = policy;
+    return this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag43')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00071.java: 6-10
+</a>
+<div class="mid" id="frag43" style="display:none"><pre>
+public ApiClient setDateFormat(DateFormat dateFormat) 
+{
+    this.dateFormat = dateFormat;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag962')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01840.java: 7-11
+</a>
+<div class="mid" id="frag962" style="display:none"><pre>
+public TeamBuilder updateTeamDisplayName(JsonMessage displayName) 
+{
+    this.displayName = displayName;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag791')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01497.java: 2-6
+</a>
+<div class="mid" id="frag791" style="display:none"><pre>
+public NormalListDialog title(String title) 
+{
+    this.title = title;
+    return this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag677')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01307.java: 6-10
+</a>
+<div class="mid" id="frag677" style="display:none"><pre>
+public Builder setAnimationHandler(MenuAnimationHandler animationHandler) 
+{
+    this.animationHandler = animationHandler;
+    return this;
+}   
+</pre></div>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 2:</b> &nbsp; 4 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag24')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00031.java: 2-6
+</a>
+<div class="mid" id="frag24" style="display:none"><pre>
+public CaseExecutionEntity getParent() 
+{
+    ensureParentLoaded();
+    return parent;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1062')" href="javascript:;">
+source/00024.java: 2-5
+</a>
+<div class="mid" id="frag1062" style="display:none"><pre>
+public CaseExecutionEntity getSubCaseInstance(){
+  ensureSubCaseInstanceInitialized();
+  return subCaseInstance;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1068')" href="javascript:;">
+source/00032.java: 2-5
+</a>
+<div class="mid" id="frag1068" style="display:none"><pre>
+public ExecutionEntity getSubProcessInstance(){
+  ensureSubProcessInstanceInitialized();
+  return subProcessInstance;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1067')" href="javascript:;">
+source/00031.java: 2-5
+</a>
+<div class="mid" id="frag1067" style="display:none"><pre>
+public CaseExecutionEntity getParent(){
+  ensureParentInitialized();
+  return parent;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 3:</b> &nbsp; 2 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag45')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00077.java: 6-10
+</a>
+<div class="mid" id="frag45" style="display:none"><pre>
+public ApiClient setUserAgent(String userAgent) 
+{
+    addDefaultHeader("User-Agent", userAgent);
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1109')" href="javascript:;">
+source/00077.java: 6-9
+</a>
+<div class="mid" id="frag1109" style="display:none"><pre>
+public ApiClient setUserAgent(String userAgent){
+  addDefaultHeader("User-Agent", userAgent);
+  return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 4:</b> &nbsp; 4 fragments, nominal size 7 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag97')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00180.java: 7-15
+</a>
+<div class="mid" id="frag97" style="display:none"><pre>
+@Override
+public StandardSource&lt;C&gt; close(Statement statement) throws SQLException 
+{
+    if (statement != null)
+    {
+        statement.close();
+    }
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1223')" href="javascript:;">
+source/00180.java: 7-13
+</a>
+<div class="mid" id="frag1223" style="display:none"><pre>
+@Override
+public StandardSource&lt;C&gt; close(Statement statement) throws SQLException{
+    if (statement != null) {
+        statement.close();
+    }
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1240')" href="javascript:;">
+source/00199.java: 7-13
+</a>
+<div class="mid" id="frag1240" style="display:none"><pre>
+@Override
+public StandardSource&lt;C&gt; close(ResultSet result) throws SQLException{
+    if (result != null) {
+        result.close();
+    }
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag108')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00199.java: 7-15
+</a>
+<div class="mid" id="frag108" style="display:none"><pre>
+@Override
+public StandardSource&lt;C&gt; close(ResultSet result) throws SQLException 
+{
+    if (result != null)
+    {
+        result.close();
+    }
+    return this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 5:</b> &nbsp; 2 fragments, nominal size 14 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag134')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00244.java: 6-20
+</a>
+<div class="mid" id="frag134" style="display:none"><pre>
+public static byte[] hexStrToByteArray(String str) 
+{
+    if (str == null) {
+        return null;
+    }
+    if (str.length() == 0) {
+        return new byte[0];
+    }
+    byte[] byteArray = new byte[str.length() / 2];
+    for (int i = 0; i &lt; byteArray.length; i++) {
+        String subStr = str.substring(2 * i, 2 * i + 2);
+        byteArray[i] = ((byte) Integer.parseInt(subStr, 16));
+    }
+    return byteArray;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1286')" href="javascript:;">
+source/00244.java: 6-19
+</a>
+<div class="mid" id="frag1286" style="display:none"><pre>
+public static byte[] hexStrToByteArray(String str){
+	if (str == null) {
+		return null;
+	}
+	if (str.length() == 0) {
+		return new byte[0];
+	}
+	byte[] byteArray = new byte[str.length() / 2];
+	for (int i = 0; i &lt; byteArray.length; i++){
+		String subStr = str.substring(2 * i, 2 * i + 2);
+		byteArray[i] = ((byte)Integer.parseInt(subStr, 16));
+	}
+	return byteArray;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 6:</b> &nbsp; 2 fragments, nominal size 5 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag142')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00254.java: 6-11
+</a>
+<div class="mid" id="frag142" style="display:none"><pre>
+public static void toTakePicture(int requestcode, Activity activity) 
+{
+    Intent intent = new Intent(Intent.ACTION_PICK, null);
+    intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*");
+    activity.startActivityForResult(intent, requestcode);
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1296')" href="javascript:;">
+source/00254.java: 6-11
+</a>
+<div class="mid" id="frag1296" style="display:none"><pre>
+public static void toTakePicture(int requestcode, Activity activity){
+    Intent intent = new Intent(Intent.ACTION_PICK, null);
+    intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI,
+            "image/*");
+    activity.startActivityForResult(intent, requestcode);
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 7:</b> &nbsp; 2 fragments, nominal size 8 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag148')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00262.java: 8-17
+</a>
+<div class="mid" id="frag148" style="display:none"><pre>
+public static String captchaNumber(int length) 
+{
+    StringBuilder sb = new StringBuilder();
+    Random random = new Random();
+    for (int i = 0; i &lt; length; i++)
+    {
+        sb.append(random.nextInt(10));
+    }
+    return sb.toString();
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1303')" href="javascript:;">
+source/00262.java: 8-15
+</a>
+<div class="mid" id="frag1303" style="display:none"><pre>
+public static String captchaNumber(int length){
+    StringBuilder sb = new StringBuilder();
+    Random rand = new Random();
+    for (int i = 0; i &lt; length; i++) {
+        sb.append(rand.nextInt(10));
+    }
+    return sb.toString();
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 8:</b> &nbsp; 4 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag170')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00300.java: 7-11
+</a>
+<div class="mid" id="frag170" style="display:none"><pre>
+public FormattedBuilder&lt;T&gt; minimumLength(int minimumLength) 
+{
+    this.minimumLength = minimumLength;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1340')" href="javascript:;">
+source/00300.java: 7-10
+</a>
+<div class="mid" id="frag1340" style="display:none"><pre>
+public FormattedBuilder&lt;T&gt; minimumLength(int minimumLength){
+	this.minimumLength = minimumLength;
+	return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1343')" href="javascript:;">
+source/00303.java: 7-10
+</a>
+<div class="mid" id="frag1343" style="display:none"><pre>
+public FormattedBuilder&lt;T&gt; maximumLength(int maximumLength){
+	this.maximumLength = maximumLength;
+	return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag172')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00303.java: 7-11
+</a>
+<div class="mid" id="frag172" style="display:none"><pre>
+public FormattedBuilder&lt;T&gt; maximumLength(int maximumLength) 
+{
+    this.maximumLength = maximumLength;
+    return this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 9:</b> &nbsp; 8 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag171')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00301.java: 9-13
+</a>
+<div class="mid" id="frag171" style="display:none"><pre>
+public FlatFileItemWriterBuilder&lt;T&gt; shouldDeleteIfEmpty(boolean shouldDelete) 
+{
+    this.shouldDeleteIfEmpty = shouldDelete;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1354')" href="javascript:;">
+source/00314.java: 9-13
+</a>
+<div class="mid" id="frag1354" style="display:none"><pre>
+public FlatFileItemWriterBuilder&lt;T&gt; append(boolean append){
+	this.append = append;
+
+	return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1352')" href="javascript:;">
+source/00312.java: 9-13
+</a>
+<div class="mid" id="frag1352" style="display:none"><pre>
+public FlatFileItemWriterBuilder&lt;T&gt; shouldDeleteIfExists(boolean shouldDelete){
+	this.shouldDeleteIfExists = shouldDelete;
+
+	return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1350')" href="javascript:;">
+source/00310.java: 8-12
+</a>
+<div class="mid" id="frag1350" style="display:none"><pre>
+public FlatFileItemWriterBuilder&lt;T&gt; transactional(boolean transactional){
+	this.transactional = transactional;
+
+	return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1342')" href="javascript:;">
+source/00302.java: 9-13
+</a>
+<div class="mid" id="frag1342" style="display:none"><pre>
+public FlatFileItemWriterBuilder&lt;T&gt; forceSync(boolean forceSync){
+	this.forceSync = forceSync;
+
+	return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1341')" href="javascript:;">
+source/00301.java: 9-13
+</a>
+<div class="mid" id="frag1341" style="display:none"><pre>
+public FlatFileItemWriterBuilder&lt;T&gt; shouldDeleteIfEmpty(boolean shouldDelete){
+	this.shouldDeleteIfEmpty = shouldDelete;
+
+	return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag176')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00310.java: 8-12
+</a>
+<div class="mid" id="frag176" style="display:none"><pre>
+public FlatFileItemWriterBuilder&lt;T&gt; transactional(boolean transactional) 
+{
+    this.transactional = transactional;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag177')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00314.java: 9-13
+</a>
+<div class="mid" id="frag177" style="display:none"><pre>
+public FlatFileItemWriterBuilder&lt;T&gt; append(boolean append) 
+{
+    this.append = append;
+    return this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 10:</b> &nbsp; 10 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag173')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00304.java: 10-14
+</a>
+<div class="mid" id="frag173" style="display:none"><pre>
+public FlatFileItemWriterBuilder&lt;T&gt; name(String name) 
+{
+    this.name = name;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1344')" href="javascript:;">
+source/00304.java: 10-14
+</a>
+<div class="mid" id="frag1344" style="display:none"><pre>
+public FlatFileItemWriterBuilder&lt;T&gt; name(String name){
+	this.name = name;
+
+	return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1345')" href="javascript:;">
+source/00305.java: 8-12
+</a>
+<div class="mid" id="frag1345" style="display:none"><pre>
+public FlatFileItemWriterBuilder&lt;T&gt; resource(Resource resource){
+	this.resource = resource;
+
+	return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1359')" href="javascript:;">
+source/00319.java: 8-11
+</a>
+<div class="mid" id="frag1359" style="display:none"><pre>
+public DelimitedBuilder&lt;T&gt; delimiter(String delimiter){
+	this.delimiter = delimiter;
+	return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1358')" href="javascript:;">
+source/00318.java: 8-12
+</a>
+<div class="mid" id="frag1358" style="display:none"><pre>
+public FlatFileItemWriterBuilder&lt;T&gt; headerCallback(FlatFileHeaderCallback callback){
+	this.headerCallback = callback;
+
+	return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1353')" href="javascript:;">
+source/00313.java: 7-11
+</a>
+<div class="mid" id="frag1353" style="display:none"><pre>
+public FlatFileItemWriterBuilder&lt;T&gt; footerCallback(FlatFileFooterCallback callback){
+	this.footerCallback = callback;
+
+	return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1347')" href="javascript:;">
+source/00307.java: 6-9
+</a>
+<div class="mid" id="frag1347" style="display:none"><pre>
+public FormattedBuilder&lt;T&gt; format(String format){
+	this.format = format;
+	return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1348')" href="javascript:;">
+source/00308.java: 6-9
+</a>
+<div class="mid" id="frag1348" style="display:none"><pre>
+public FormattedBuilder&lt;T&gt; locale(Locale locale){
+	this.locale = locale;
+	return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag174')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00305.java: 8-12
+</a>
+<div class="mid" id="frag174" style="display:none"><pre>
+public FlatFileItemWriterBuilder&lt;T&gt; resource(Resource resource) 
+{
+    this.resource = resource;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag175')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00307.java: 6-10
+</a>
+<div class="mid" id="frag175" style="display:none"><pre>
+public FormattedBuilder&lt;T&gt; format(String format) 
+{
+    this.format = format;
+    return this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 11:</b> &nbsp; 7 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag189')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00333.java: 7-11
+</a>
+<div class="mid" id="frag189" style="display:none"><pre>
+public RegionBootstrap(BootstrapNotifier application, Region region) 
+{
+    this.application = application;
+    this.region = region;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2099')" href="javascript:;">
+source/01051.java: 7-10
+</a>
+<div class="mid" id="frag2099" style="display:none"><pre>
+public Crawler(DBManager dbManager, Executor executor){
+    this.dbManager = dbManager;
+    this.executor = executor;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1401')" href="javascript:;">
+source/00357.java: 7-10
+</a>
+<div class="mid" id="frag1401" style="display:none"><pre>
+public AHBottomNavigationItem(String title, Drawable drawable){
+	this.title = title;
+	this.drawable = drawable;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag744')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01413.java: 8-12
+</a>
+<div class="mid" id="frag744" style="display:none"><pre>
+public EmojiKeyboardsExtractor(File sourceUnicodeEmojiListFile, File targetResourceFolder) 
+{
+    this.sourceUnicodeEmojiListFile = sourceUnicodeEmojiListFile;
+    this.targetResourceFolder = targetResourceFolder;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag249')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00433.java: 7-11
+</a>
+<div class="mid" id="frag249" style="display:none"><pre>
+public ExportResult(ResultType type, T exportedData) 
+{
+    this.type = type;
+    this.exportedData = exportedData;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag428')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00808.java: 6-10
+</a>
+<div class="mid" id="frag428" style="display:none"><pre>
+public KBucketEntry (InetSocketAddress addr, Key id) 
+{
+	this.addr = addr;
+	this.id = id;
+}   
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag433')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00818.java: 5-9
+</a>
+<div class="mid" id="frag433" style="display:none"><pre>
+public AbstractLookupRequest (Key target, Method m) 
+{
+    this.target = target;
+    this.method = m;
+}   
+</pre></div>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 12:</b> &nbsp; 3 fragments, nominal size 6 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag192')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00338.java: 8-14
+</a>
+<div class="mid" id="frag192" style="display:none"><pre>
+public Region(String uniqueId, Identifier id1, Identifier id2, Identifier id3) 
+{
+    this.uniqueId = uniqueId;
+    this.id1 = id1;
+    this.id2 = id2;
+    this.id3 = id3;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2156')" href="javascript:;">
+source/01111.java: 9-14
+</a>
+<div class="mid" id="frag2156" style="display:none"><pre>
+public GuessItem(String movieName, String movieYear, VideoClassification videoClassification, String imdbId){
+	this.title = movieName;
+	this.year = movieYear;
+	this.videoClassification = videoClassification;
+	this.imdbId = imdbId;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1008')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01952.java: 13-19
+</a>
+<div class="mid" id="frag1008" style="display:none"><pre>
+public DBAuthenticator(String driver, String jdbcUrl, String sqlQuery, String digestMethod) 
+{
+    this.driver = driver;
+    this.jdbcUrl = jdbcUrl;
+    this.sqlQuery = sqlQuery;
+    this.digestMethod = digestMethod;
+}   
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 13:</b> &nbsp; 3 fragments, nominal size 8 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag196')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00345.java: 7-16
+</a>
+<div class="mid" id="frag196" style="display:none"><pre>
+public static int getSoftButtonsBarSizePort(Context context) 
+{
+    int result = 0;
+    int resourceId = context.getResources().getIdentifier("navigation_bar_height", "dimen", "android");
+    if (resourceId &gt; 0)
+    {
+        result = context.getResources().getDimensionPixelSize(resourceId);
+    }
+    return result;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1426')" href="javascript:;">
+source/00379.java: 2-9
+</a>
+<div class="mid" id="frag1426" style="display:none"><pre>
+public static int getStatusBarHeight(Context context){
+    int result = 0;
+    int resId = context.getResources().getIdentifier("status_bar_height", "dimen", "android");
+    if (resId &gt; 0) {
+        result = context.getResources().getDimensionPixelOffset(resId);
+    }
+    return result;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag220')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00379.java: 2-11
+</a>
+<div class="mid" id="frag220" style="display:none"><pre>
+public static int getStatusBarHeight(Context context) 
+{
+    int result = 0;
+    int resourceId = context.getResources().getIdentifier("status_bar_height", "dimen", "android");
+    if (resourceId &gt; 0)
+    {
+        result = context.getResources().getDimensionPixelSize(resourceId);
+    }
+    return result;
+}   
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 14:</b> &nbsp; 2 fragments, nominal size 13 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag199')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00349.java: 6-20
+</a>
+<div class="mid" id="frag199" style="display:none"><pre>
+public static void updateTextSize(final TextView textView, float fromSize, float toSize) 
+{
+    ValueAnimator animator = ValueAnimator.ofFloat(fromSize, toSize);
+    animator.setDuration(300);
+    animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener()
+    {
+        @Override
+        public void onAnimationUpdate(ValueAnimator animation)
+        {
+            float animatedValue = (float) animation.getAnimatedValue();
+            textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, animatedValue);
+        }
+    });
+    animator.start();
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1391')" href="javascript:;">
+source/00349.java: 4-15
+</a>
+<div class="mid" id="frag1391" style="display:none"><pre>
+public static void updateTextSize(final TextView textView, float fromSize, float toSize){
+	ValueAnimator animator = ValueAnimator.ofFloat(fromSize, toSize);
+	animator.setDuration(150);
+	animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+		@Override
+		public void onAnimationUpdate(ValueAnimator valueAnimator) {
+			float animatedValue = (float) valueAnimator.getAnimatedValue();
+			textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, animatedValue);
+		}
+	});
+	animator.start();
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 15:</b> &nbsp; 2 fragments, nominal size 5 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag201')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00353.java: 4-10
+</a>
+<div class="mid" id="frag201" style="display:none"><pre>
+public void willBeHidden() 
+{
+    if (mFragment != null)
+    {
+        mFragment.willBeHidden();
+    }
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2258')" href="javascript:;">
+source/01202.java: 4-8
+</a>
+<div class="mid" id="frag2258" style="display:none"><pre>
+public void clearOnPageChangeListeners(){
+    if (mOnPageChangeListeners != null) {
+        mOnPageChangeListeners.clear();
+    }
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 16:</b> &nbsp; 3 fragments, nominal size 6 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag222')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00381.java: 11-16
+</a>
+<div class="mid" id="frag222" style="display:none"><pre>
+@NonNull
+public CompleteBuilder defaultRxScheduler(@Nullable Scheduler defaultRxScheduler) 
+{
+    this.defaultRxScheduler = defaultRxScheduler;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1428')" href="javascript:;">
+source/00381.java: 11-15
+</a>
+<div class="mid" id="frag1428" style="display:none"><pre>
+@NonNull
+public CompleteBuilder defaultRxScheduler(@Nullable Scheduler defaultRxScheduler){
+    this.defaultRxScheduler = defaultRxScheduler;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag224')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00386.java: 7-12
+</a>
+<div class="mid" id="frag224" style="display:none"><pre>
+@NonNull
+public CompleteBuilder typeMappingFinder(@NonNull TypeMappingFinder typeMappingFinder) 
+{
+    this.typeMappingFinder = typeMappingFinder;
+    return this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 17:</b> &nbsp; 3 fragments, nominal size 5 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag248')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00431.java: 6-11
+</a>
+<div class="mid" id="frag248" style="display:none"><pre>
+public ExportResult(ResultType type) 
+{
+    this.type = type;
+    this.data = null;
+    this.error = null;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1950')" href="javascript:;">
+source/00902.java: 6-10
+</a>
+<div class="mid" id="frag1950" style="display:none"><pre>
+public TreeNode(T val){
+    this.val = val;
+    this.left = null;
+    this.right = null;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag483')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00902.java: 6-11
+</a>
+<div class="mid" id="frag483" style="display:none"><pre>
+public TreeNode(T val) 
+{
+    this.val = val;
+    this.left = null;
+    this.right = null;
+}   
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 18:</b> &nbsp; 2 fragments, nominal size 5 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag255')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00443.java: 2-8
+</a>
+<div class="mid" id="frag255" style="display:none"><pre>
+public static TestParam[] array(String[] values) 
+{
+    int[] vals = new int[values.length];
+    for(int i = 0; i &lt; vals.length; i++)
+        vals[i] = Integer.decode(values[i]);
+    return array(vals);
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1492')" href="javascript:;">
+source/00443.java: 2-7
+</a>
+<div class="mid" id="frag1492" style="display:none"><pre>
+public static TestParam[] array(String[] values){
+  int[] vals = new int[values.length];
+  for(int i = 0; i &lt; vals.length; i++)
+    vals[i] = Integer.decode(values[i]);
+  return array(vals);
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 19:</b> &nbsp; 2 fragments, nominal size 9 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag258')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00450.java: 12-23
+</a>
+<div class="mid" id="frag258" style="display:none"><pre>
+public int getMaxValueOfPackage2(int n, int m, int[] v, int[] val) 
+{
+    int[] dp = new int[m+1];
+    for(int i=1; i&lt;=n; i++)
+    {
+        for(int j=m; j&gt;=v[i-1]; j--)
+        {
+            dp[j] = Math.max(dp[j], dp[j-v[i-1]]+val[i-1]);
+        }
+    }
+    return dp[m];
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1499')" href="javascript:;">
+source/00450.java: 12-21
+</a>
+<div class="mid" id="frag1499" style="display:none"><pre>
+public int getMaxValueOfPackage2(int n, int m, int[] v, int[] val){
+    int[] dp = new int[m + 1];
+    for (int i = 1; i &lt;= n; i++) {
+        //优化使用j&gt;=v[i-1], 仅需要查看 v[i-1] ~ m 这个体积区间的最大价值是否需要更新
+        for (int j = m; j &gt;=v[i-1]; j--) {
+            dp[j] = Math.max(dp[j], dp[j-v[i-1]] + val[i-1]);
+        }
+    }
+    return dp[m];
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 20:</b> &nbsp; 2 fragments, nominal size 5 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag272')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00480.java: 2-7
+</a>
+<div class="mid" id="frag272" style="display:none"><pre>
+public ExposerRsp(boolean exposed, String md5, long seckillId) 
+{
+    this.exposed = exposed;
+    this.md5 = md5;
+    this.seckillId = seckillId;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1531')" href="javascript:;">
+source/00480.java: 2-6
+</a>
+<div class="mid" id="frag1531" style="display:none"><pre>
+public ExposerRsp(boolean exposed, String md5, long seckillId){
+    this.exposed = exposed;
+    this.md5 = md5;
+    this.seckillId = seckillId;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 21:</b> &nbsp; 2 fragments, nominal size 5 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag276')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00492.java: 5-10
+</a>
+<div class="mid" id="frag276" style="display:none"><pre>
+public CookieRememberMeManager rememberMeManager() 
+{
+	CookieRememberMeManager cookieRememberMeManager = new CookieRememberMeManager();
+	cookieRememberMeManager.setCookie(rememberMeCookie());
+	return cookieRememberMeManager;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1536')" href="javascript:;">
+source/00485.java: 5-9
+</a>
+<div class="mid" id="frag1536" style="display:none"><pre>
+public RedisCacheManager cacheManager(){
+    RedisCacheManager redisCacheManager = new RedisCacheManager();
+    redisCacheManager.setRedisManager(redisManager());
+    return redisCacheManager;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 22:</b> &nbsp; 3 fragments, nominal size 7 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag310')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00546.java: 6-13
+</a>
+<div class="mid" id="frag310" style="display:none"><pre>
+public boolean isVolatile() 
+{
+    ASTNode$State state = state();
+    try {
+        return getModifiers().isVolatile();
+    } finally {
+    }
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1600')" href="javascript:;">
+source/00546.java: 6-11
+</a>
+<div class="mid" id="frag1600" style="display:none"><pre>
+public boolean isVolatile(){
+  ASTNode$State state = state();
+  try {  return getModifiers().isVolatile();  }
+  finally {
+  }
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag311')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00548.java: 6-11
+</a>
+<div class="mid" id="frag311" style="display:none"><pre>
+public boolean isStatic() 
+{
+    ASTNode$State state = state();
+    try {  return getBlock().isStatic();  }
+    finally { }
+}   
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 23:</b> &nbsp; 2 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag312')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00549.java: 9-13
+</a>
+<div class="mid" id="frag312" style="display:none"><pre>
+public void setTypeAccess(Access node, int i) 
+{
+    List&lt;Access&gt; list = getTypeAccessList();
+    list.setChild(node, i);
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1603')" href="javascript:;">
+source/00549.java: 9-12
+</a>
+<div class="mid" id="frag1603" style="display:none"><pre>
+public void setTypeAccess(Access node, int i){
+  List&lt;Access&gt; list = getTypeAccessList();
+  list.setChild(node, i);
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 24:</b> &nbsp; 2 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag318')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00556.java: 5-9
+</a>
+<div class="mid" id="frag318" style="display:none"><pre>
+public AssignEdge(final VarNode from, final VarNode to) 
+{
+    this.from = from;
+    this.to = to;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1610')" href="javascript:;">
+source/00556.java: 5-8
+</a>
+<div class="mid" id="frag1610" style="display:none"><pre>
+public AssignEdge(final VarNode from, final VarNode to){
+  this.src = from;
+  this.dst = to;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 25:</b> &nbsp; 6 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag319')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00561.java: 7-11
+</a>
+<div class="mid" id="frag319" style="display:none"><pre>
+public T setStrokeDashWidth(float strokeDashWidth) 
+{
+    this.strokeDashWidth = strokeDashWidth;
+    return (T) this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1631')" href="javascript:;">
+source/00577.java: 7-10
+</a>
+<div class="mid" id="frag1631" style="display:none"><pre>
+public T setTopLeftRadius(float radius){
+    this.mTopLeftRadius = radius;
+    return (T) this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1619')" href="javascript:;">
+source/00565.java: 7-10
+</a>
+<div class="mid" id="frag1619" style="display:none"><pre>
+public T setRadius(float radius){
+    this.mRadius = radius;
+    return (T) this;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1617')" href="javascript:;">
+source/00563.java: 7-10
+</a>
+<div class="mid" id="frag1617" style="display:none"><pre>
+public T setTopRightRadius(float radius){
+    this.mTopRightRadius = radius;
+    return (T) this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1615')" href="javascript:;">
+source/00561.java: 7-10
+</a>
+<div class="mid" id="frag1615" style="display:none"><pre>
+public T setStrokeDashWidth(float strokeDashWidth){
+    this.mStrokeDashWidth = strokeDashWidth;
+    return (T) this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag320')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00563.java: 7-11
+</a>
+<div class="mid" id="frag320" style="display:none"><pre>
+public T setTopRightRadius(float radius) 
+{
+    this.topRightRadius = radius;
+    return (T) this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 26:</b> &nbsp; 10 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag325')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00571.java: 7-11
+</a>
+<div class="mid" id="frag325" style="display:none"><pre>
+public T setBackgroundPressedColor(int color) 
+{
+    this.mBackgroundPressedColor = color;
+    return (T) this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1633')" href="javascript:;">
+source/00579.java: 7-10
+</a>
+<div class="mid" id="frag1633" style="display:none"><pre>
+public T setBackgroundSelectedColor(int color){
+    this.mBackgroundSelectedColor = color;
+    return (T) this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1630')" href="javascript:;">
+source/00576.java: 7-10
+</a>
+<div class="mid" id="frag1630" style="display:none"><pre>
+public T setStrokeCheckedColor(int strokeCheckedColor){
+    this.mStrokeCheckedColor = strokeCheckedColor;
+    return (T) this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1616')" href="javascript:;">
+source/00562.java: 7-10
+</a>
+<div class="mid" id="frag1616" style="display:none"><pre>
+public T setStrokeSelectedColor(int strokeSelectedColor){
+    this.mStrokeSelectedColor = strokeSelectedColor;
+    return (T) this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1628')" href="javascript:;">
+source/00574.java: 7-10
+</a>
+<div class="mid" id="frag1628" style="display:none"><pre>
+public T setStrokeColor(int strokeColor){
+    this.mStrokeColor = strokeColor;
+    return (T) this;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1624')" href="javascript:;">
+source/00570.java: 7-10
+</a>
+<div class="mid" id="frag1624" style="display:none"><pre>
+public T setStrokeWidth(int strokeWidth){
+    this.mStrokeWidth = strokeWidth;
+    return (T) this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1618')" href="javascript:;">
+source/00564.java: 7-10
+</a>
+<div class="mid" id="frag1618" style="display:none"><pre>
+public T setStrokeDisabledColor(int strokeDisabledColor){
+    this.mStrokeDisabledColor = strokeDisabledColor;
+    return (T) this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1625')" href="javascript:;">
+source/00571.java: 7-10
+</a>
+<div class="mid" id="frag1625" style="display:none"><pre>
+public T setBackgroundPressedColor(int color){
+    this.mBackgroundPressedColor = color;
+    return (T) this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1627')" href="javascript:;">
+source/00573.java: 7-10
+</a>
+<div class="mid" id="frag1627" style="display:none"><pre>
+public T setRippleColor(int color){
+    this.mRippleColor = color;
+    return (T) this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag329')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00576.java: 7-11
+</a>
+<div class="mid" id="frag329" style="display:none"><pre>
+public T setStrokeCheckedColor(int strokeCheckedColor) 
+{
+    this.strokeCheckedColor = strokeCheckedColor;
+    return (T) this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 27:</b> &nbsp; 2 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag330')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00578.java: 7-11
+</a>
+<div class="mid" id="frag330" style="display:none"><pre>
+public T setOnSelectedChangeListener(OnSelectedChangeListener listener) 
+{
+    this.listener = listener;
+    return (T) this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1632')" href="javascript:;">
+source/00578.java: 7-10
+</a>
+<div class="mid" id="frag1632" style="display:none"><pre>
+public T setOnSelectedChangeListener(OnSelectedChangeListener listener){
+    this.mOnSelectedChangeListener = listener;
+    return (T) this;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 28:</b> &nbsp; 13 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag333')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00602.java: 7-11
+</a>
+<div class="mid" id="frag333" style="display:none"><pre>
+public Builder disableHeaderClick(boolean disableHeaderClick) 
+{
+    this.disableHeaderClick = disableHeaderClick;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2689')" href="javascript:;">
+source/01632.java: 6-9
+</a>
+<div class="mid" id="frag2689" style="display:none"><pre>
+public Builder setCropReplaceSource(boolean cropReplaceSource){
+    this.cropReplaceSource = cropReplaceSource;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1859')" href="javascript:;">
+source/00822.java: 8-11
+</a>
+<div class="mid" id="frag1859" style="display:none"><pre>
+public Builder setEnvelopeEntry(boolean enabled){
+    this.envelopeEntry = enabled;
+    return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1639')" href="javascript:;">
+source/00602.java: 7-10
+</a>
+<div class="mid" id="frag1639" style="display:none"><pre>
+public Builder disableHeaderClick(boolean disableHeaderClick){
+    this.disableHeaderClick = disableHeaderClick;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2676')" href="javascript:;">
+source/01620.java: 6-9
+</a>
+<div class="mid" id="frag2676" style="display:none"><pre>
+public Builder setRotateReplaceSource(boolean rotateReplaceSource){
+    this.rotateReplaceSource = rotateReplaceSource;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2680')" href="javascript:;">
+source/01624.java: 6-9
+</a>
+<div class="mid" id="frag2680" style="display:none"><pre>
+public Builder setForceCropEdit(boolean forceCropEdit){
+    this.forceCropEdit = forceCropEdit;
+    return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2687')" href="javascript:;">
+source/01630.java: 6-9
+</a>
+<div class="mid" id="frag2687" style="display:none"><pre>
+public Builder setForceCrop(boolean forceCrop){
+    this.forceCrop = forceCrop;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1637')" href="javascript:;">
+source/00600.java: 7-10
+</a>
+<div class="mid" id="frag1637" style="display:none"><pre>
+public Builder enableDivider(boolean enableDivider){
+    this.enableDivider = enableDivider;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2688')" href="javascript:;">
+source/01631.java: 6-9
+</a>
+<div class="mid" id="frag2688" style="display:none"><pre>
+public Builder setEnablePreview(boolean preview){
+    this.preview = preview;
+    return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag862')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01620.java: 6-10
+</a>
+<div class="mid" id="frag862" style="display:none"><pre>
+public Builder setRotateReplaceSource(boolean rotateReplaceSource) 
+{
+    this.rotateReplaceSource = rotateReplaceSource;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag866')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01624.java: 6-10
+</a>
+<div class="mid" id="frag866" style="display:none"><pre>
+public Builder setForceCropEdit(boolean forceCropEdit) 
+{
+    this.forceCropEdit = forceCropEdit;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1027')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01980.java: 6-10
+</a>
+<div class="mid" id="frag1027" style="display:none"><pre>
+public Builder setIsActive(boolean value) 
+{
+    this.isActive = value;
+    return this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag869')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01631.java: 6-10
+</a>
+<div class="mid" id="frag869" style="display:none"><pre>
+public Builder setEnablePreview(boolean preview) 
+{
+    this.enablePreview = preview;
+    return this;
+}   
+</pre></div>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 29:</b> &nbsp; 2 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag335')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00608.java: 7-11
+</a>
+<div class="mid" id="frag335" style="display:none"><pre>
+public Builder(int pinnedHeaderId, int pinnedHeaderType) 
+{
+    this.pinnedHeaderId = pinnedHeaderId;
+    this.pinnedHeaderType = pinnedHeaderType;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1645')" href="javascript:;">
+source/00608.java: 7-10
+</a>
+<div class="mid" id="frag1645" style="display:none"><pre>
+public Builder(int pinnedHeaderId, int pinnedHeaderType){
+    this.pinnedHeaderId = pinnedHeaderId;
+    this.pinnedHeaderType = pinnedHeaderType;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 30:</b> &nbsp; 2 fragments, nominal size 24 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag365')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00692.java: 14-39
+</a>
+<div class="mid" id="frag365" style="display:none"><pre>
+public static char[] encode(byte[] in, int iOff, int iLen) 
+{
+    int oDataLen = (iLen * 4 + 2) / 3; // output length without padding
+    int oLen = ((iLen + 2) / 3) * 4; // output length including padding
+    char[] out = new char[oLen];
+    int ip = iOff;
+    int iEnd = iOff + iLen;
+    int op = 0;
+    while (ip &lt; iEnd)
+    {
+        int i0 = in[ip++] &amp; 0xff;
+        int i1 = ip &lt; iEnd ? in[ip++] &amp; 0xff : 0;
+        int i2 = ip &lt; iEnd ? in[ip++] &amp; 0xff : 0;
+        int o0 = i0 &gt;&gt;&gt; 2;
+        int o1 = ((i0 &amp; 3) &lt;&lt; 4) | (i1 &gt;&gt;&gt; 4);
+        int o2 = ((i1 &amp; 0xf) &lt;&lt; 2) | (i2 &gt;&gt;&gt; 6);
+        int o3 = i2 &amp; 0x3F;
+        out[op++] = map1[o0];
+        out[op++] = map1[o1];
+        out[op] = op &lt; oDataLen ? map1[o2] : '=';
+        op++;
+        out[op] = op &lt; oDataLen ? map1[o3] : '=';
+        op++;
+    }
+    return out;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1724')" href="javascript:;">
+source/00692.java: 14-37
+</a>
+<div class="mid" id="frag1724" style="display:none"><pre>
+public static char[] encode(byte[] in, int iOff, int iLen){
+    int oDataLen = (iLen * 4 + 2) / 3; // output length without padding
+    int oLen = ((iLen + 2) / 3) * 4; // output length including padding
+    char[] out = new char[oLen];
+    int ip = iOff;
+    int iEnd = iOff + iLen;
+    int op = 0;
+    while (ip &lt; iEnd) {
+        int i0 = in[ip++] &amp; 0xff;
+        int i1 = ip &lt; iEnd ? in[ip++] &amp; 0xff : 0;
+        int i2 = ip &lt; iEnd ? in[ip++] &amp; 0xff : 0;
+        int o0 = i0 &gt;&gt;&gt; 2;
+        int o1 = ((i0 &amp; 3) &lt;&lt; 4) | (i1 &gt;&gt;&gt; 4);
+        int o2 = ((i1 &amp; 0xf) &lt;&lt; 2) | (i2 &gt;&gt;&gt; 6);
+        int o3 = i2 &amp; 0x3F;
+        out[op++] = map1[o0];
+        out[op++] = map1[o1];
+        out[op] = op &lt; oDataLen ? map1[o2] : '=';
+        op++;
+        out[op] = op &lt; oDataLen ? map1[o3] : '=';
+        op++;
+    }
+    return out;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 31:</b> &nbsp; 2 fragments, nominal size 6 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag408')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00770.java: 8-15
+</a>
+<div class="mid" id="frag408" style="display:none"><pre>
+private static Object unwrap(Object object) 
+{
+    if (object instanceof Reflector)
+    {
+        return ((Reflector) object).get();
+    }
+    return object;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1809')" href="javascript:;">
+source/00770.java: 8-14
+</a>
+<div class="mid" id="frag1809" style="display:none"><pre>
+private static Object unwrap(Object object){
+    if (object instanceof Reflector) {
+        return ((Reflector) object).get();
+    }
+
+    return object;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 32:</b> &nbsp; 2 fragments, nominal size 6 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag429')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00812.java: 5-12
+</a>
+<div class="mid" id="frag429" style="display:none"><pre>
+public Optional&lt;Throwable&gt; getError() 
+{
+    if (isSuccess())
+    {
+        throw new IllegalStateException("Operation was successful");
+    }
+    return Optional.ofNullable(failureCause);
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1848')" href="javascript:;">
+source/00812.java: 5-10
+</a>
+<div class="mid" id="frag1848" style="display:none"><pre>
+public Optional&lt;Throwable&gt; getError(){
+    if (isSuccess()) {
+        throw new IllegalStateException("Attempt to retrieve error from successful result");
+    }
+    return Optional.ofNullable(error);
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 33:</b> &nbsp; 4 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag443')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00835.java: 8-12
+</a>
+<div class="mid" id="frag443" style="display:none"><pre>
+public Builder setEntryId(long entryId) 
+{
+    this.entryId = entryId;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1876')" href="javascript:;">
+source/00835.java: 8-11
+</a>
+<div class="mid" id="frag1876" style="display:none"><pre>
+public Builder setEntryId(long entryId){
+    this.entryId = entryId;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag806')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01524.java: 4-8
+</a>
+<div class="mid" id="frag806" style="display:none"><pre>
+public Room withId(long id) 
+{
+    this.id = id;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag914')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01743.java: 10-14
+</a>
+<div class="mid" id="frag914" style="display:none"><pre>
+public RetryTemplateBuilder withinMillis(long timeout) 
+{
+    this.withinMillis = timeout;
+    return this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 34:</b> &nbsp; 2 fragments, nominal size 12 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag457')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00855.java: 4-19
+</a>
+<div class="mid" id="frag457" style="display:none"><pre>
+public int getStatusHeight(Context context) 
+{
+    int statusHeight = -1;
+    try
+    {
+        Class&lt;?&gt; clazz = Class.forName("com.android.internal.R$dimen");
+        Object object = clazz.newInstance();
+        int height = Integer.parseInt(clazz.getField("status_bar_height")
+                .get(object).toString());
+        statusHeight = context.getResources().getDimensionPixelSize(height);
+    } catch (Exception e)
+    {
+        e.printStackTrace();
+    }
+    return statusHeight;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1903')" href="javascript:;">
+source/00855.java: 4-15
+</a>
+<div class="mid" id="frag1903" style="display:none"><pre>
+public int getStatusHeight(Context context){
+    int statusHeight = -1;
+    try {
+        Class&lt;?&gt; clazz = Class.forName("com.android.internal.R$dimen");
+        Object object = clazz.newInstance();
+        int height = Integer.parseInt(clazz.getField("status_bar_height").get(object).toString());
+        statusHeight = context.getResources().getDimensionPixelSize(height);
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+    return statusHeight;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 35:</b> &nbsp; 2 fragments, nominal size 6 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag486')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00914.java: 4-11
+</a>
+<div class="mid" id="frag486" style="display:none"><pre>
+public static synchronized ThreadSafeLazyLoadedMouseDriver getInstance() 
+{
+    if (instance == null)
+    {
+        instance = new ThreadSafeLazyLoadedMouseDriver();
+    }
+    return instance;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1960')" href="javascript:;">
+source/00914.java: 4-10
+</a>
+<div class="mid" id="frag1960" style="display:none"><pre>
+public static synchronized ThreadSafeLazyLoadedMouseDriver getInstance(){
+    if (instance == null) {
+        instance = new ThreadSafeLazyLoadedMouseDriver();
+    }
+
+    return instance;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 36:</b> &nbsp; 2 fragments, nominal size 9 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag508')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_00962.java: 3-16
+</a>
+<div class="mid" id="frag508" style="display:none"><pre>
+public void releaseConn() 
+{
+    if (conn != null)
+    {
+        try
+        {
+            conn.close();
+        }
+        catch (SQLException e)
+        {
+            e.printStackTrace();
+        }
+    }
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2005')" href="javascript:;">
+source/00962.java: 2-10
+</a>
+<div class="mid" id="frag2005" style="display:none"><pre>
+public void releaseConn(){
+    if(resultSet != null){
+        try{
+            resultSet.close();
+        }catch(SQLException e){
+            e.printStackTrace();
+        }
+    }
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 37:</b> &nbsp; 2 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag593')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01116.java: 7-11
+</a>
+<div class="mid" id="frag593" style="display:none"><pre>
+public GuessCandidate(double score, GuessItem guessItem) 
+{
+    this.score = score;
+    this.guessItem = guessItem;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2161')" href="javascript:;">
+source/01116.java: 7-10
+</a>
+<div class="mid" id="frag2161" style="display:none"><pre>
+public GuessCandidate(double score, GuessItem guessItem){
+	this.score = score;
+	this.guessItem = guessItem;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 38:</b> &nbsp; 2 fragments, nominal size 6 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag637')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01217.java: 11-18
+</a>
+<div class="mid" id="frag637" style="display:none"><pre>
+public void addOnPageChangeListener(OnPageChangeListener listener) 
+{
+    if (mOnPageChangeListeners == null)
+    {
+        mOnPageChangeListeners = new ArrayList&lt;&gt;();
+    }
+    mOnPageChangeListeners.add(listener);
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2274')" href="javascript:;">
+source/01217.java: 11-16
+</a>
+<div class="mid" id="frag2274" style="display:none"><pre>
+public void addOnPageChangeListener(OnPageChangeListener listener){
+    if (mOnPageChangeListeners == null) {
+        mOnPageChangeListeners = new ArrayList&lt;&gt;();
+    }
+    mOnPageChangeListeners.add(listener);
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 39:</b> &nbsp; 2 fragments, nominal size 8 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag642')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01225.java: 9-18
+</a>
+<div class="mid" id="frag642" style="display:none"><pre>
+public static boolean isNumeric(String str) 
+{
+    Pattern pattern = Pattern.compile("[0-9]*");
+    Matcher isNum = pattern.matcher(str);
+    if (!isNum.matches())
+    {
+        return false;
+    }
+    return true;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2283')" href="javascript:;">
+source/01225.java: 6-13
+</a>
+<div class="mid" id="frag2283" style="display:none"><pre>
+public static boolean isNumeric(String str){
+	Pattern pattern = Pattern.compile("[0-9]*");
+	Matcher isNum = pattern.matcher(str);
+	if( !isNum.matches() ){
+		return false;
+	}
+	return true;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 40:</b> &nbsp; 2 fragments, nominal size 7 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag643')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01227.java: 9-17
+</a>
+<div class="mid" id="frag643" style="display:none"><pre>
+public static String stringFilter(String str) 
+{
+    str = str.replaceAll("【", "[").replaceAll("】", "]")
+            .replaceAll("！", "!").replaceAll("：", ":");// ��换中文标号
+    String regEx = "[『』]"; // ��除��特��字符
+    Pattern p = Pattern.compile(regEx);
+    Matcher m = p.matcher(str);
+    return m.replaceAll("").trim();
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2285')" href="javascript:;">
+source/01227.java: 7-13
+</a>
+<div class="mid" id="frag2285" style="display:none"><pre>
+public static String stringFilter(String str){
+	str = str.replaceAll("【", "[").replaceAll("】", "]").replaceAll("！", "!").replaceAll("：", ":");// 替换中文标号
+	String regEx = "[『』]"; // 清除掉特殊字符
+	Pattern p = Pattern.compile(regEx);
+	Matcher m = p.matcher(str);
+	return m.replaceAll("").trim();
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 41:</b> &nbsp; 2 fragments, nominal size 6 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag644')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01228.java: 21-29
+</a>
+<div class="mid" id="frag644" style="display:none"><pre>
+public static boolean equals(String str1, String str2) 
+{
+    if (str1 == null)
+    {
+        return str2 == null;
+    }
+
+    return str1.equals(str2);
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2286')" href="javascript:;">
+source/01228.java: 21-28
+</a>
+<div class="mid" id="frag2286" style="display:none"><pre>
+public static boolean equals(String str1, String str2){
+	if ( str1 == null )
+	{
+		return str2 == null;
+	}
+
+	return str1.equals(str2);
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 42:</b> &nbsp; 2 fragments, nominal size 11 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag645')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01230.java: 7-21
+</a>
+<div class="mid" id="frag645" style="display:none"><pre>
+public static String toDBC(String input) 
+{
+    char[] c = input.toCharArray();
+    for (int i = 0; i &lt; c.length; i++)
+    {
+        if (c[i] == 12288)
+        {
+            c[i] = (char) 32;
+            continue;
+        }
+        if (c[i] &gt; 65280 &amp;&amp; c[i] &lt; 65375)
+            c[i] = (char) (c[i] - 65248);
+    }
+    return new String(c);
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2287')" href="javascript:;">
+source/01230.java: 7-18
+</a>
+<div class="mid" id="frag2287" style="display:none"><pre>
+public static String toDBC(String input){
+	char[] c = input.toCharArray();
+	for (int i = 0; i &lt; c.length; i++) {
+		if (c[i] == 12288) {
+			c[i] = (char) 32;
+			continue;
+		}
+		if (c[i] &gt; 65280 &amp;&amp; c[i] &lt; 65375)
+			c[i] = (char) (c[i] - 65248);
+	}
+	return new String(c);
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 43:</b> &nbsp; 2 fragments, nominal size 5 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag664')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01272.java: 7-12
+</a>
+<div class="mid" id="frag664" style="display:none"><pre>
+public static Map&lt;String, String&gt; removeParamsForAlipaySign(Map&lt;String, String&gt; map) 
+{
+    map.remove("sign");
+    map.remove("sign_type");
+    return map;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2328')" href="javascript:;">
+source/01272.java: 7-12
+</a>
+<div class="mid" id="frag2328" style="display:none"><pre>
+public static Map&lt;String, String&gt; removeParamsForAlipaySign(Map&lt;String, String&gt; map){
+    map.remove("sign");
+    map.remove("sign_type");
+
+    return map;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 44:</b> &nbsp; 2 fragments, nominal size 7 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag669')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01287.java: 6-16
+</a>
+<div class="mid" id="frag669" style="display:none"><pre>
+public static RouteUtils parseQuitely(Route conditionRoute) 
+{
+    try
+    {
+        return parse(conditionRoute);
+    }
+    catch (ParseException e)
+    {
+        throw new RuntimeException(e);
+    }
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2343')" href="javascript:;">
+source/01287.java: 5-11
+</a>
+<div class="mid" id="frag2343" style="display:none"><pre>
+public static RouteUtils parseQuitely(Route conditionRoute){
+    try {
+        return parse(conditionRoute);
+    } catch (ParseException e) {
+        throw new RuntimeException(e);
+    }
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 45:</b> &nbsp; 2 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag715')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01365.java: 14-18
+</a>
+<div class="mid" id="frag715" style="display:none"><pre>
+            public void onAnimationUpdate(ValueAnimator animation)
+            {
+                float radius = (float) animation.getAnimatedValue();
+                myView.setCameraDistance(radius);
+            }
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1385')" href="javascript:;">
+source/00344.java: 9-12
+</a>
+<div class="mid" id="frag1385" style="display:none"><pre>
+		public void onAnimationUpdate(ValueAnimator valueAnimator) {
+			float animatedValue = (float) valueAnimator.getAnimatedValue();
+			view.setAlpha(animatedValue);
+		}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 46:</b> &nbsp; 2 fragments, nominal size 9 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag719')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01369.java: 6-17
+</a>
+<div class="mid" id="frag719" style="display:none"><pre>
+public static &lt;T&gt; FlowableTransformer&lt;T, T&gt; rxSchedulerHelper() 
+{
+    return new FlowableTransformer&lt;T, T&gt;()
+    {
+        @Override
+        public Publisher&lt;T&gt; apply(Flowable&lt;T&gt; upstream)
+        {
+            return upstream.subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread());
+        }
+    };
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2427')" href="javascript:;">
+source/01369.java: 6-14
+</a>
+<div class="mid" id="frag2427" style="display:none"><pre>
+public static &lt;T&gt; FlowableTransformer&lt;T, T&gt; rxSchedulerHelper(){    //compose简化线程
+    return new FlowableTransformer&lt;T, T&gt;() {
+        @Override
+        public Flowable&lt;T&gt; apply(Flowable&lt;T&gt; observable) {
+            return observable.subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread());
+        }
+    };
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 47:</b> &nbsp; 14 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag783')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01481.java: 2-6
+</a>
+<div class="mid" id="frag783" style="display:none"><pre>
+public NormalListDialog titleTextColor(int titleTextColor) 
+{
+    this.titleTextColor = titleTextColor;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2962')" href="javascript:;">
+source/01921.java: 7-10
+</a>
+<div class="mid" id="frag2962" style="display:none"><pre>
+public Builder interval(int interval){
+  this.interval = interval;
+  return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1643')" href="javascript:;">
+source/00606.java: 7-10
+</a>
+<div class="mid" id="frag1643" style="display:none"><pre>
+public Builder setDividerId(int dividerId){
+    this.dividerId = dividerId;
+    return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1864')" href="javascript:;">
+source/00827.java: 9-12
+</a>
+<div class="mid" id="frag1864" style="display:none"><pre>
+public DistributedLogNamespaceBuilder regionId(int regionId){
+    this._regionId = regionId;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2561')" href="javascript:;">
+source/01499.java: 2-5
+</a>
+<div class="mid" id="frag2561" style="display:none"><pre>
+public NormalDialog titleLineColor(int titleLineColor){
+    this.mTitleLineColor = titleLineColor;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2981')" href="javascript:;">
+source/01938.java: 7-10
+</a>
+<div class="mid" id="frag2981" style="display:none"><pre>
+public Builder timeout(int timeout){
+  this.timeout = timeout;
+  return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2973')" href="javascript:;">
+source/01932.java: 7-10
+</a>
+<div class="mid" id="frag2973" style="display:none"><pre>
+public Builder initialInterval(int initialInterval){
+  this.initialInterval = initialInterval;
+  return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2982')" href="javascript:;">
+source/01939.java: 6-9
+</a>
+<div class="mid" id="frag2982" style="display:none"><pre>
+public Builder port(int port){
+  this.port = port;
+  return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag995')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01921.java: 7-11
+</a>
+<div class="mid" id="frag995" style="display:none"><pre>
+public Builder interval(int interval) 
+{
+    this.interval = interval;
+    return this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag792')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01498.java: 2-6
+</a>
+<div class="mid" id="frag792" style="display:none"><pre>
+public NormalListDialog lvBgColor(int lvBgColor) 
+{
+    this.lvBgColor = lvBgColor;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1001')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01939.java: 6-10
+</a>
+<div class="mid" id="frag1001" style="display:none"><pre>
+public Builder port(int port) 
+{
+    this.port = port;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag784')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01485.java: 2-6
+</a>
+<div class="mid" id="frag784" style="display:none"><pre>
+public NormalListDialog dividerColor(int dividerColor) 
+{
+    this.dividerColor = dividerColor;
+    return this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag793')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01499.java: 2-6
+</a>
+<div class="mid" id="frag793" style="display:none"><pre>
+public NormalDialog titleLineColor(int titleLineColor) 
+{
+    this.titleLineColor = titleLineColor;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag922')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01754.java: 11-15
+</a>
+<div class="mid" id="frag922" style="display:none"><pre>
+public RetryTemplateBuilder maxAttempts(int maxAttempts) 
+{
+    this.maxAttempts = maxAttempts;
+    return this;
+}   
+</pre></div>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 48:</b> &nbsp; 2 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag786')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01491.java: 2-6
+</a>
+<div class="mid" id="frag786" style="display:none"><pre>
+public NormalListDialog itemTextSize(float itemTextSize_SP) 
+{
+    this.itemTextSize_SP = itemTextSize_SP;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2552')" href="javascript:;">
+source/01493.java: 2-5
+</a>
+<div class="mid" id="frag2552" style="display:none"><pre>
+public NormalDialog titleLineHeight(float titleLineHeight_DP){
+    this.mTitleLineHeight = titleLineHeight_DP;
+    return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 49:</b> &nbsp; 7 fragments, nominal size 5 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag823')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01551.java: 2-8
+</a>
+<div class="mid" id="frag823" style="display:none"><pre>
+private void notifyChange() 
+{
+    if (mListener != null)
+    {
+        mListener.onDataSetChange();
+    }
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2619')" href="javascript:;">
+source/01563.java: 4-8
+</a>
+<div class="mid" id="frag2619" style="display:none"><pre>
+private void notifyCloseToRightListener(){
+  if (listener != null) {
+    listener.onClosedToRight();
+  }
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2621')" href="javascript:;">
+source/01565.java: 4-8
+</a>
+<div class="mid" id="frag2621" style="display:none"><pre>
+private void notifyCloseToLeftListener(){
+  if (listener != null) {
+    listener.onClosedToLeft();
+  }
+}
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2630')" href="javascript:;">
+source/01574.java: 4-8
+</a>
+<div class="mid" id="frag2630" style="display:none"><pre>
+private void notifyMaximizeToListener(){
+  if (listener != null) {
+    listener.onMaximized();
+  }
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2633')" href="javascript:;">
+source/01577.java: 4-8
+</a>
+<div class="mid" id="frag2633" style="display:none"><pre>
+private void notifyMinimizeToListener(){
+  if (listener != null) {
+    listener.onMinimized();
+  }
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag839')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01577.java: 4-10
+</a>
+<div class="mid" id="frag839" style="display:none"><pre>
+private void notifyMinimizeToListener() 
+{
+    if (mDraggableListener != null)
+    {
+        mDraggableListener.onMinimize();
+    }
+}   
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag833')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01565.java: 4-10
+</a>
+<div class="mid" id="frag833" style="display:none"><pre>
+private void notifyCloseToLeftListener() 
+{
+    if (mCloseToLeftListener != null)
+    {
+        mCloseToLeftListener.onCloseToLeft();
+    }
+}   
+</pre></div>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 50:</b> &nbsp; 2 fragments, nominal size 13 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag825')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01553.java: 3-25
+</a>
+<div class="mid" id="frag825" style="display:none"><pre>
+public static int calculateInSampleSize(
+        BitmapFactory.Options options, int reqWidth, int reqHeight) 
+{
+    // Raw height and width of image
+    final int height = options.outHeight;
+    final int width = options.outWidth;
+    int inSampleSize = 1;
+
+    if (height &gt; reqHeight || width &gt; reqWidth) {
+
+        final int halfHeight = height / 2;
+        final int halfWidth = width / 2;
+
+        // Calculate the largest inSampleSize value that is a power of 2 and keeps both
+        // height and width larger than the requested height and width.
+        while ((halfHeight / inSampleSize) &gt;= reqHeight
+                &amp;&amp; (halfWidth / inSampleSize) &gt;= reqWidth) {
+            inSampleSize *= 2;
+        }
+    }
+
+    return inSampleSize;
+}       
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2609')" href="javascript:;">
+source/01553.java: 3-24
+</a>
+<div class="mid" id="frag2609" style="display:none"><pre>
+public static int calculateInSampleSize(
+        BitmapFactory.Options options, int reqWidth, int reqHeight){
+    // Raw height and width of image
+    final int height = options.outHeight;
+    final int width = options.outWidth;
+    int inSampleSize = 1;
+
+    if (height &gt; reqHeight || width &gt; reqWidth) {
+
+        final int halfHeight = height / 2;
+        final int halfWidth = width / 2;
+
+        // Calculate the largest inSampleSize value that is a power of 2 and keeps both
+        // height and width larger than the requested height and width.
+        while ((halfHeight / inSampleSize) &gt;= reqHeight
+                &amp;&amp; (halfWidth / inSampleSize) &gt;= reqWidth) {
+            inSampleSize *= 2;
+        }
+    }
+
+    return inSampleSize;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 51:</b> &nbsp; 2 fragments, nominal size 5 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag842')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01580.java: 7-12
+</a>
+<div class="mid" id="frag842" style="display:none"><pre>
+@NonNull
+public Builder minTimeBetweenCrashesMs(int minTimeBetweenCrashesMs) 
+{
+    this.minTimeBetweenCrashesMs = minTimeBetweenCrashesMs;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2636')" href="javascript:;">
+source/01580.java: 7-11
+</a>
+<div class="mid" id="frag2636" style="display:none"><pre>
+@NonNull
+public Builder minTimeBetweenCrashesMs(int minTimeBetweenCrashesMs){
+    config.minTimeBetweenCrashesMs = minTimeBetweenCrashesMs;
+    return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 52:</b> &nbsp; 4 fragments, nominal size 6 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag843')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01582.java: 5-10
+</a>
+<div class="mid" id="frag843" style="display:none"><pre>
+@NonNull
+public Builder errorActivity(@Nullable Class&lt;? extends Activity&gt; errorActivityClass) 
+{
+    this.errorActivityClass = errorActivityClass;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2650')" href="javascript:;">
+source/01594.java: 6-10
+</a>
+<div class="mid" id="frag2650" style="display:none"><pre>
+@NonNull
+public Builder restartActivity(@Nullable Class&lt;? extends Activity&gt; restartActivityClass){
+    config.restartActivityClass = restartActivityClass;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2638')" href="javascript:;">
+source/01582.java: 5-9
+</a>
+<div class="mid" id="frag2638" style="display:none"><pre>
+@NonNull
+public Builder errorActivity(@Nullable Class&lt;? extends Activity&gt; errorActivityClass){
+    config.errorActivityClass = errorActivityClass;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag850')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01594.java: 6-11
+</a>
+<div class="mid" id="frag850" style="display:none"><pre>
+@NonNull
+public Builder restartActivity(@Nullable Class&lt;? extends Activity&gt; restartActivityClass) 
+{
+    this.restartActivityClass = restartActivityClass;
+    return this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 53:</b> &nbsp; 2 fragments, nominal size 11 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag845')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01584.java: 7-20
+</a>
+<div class="mid" id="frag845" style="display:none"><pre>
+@NonNull
+private static String getDeviceModelName() 
+{
+    String manufacturer = Build.MANUFACTURER;
+    String model = Build.MODEL;
+    if (model.startsWith(manufacturer))
+    {
+        return capitalize(model);
+    }
+    else
+    {
+        return capitalize(manufacturer) + " " + model;
+    }
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2640')" href="javascript:;">
+source/01584.java: 7-16
+</a>
+<div class="mid" id="frag2640" style="display:none"><pre>
+@NonNull
+private static String getDeviceModelName(){
+    String manufacturer = Build.MANUFACTURER;
+    String model = Build.MODEL;
+    if (model.startsWith(manufacturer)) {
+        return capitalize(model);
+    } else {
+        return capitalize(manufacturer) + " " + model;
+    }
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 54:</b> &nbsp; 4 fragments, nominal size 5 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag848')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01590.java: 7-12
+</a>
+<div class="mid" id="frag848" style="display:none"><pre>
+@NonNull
+public Builder showErrorDetails(boolean showErrorDetails) 
+{
+    this.showErrorDetails = showErrorDetails;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2645')" href="javascript:;">
+source/01589.java: 6-10
+</a>
+<div class="mid" id="frag2645" style="display:none"><pre>
+@NonNull
+public Builder trackActivities(boolean trackActivities){
+    config.trackActivities = trackActivities;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2646')" href="javascript:;">
+source/01590.java: 7-11
+</a>
+<div class="mid" id="frag2646" style="display:none"><pre>
+@NonNull
+public Builder showErrorDetails(boolean showErrorDetails){
+    config.showErrorDetails = showErrorDetails;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2644')" href="javascript:;">
+source/01588.java: 7-11
+</a>
+<div class="mid" id="frag2644" style="display:none"><pre>
+@NonNull
+public Builder enabled(boolean enabled){
+    config.enabled = enabled;
+    return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 55:</b> &nbsp; 2 fragments, nominal size 7 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag849')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01592.java: 6-11
+</a>
+<div class="mid" id="frag849" style="display:none"><pre>
+@NonNull
+public Builder errorDrawable(@Nullable @DrawableRes Integer errorDrawable) 
+{
+    this.errorDrawable = errorDrawable;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2648')" href="javascript:;">
+source/01592.java: 6-10
+</a>
+<div class="mid" id="frag2648" style="display:none"><pre>
+@NonNull
+public Builder errorDrawable(@Nullable @DrawableRes Integer errorDrawable){
+    config.errorDrawable = errorDrawable;
+    return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 56:</b> &nbsp; 2 fragments, nominal size 6 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag865')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01623.java: 2-8
+</a>
+<div class="mid" id="frag865" style="display:none"><pre>
+@Override
+    protected void onSaveInstanceState(Bundle outState) 
+{
+    super.onSaveInstanceState(outState);
+    outState.putBoolean("isSuccess", isSuccess);
+    outState.putParcelable("imageUri", imageUri);
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2679')" href="javascript:;">
+source/01623.java: 2-7
+</a>
+<div class="mid" id="frag2679" style="display:none"><pre>
+@Override
+    protected void onSaveInstanceState(Bundle outState){
+        super.onSaveInstanceState(outState);
+        outState.putParcelable("takePhotoUri", mTakePhotoUri);
+        outState.putString("photoTargetFolder", mPhotoTargetFolder);
+    }
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 57:</b> &nbsp; 3 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag918')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01750.java: 16-20
+</a>
+<div class="mid" id="frag918" style="display:none"><pre>
+public RetryTemplateBuilder traversingCauses() 
+{
+    this.traversingCauses = true;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2904')" href="javascript:;">
+source/01852.java: 6-9
+</a>
+<div class="mid" id="frag2904" style="display:none"><pre>
+public TeamBuilder updateTeamPacket(){
+    this.updateTeam = true;
+    return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag968')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01852.java: 6-10
+</a>
+<div class="mid" id="frag968" style="display:none"><pre>
+public TeamBuilder updateTeamPacket() 
+{
+    this.updateTeamPacket = true;
+    return this;
+}   
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 58:</b> &nbsp; 2 fragments, nominal size 5 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag959')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01831.java: 8-14
+</a>
+<div class="mid" id="frag959" style="display:none"><pre>
+public static void requireTrue(boolean expression) 
+{
+    if (!expression)
+    {
+        throw new IllegalArgumentException();
+    }
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2883')" href="javascript:;">
+source/01831.java: 8-12
+</a>
+<div class="mid" id="frag2883" style="display:none"><pre>
+public static void requireTrue(boolean expression){
+    if (!expression) {
+        throw new IllegalArgumentException();
+    }
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 59:</b> &nbsp; 2 fragments, nominal size 6 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag960')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01834.java: 12-19
+</a>
+<div class="mid" id="frag960" style="display:none"><pre>
+public static &lt;T&gt; T requireNonNull(T obj, String message) 
+{
+    if (obj == null)
+    {
+        throw new NullPointerException(message);
+    }
+    return obj;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2886')" href="javascript:;">
+source/01834.java: 12-17
+</a>
+<div class="mid" id="frag2886" style="display:none"><pre>
+public static &lt;T&gt; T requireNonNull(T obj, String message){
+    if (obj == null) {
+        throw new NullPointerException(message);
+    }
+    return obj;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 60:</b> &nbsp; 2 fragments, nominal size 6 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag969')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01853.java: 6-12
+</a>
+<div class="mid" id="frag969" style="display:none"><pre>
+public static void execute(@Nullable Runnable callback) 
+{
+    if (callback != null)
+    {
+        callback.run();
+    }
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2905')" href="javascript:;">
+source/01853.java: 6-10
+</a>
+<div class="mid" id="frag2905" style="display:none"><pre>
+public static void execute(@Nullable Runnable callback){
+    if (callback != null) {
+        callback.run();
+    }
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 61:</b> &nbsp; 4 fragments, nominal size 4 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag996')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01924.java: 7-11
+</a>
+<div class="mid" id="frag996" style="display:none"><pre>
+public Builder httpResponse(final int httpResponse) 
+{
+    this.httpResponse = httpResponse;
+    return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1691')" href="javascript:;">
+source/00660.java: 10-14
+</a>
+<div class="mid" id="frag1691" style="display:none"><pre>
+public Builder setOutAnimation(final int outAnimationResId){
+  this.outAnimationResId = outAnimationResId;
+
+  return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2965')" href="javascript:;">
+source/01924.java: 7-10
+</a>
+<div class="mid" id="frag2965" style="display:none"><pre>
+public Builder httpResponse(final int httpResponse){
+  this.httpResponse = httpResponse;
+  return this;
+}
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1698')" href="javascript:;">
+source/00667.java: 10-14
+</a>
+<div class="mid" id="frag1698" style="display:none"><pre>
+public Builder setInAnimation(final int inAnimationResId){
+  this.inAnimationResId = inAnimationResId;
+
+  return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 62:</b> &nbsp; 2 fragments, nominal size 9 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1028')" href="javascript:;">
+cw_1000_java_2048_4096/prompt_01982.java: 6-17
+</a>
+<div class="mid" id="frag1028" style="display:none"><pre>
+public Builder setRefIdBytes(
+    com.google.protobuf.ByteString value) 
+{
+  if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+
+  refId_ = value;
+  onChanged();
+  return this;
+}   
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3024')" href="javascript:;">
+source/01982.java: 6-16
+</a>
+<div class="mid" id="frag3024" style="display:none"><pre>
+public Builder setRefIdBytes(
+    com.google.protobuf.ByteString value){
+  if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+  
+  refId_ = value;
+  onChanged();
+  return this;
+}
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<script language="JavaScript">
+function ShowHide(divId) { 
+    if(document.getElementById(divId).style.display == 'none') {
+        document.getElementById(divId).style.display='block';
+    } else { 
+        document.getElementById(divId).style.display = 'none';
+    } 
+}
+</script>
+</body>
+</html>

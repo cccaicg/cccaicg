@@ -1,0 +1,401 @@
+<clones>
+<systeminfo processor="nicad6" system="cw_1000_java_4_8" system2="source" granularity="functions-blind" threshold="0%" minlines="4" maxlines="2500"/>
+<cloneinfo npcs="2910" npairs="79"/>
+<runinfo ncompares="305343" cputime="46"/>
+
+<clone nlines="11" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01990.java" startline="13" endline="26" pcid="1013"></source>
+<source file="./systems/source/01990.java" startline="13" endline="25" pcid="2903"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00189.java" startline="2" endline="13" pcid="102"></source>
+<source file="./systems/source/00189.java" startline="2" endline="12" pcid="1182"></source>
+</clone>
+
+<clone nlines="8" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00722.java" startline="2" endline="15" pcid="371"></source>
+<source file="./systems/source/00722.java" startline="2" endline="14" pcid="1708"></source>
+</clone>
+
+<clone nlines="9" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01813.java" startline="4" endline="15" pcid="925"></source>
+<source file="./systems/source/01813.java" startline="4" endline="13" pcid="2761"></source>
+</clone>
+
+<clone nlines="9" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00726.java" startline="4" endline="13" pcid="374"></source>
+<source file="./systems/source/00736.java" startline="2" endline="10" pcid="1719"></source>
+</clone>
+
+<clone nlines="9" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00726.java" startline="4" endline="13" pcid="374"></source>
+<source file="./systems/source/00730.java" startline="2" endline="10" pcid="1715"></source>
+</clone>
+
+<clone nlines="9" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00726.java" startline="4" endline="13" pcid="374"></source>
+<source file="./systems/source/00726.java" startline="3" endline="11" pcid="1711"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00698.java" startline="10" endline="17" pcid="358"></source>
+<source file="./systems/source/00698.java" startline="10" endline="16" pcid="1674"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00256.java" startline="13" endline="23" pcid="136"></source>
+<source file="./systems/source/00256.java" startline="13" endline="22" pcid="1250"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00374.java" startline="10" endline="17" pcid="191"></source>
+<source file="./systems/source/00374.java" startline="10" endline="16" pcid="1374"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00114.java" startline="11" endline="17" pcid="57"></source>
+<source file="./systems/source/00114.java" startline="11" endline="16" pcid="1114"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01587.java" startline="22" endline="30" pcid="820"></source>
+<source file="./systems/source/01587.java" startline="22" endline="28" pcid="2560"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01989.java" startline="4" endline="11" pcid="1012"></source>
+<source file="./systems/source/01989.java" startline="4" endline="9" pcid="2902"></source>
+</clone>
+
+<clone nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01933.java" startline="6" endline="11" pcid="985"></source>
+<source file="./systems/source/01933.java" startline="6" endline="15" pcid="2855"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00497.java" startline="11" endline="19" pcid="262"></source>
+<source file="./systems/source/00497.java" startline="11" endline="18" pcid="1493"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01591.java" startline="8" endline="15" pcid="822"></source>
+<source file="./systems/source/01596.java" startline="9" endline="14" pcid="2569"></source>
+</clone>
+
+<clone nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00214.java" startline="5" endline="10" pcid="116"></source>
+<source file="./systems/source/01476.java" startline="8" endline="16" pcid="2437"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01591.java" startline="8" endline="15" pcid="822"></source>
+<source file="./systems/source/01591.java" startline="8" endline="13" pcid="2564"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01269.java" startline="11" endline="18" pcid="665"></source>
+<source file="./systems/source/01269.java" startline="11" endline="16" pcid="2222"></source>
+</clone>
+
+<clone nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00219.java" startline="4" endline="9" pcid="119"></source>
+<source file="./systems/source/00219.java" startline="4" endline="8" pcid="1210"></source>
+</clone>
+
+<clone nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01443.java" startline="2" endline="7" pcid="748"></source>
+<source file="./systems/source/00318.java" startline="2" endline="8" pcid="1318"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01704.java" startline="23" endline="30" pcid="882"></source>
+<source file="./systems/source/01701.java" startline="23" endline="28" pcid="2674"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01706.java" startline="24" endline="31" pcid="883"></source>
+<source file="./systems/source/01701.java" startline="23" endline="28" pcid="2674"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01710.java" startline="23" endline="30" pcid="884"></source>
+<source file="./systems/source/01701.java" startline="23" endline="28" pcid="2674"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01717.java" startline="23" endline="30" pcid="887"></source>
+<source file="./systems/source/01701.java" startline="23" endline="28" pcid="2674"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01704.java" startline="23" endline="30" pcid="882"></source>
+<source file="./systems/source/01704.java" startline="23" endline="28" pcid="2676"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01706.java" startline="24" endline="31" pcid="883"></source>
+<source file="./systems/source/01704.java" startline="23" endline="28" pcid="2676"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01710.java" startline="23" endline="30" pcid="884"></source>
+<source file="./systems/source/01704.java" startline="23" endline="28" pcid="2676"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01717.java" startline="23" endline="30" pcid="887"></source>
+<source file="./systems/source/01704.java" startline="23" endline="28" pcid="2676"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01704.java" startline="23" endline="30" pcid="882"></source>
+<source file="./systems/source/01706.java" startline="24" endline="29" pcid="2677"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01706.java" startline="24" endline="31" pcid="883"></source>
+<source file="./systems/source/01706.java" startline="24" endline="29" pcid="2677"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01710.java" startline="23" endline="30" pcid="884"></source>
+<source file="./systems/source/01706.java" startline="24" endline="29" pcid="2677"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01717.java" startline="23" endline="30" pcid="887"></source>
+<source file="./systems/source/01706.java" startline="24" endline="29" pcid="2677"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01704.java" startline="23" endline="30" pcid="882"></source>
+<source file="./systems/source/01710.java" startline="23" endline="28" pcid="2679"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01706.java" startline="24" endline="31" pcid="883"></source>
+<source file="./systems/source/01710.java" startline="23" endline="28" pcid="2679"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01710.java" startline="23" endline="30" pcid="884"></source>
+<source file="./systems/source/01710.java" startline="23" endline="28" pcid="2679"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01717.java" startline="23" endline="30" pcid="887"></source>
+<source file="./systems/source/01710.java" startline="23" endline="28" pcid="2679"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01704.java" startline="23" endline="30" pcid="882"></source>
+<source file="./systems/source/01717.java" startline="23" endline="28" pcid="2682"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01706.java" startline="24" endline="31" pcid="883"></source>
+<source file="./systems/source/01717.java" startline="23" endline="28" pcid="2682"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01710.java" startline="23" endline="30" pcid="884"></source>
+<source file="./systems/source/01717.java" startline="23" endline="28" pcid="2682"></source>
+</clone>
+
+<clone nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01717.java" startline="23" endline="30" pcid="887"></source>
+<source file="./systems/source/01717.java" startline="23" endline="28" pcid="2682"></source>
+</clone>
+
+<clone nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00657.java" startline="11" endline="18" pcid="341"></source>
+<source file="./systems/source/01476.java" startline="8" endline="16" pcid="2437"></source>
+</clone>
+
+<clone nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00646.java" startline="6" endline="11" pcid="336"></source>
+<source file="./systems/source/01476.java" startline="8" endline="16" pcid="2437"></source>
+</clone>
+
+<clone nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01856.java" startline="7" endline="13" pcid="948"></source>
+<source file="./systems/source/01856.java" startline="7" endline="12" pcid="2797"></source>
+</clone>
+
+<clone nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01856.java" startline="7" endline="13" pcid="948"></source>
+<source file="./systems/source/01843.java" startline="7" endline="12" pcid="2789"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01859.java" startline="8" endline="12" pcid="951"></source>
+<source file="./systems/source/01859.java" startline="8" endline="11" pcid="2800"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01365.java" startline="7" endline="11" pcid="704"></source>
+<source file="./systems/source/01365.java" startline="7" endline="10" pcid="2314"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00993.java" startline="5" endline="9" pcid="518"></source>
+<source file="./systems/source/00993.java" startline="5" endline="8" pcid="1967"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00188.java" startline="2" endline="6" pcid="101"></source>
+<source file="./systems/source/00188.java" startline="2" endline="5" pcid="1181"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01555.java" startline="8" endline="12" pcid="804"></source>
+<source file="./systems/source/01555.java" startline="8" endline="11" pcid="2532"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00081.java" startline="4" endline="8" pcid="46"></source>
+<source file="./systems/source/01484.java" startline="10" endline="13" pcid="2452"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01234.java" startline="7" endline="11" pcid="648"></source>
+<source file="./systems/source/01484.java" startline="10" endline="13" pcid="2452"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01222.java" startline="8" endline="12" pcid="643"></source>
+<source file="./systems/source/01484.java" startline="10" endline="13" pcid="2452"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01124.java" startline="7" endline="12" pcid="597"></source>
+<source file="./systems/source/01484.java" startline="10" endline="13" pcid="2452"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00574.java" startline="7" endline="11" pcid="302"></source>
+<source file="./systems/source/01484.java" startline="10" endline="13" pcid="2452"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01196.java" startline="4" endline="8" pcid="627"></source>
+<source file="./systems/source/01487.java" startline="7" endline="10" pcid="2455"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01154.java" startline="6" endline="10" pcid="613"></source>
+<source file="./systems/source/01487.java" startline="7" endline="10" pcid="2455"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00081.java" startline="4" endline="8" pcid="46"></source>
+<source file="./systems/source/01669.java" startline="7" endline="10" pcid="2642"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00081.java" startline="4" endline="8" pcid="46"></source>
+<source file="./systems/source/01940.java" startline="4" endline="7" pcid="2862"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01445.java" startline="2" endline="6" pcid="749"></source>
+<source file="./systems/source/01080.java" startline="2" endline="6" pcid="2044"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01237.java" startline="7" endline="11" pcid="650"></source>
+<source file="./systems/source/01237.java" startline="7" endline="15" pcid="2197"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00678.java" startline="2" endline="6" pcid="347"></source>
+<source file="./systems/source/00678.java" startline="2" endline="5" pcid="1654"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01196.java" startline="4" endline="8" pcid="627"></source>
+<source file="./systems/source/01196.java" startline="4" endline="7" pcid="2155"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01154.java" startline="6" endline="10" pcid="613"></source>
+<source file="./systems/source/01196.java" startline="4" endline="7" pcid="2155"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00391.java" startline="7" endline="11" pcid="204"></source>
+<source file="./systems/source/00388.java" startline="7" endline="10" pcid="1388"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00391.java" startline="7" endline="11" pcid="204"></source>
+<source file="./systems/source/00391.java" startline="7" endline="10" pcid="1391"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01234.java" startline="7" endline="11" pcid="648"></source>
+<source file="./systems/source/01669.java" startline="7" endline="10" pcid="2642"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01234.java" startline="7" endline="11" pcid="648"></source>
+<source file="./systems/source/01940.java" startline="4" endline="7" pcid="2862"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01196.java" startline="4" endline="8" pcid="627"></source>
+<source file="./systems/source/01154.java" startline="6" endline="9" pcid="2121"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01154.java" startline="6" endline="10" pcid="613"></source>
+<source file="./systems/source/01154.java" startline="6" endline="9" pcid="2121"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01222.java" startline="8" endline="12" pcid="643"></source>
+<source file="./systems/source/01669.java" startline="7" endline="10" pcid="2642"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01222.java" startline="8" endline="12" pcid="643"></source>
+<source file="./systems/source/01940.java" startline="4" endline="7" pcid="2862"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01124.java" startline="7" endline="12" pcid="597"></source>
+<source file="./systems/source/01669.java" startline="7" endline="10" pcid="2642"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_01124.java" startline="7" endline="12" pcid="597"></source>
+<source file="./systems/source/01940.java" startline="4" endline="7" pcid="2862"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00574.java" startline="7" endline="11" pcid="302"></source>
+<source file="./systems/source/01669.java" startline="7" endline="10" pcid="2642"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00574.java" startline="7" endline="11" pcid="302"></source>
+<source file="./systems/source/01940.java" startline="4" endline="7" pcid="2862"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00397.java" startline="8" endline="12" pcid="208"></source>
+<source file="./systems/source/01850.java" startline="6" endline="9" pcid="2793"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00397.java" startline="8" endline="12" pcid="208"></source>
+<source file="./systems/source/01848.java" startline="8" endline="11" pcid="2792"></source>
+</clone>
+
+<clone nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_4_8/prompt_00397.java" startline="8" endline="12" pcid="208"></source>
+<source file="./systems/source/01844.java" startline="6" endline="9" pcid="2790"></source>
+</clone>
+
+</clones>

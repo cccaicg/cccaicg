@@ -1,0 +1,1596 @@
+<root>
+&lt;clones&gt;
+&lt;systeminfo processor="nicad6" system="2048_4096" system2="search_results" granularity="functions-blind" threshold="0%" minlines="4" maxlines="2500"/&gt;
+&lt;cloneinfo npcs="4021" npairs="184"/&gt;
+&lt;runinfo ncompares="421143" cputime="23159"/&gt;
+&lt;classinfo nclasses="15"/&gt;
+
+&lt;class classid="1" nclones="2" nlines="4" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_01491.java" startline="2" endline="6" pcid="13">
+public NormalListDialog itemTextSize(float itemTextSize_SP) 
+{
+    this.itemTextSize_SP = itemTextSize_SP;
+    return this;
+}   
+</source>
+<source file="systems/search_results/507/EulerCamera.java" startline="644" endline="647" pcid="3758">
+        public Builder setFieldOfView(float fov) {
+            this.fov = fov;
+            return this;
+        }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="2" nclones="8" nlines="7" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00271.java" startline="7" endline="15" pcid="57">
+public static String article(String value) 
+{
+    if (null == value)
+    {
+        return "";
+    }
+    String html = MarkdownUtils.markdownToHtmlExtensions(value);
+    return html;
+}   
+</source>
+<source file="systems/search_results/271/FormatUtils.java" startline="54" endline="63" pcid="2420">
+    public static String date2yyyyMMddxhhmmss(Date date) {
+        if (null == date) {
+            return "";
+        }
+
+        String updateDateTimeStamp = yyyyMMddxhhmmss.format(date);
+
+        return updateDateTimeStamp;
+
+    }
+</source>
+<source file="systems/search_results/271/FormatUtils.java" startline="149" endline="157" pcid="2426">
+    public static String date2MMdd(Date date) {
+        if (null == date) {
+            return "";
+        }
+
+        String updateDateTimeStamp = md.format(date);
+
+        return updateDateTimeStamp;
+    }
+</source>
+<source file="systems/search_results/271/FormatUtils.java" startline="70" endline="80" pcid="2421">
+    public static String date2yyyyMMddHHmmss(Date date) {
+        // TODO Auto-generated method stub
+        if (null == date) {
+            return "";
+        }
+
+        String updateDateTimeStamp = yyyyMMddHHmmss.format(date);
+
+        return updateDateTimeStamp;
+
+    }
+</source>
+<source file="systems/search_results/271/FormatUtils.java" startline="119" endline="127" pcid="2424">
+    public static String date2HHxmm(Date date) {
+        if (null == date) {
+            return "";
+        }
+
+        String updateDateTimeStamp = hhmm.format(date);
+
+        return updateDateTimeStamp;
+    }
+</source>
+<source file="systems/search_results/271/FormatUtils.java" startline="87" endline="97" pcid="2422">
+    public static String date2yyyyMMddHHmmssSSS(Date date) {
+        // TODO Auto-generated method stub
+        if (null == date) {
+            return "";
+        }
+
+        String updateDateTimeStamp = yyyyMMddHHmmssSSS.format(date);
+
+        return updateDateTimeStamp;
+
+    }
+</source>
+<source file="systems/search_results/271/FormatUtils.java" startline="134" endline="142" pcid="2425">
+    public static String date2MMddxhhmm(Date date) {
+        if (null == date) {
+            return "";
+        }
+
+        String updateDateTimeStamp = mmddHHmm.format(date);
+
+        return updateDateTimeStamp;
+    }
+</source>
+<source file="systems/search_results/271/FormatUtils.java" startline="104" endline="112" pcid="2423">
+    public static String date2yyyyMMdd(Date date) {
+        if (null == date) {
+            return "";
+        }
+
+        String updateDateTimeStamp = yyyyMMdd.format(date);
+
+        return updateDateTimeStamp;
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="3" nclones="2" nlines="10" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_01383.java" startline="2" endline="12" pcid="126">
+public static boolean xssInspect(String value) 
+{
+    if (value == null || value.isEmpty()) {
+        return false;
+    }
+    String valueLower = value.toLowerCase();
+    if (valueLower.contains("&lt;script&gt;") || valueLower.contains("&lt;/script&gt;")) {
+        return true;
+    }
+    return false;
+}   
+</source>
+<source file="systems/search_results/1383/DRMFileUtil.java" startline="182" endline="191" pcid="2446">
+    public static boolean isRightsFileType(String filePath) {
+        if (filePath == null || filePath.isEmpty()) {
+            return false;
+        }
+        String filepath = filePath.toLowerCase();
+        if (filepath.endsWith(".dr") || filepath.endsWith(".drc")) {
+            return true;
+        }
+        return false;
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="4" nclones="6" nlines="11" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00992.java" startline="5" endline="19" pcid="186">
+public static AbsTransport getTransport(String protocol) 
+{
+    if (protocol.equalsIgnoreCase("udp"))
+    {
+        return new UdpTransport();
+    }
+    else if (protocol.equalsIgnoreCase("tcp"))
+    {
+        return new TcpTransport();
+    }
+    else
+    {
+        throw new IllegalArgumentException("Invalid protocol: " + protocol);
+    }
+}   
+</source>
+<source file="systems/search_results/992/AnimalFactory.java" startline="5" endline="13" pcid="2315">
+    public static Animal createAnimal(String type) {
+        if (type.equalsIgnoreCase("dog")) {
+            return new Dog();
+        } else if (type.equalsIgnoreCase("cat")) {
+            return new Cat();
+        } else {
+            throw new IllegalArgumentException("Invalid animal type: " + type);
+        }
+    }
+</source>
+<source file="systems/search_results/992/GameApplication.java" startline="46" endline="54" pcid="2305">
+    public static Enemy createEnemy(String difficulty) {
+        if (difficulty.equalsIgnoreCase("easy")) {
+            return new EasyEnemy();
+        } else if (difficulty.equalsIgnoreCase("hard")) {
+            return new HardEnemy();
+        } else {
+            throw new IllegalArgumentException("Unknown difficulty: " + difficulty);
+        }
+    }
+</source>
+<source file="systems/search_results/992/Lab4_HandsOn1.java" startline="48" endline="62" pcid="2297">
+    public static File createFile(String fileType)
+    {
+        if (fileType.equalsIgnoreCase("PDF"))
+        {
+            return new PDFFile();
+        }
+        else if (fileType.equalsIgnoreCase("Word"))
+        {
+            return new WordFile();
+        }
+        else
+        {
+            throw new IllegalArgumentException("Invalid file type: " + fileType);
+        }
+    }
+</source>
+<source file="systems/search_results/992/ShapeFactory.java" startline="4" endline="12" pcid="2292">
+  public static Shape createShape(String shapeType) {
+    if (shapeType.equalsIgnoreCase("circle")) {
+      return new Circle();
+    } else if (shapeType.equalsIgnoreCase("square")) {
+      return new Square();
+    } else {
+      throw new IllegalArgumentException("Invalid shape type: " + shapeType);
+    }
+  }
+</source>
+<source file="systems/search_results/992/PaymentMethodFactory.java" startline="3" endline="11" pcid="2291">
+  public static PaymentMethod getPaymentMethod(String paymentType) {
+    if (paymentType.equalsIgnoreCase("PayPal")) {
+      return new PayPalPayment();
+    } else if (paymentType.equalsIgnoreCase("CreditCard")) {
+      return new CreditCardPayment();
+    } else {
+      throw new IllegalArgumentException("Unsupported payment method: " + paymentType);
+    }
+  }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="5" nclones="38" nlines="6" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00733.java" startline="5" endline="12" pcid="290">
+public final void setContentY(float y) 
+{
+    if (mContentY != y)
+    {
+        mContentY = y;
+        invalidate();
+    }
+}   
+</source>
+<source file="systems/search_results/733/BoxShape_1.java" startline="279" endline="286" pcid="3554">
+  public final void setBorderWidth(float borderWidth)
+  {
+    if (_borderWidth != borderWidth)
+    {
+      _borderWidth = borderWidth;
+      cleanMesh();
+    }
+  }
+</source>
+<source file="systems/search_results/733/OpenGlToolkit.java" startline="1199" endline="1204" pcid="3384">
+	public final void method2476(float f) {
+		if (ambient != f) {
+			ambient = f;
+			method14370();
+		}
+	}
+</source>
+<source file="systems/search_results/733/BoxShape.java" startline="281" endline="288" pcid="3255">
+  public final void setBorderWidth(float borderWidth)
+  {
+    if (_borderWidth != borderWidth)
+    {
+      _borderWidth = borderWidth;
+      cleanMesh();
+    }
+  }
+</source>
+<source file="systems/search_results/726/bvx$c.java" startline="105" endline="112" pcid="2002">
+  public final void d(float paramFloat)
+  {
+    if (paramFloat != q)
+    {
+      q = paramFloat;
+      d();
+    }
+  }
+</source>
+<source file="systems/search_results/733/AspectRatioFrameLayout.java" startline="52" endline="59" pcid="3271">
+    public final void setAspectRatio(float f)
+    {
+        if (videoAspectRatio != f)
+        {
+            videoAspectRatio = f;
+            requestLayout();
+        }
+    }
+</source>
+<source file="systems/search_results/726/PlanetRenderer.java" startline="996" endline="1003" pcid="2058">
+  public final void setVerticalExaggeration(float verticalExaggeration)
+  {
+    if (_verticalExaggeration != verticalExaggeration)
+    {
+      _verticalExaggeration = verticalExaggeration;
+      changed();
+    }
+  }
+</source>
+<source file="systems/search_results/726/AspectRatioFrameLayout.java" startline="52" endline="59" pcid="2006">
+    public final void setAspectRatio(float f)
+    {
+        if (videoAspectRatio != f)
+        {
+            videoAspectRatio = f;
+            requestLayout();
+        }
+    }
+</source>
+<source file="systems/search_results/726/g.java" startline="222" endline="229" pcid="1464">
+    public final void e(float f1)
+    {
+        if (f1 != q)
+        {
+            q = f1;
+            p();
+        }
+    }
+</source>
+<source file="systems/search_results/726/Class167_Sub2.java" startline="3374" endline="3379" pcid="1714">
+	public final void method2006(float f) {
+		if (aFloat9250 != f) {
+			aFloat9250 = f;
+			method8538();
+		}
+	}
+</source>
+<source file="systems/search_results/726/OpenGlToolkit.java" startline="1199" endline="1204" pcid="2119">
+	public final void method2476(float f) {
+		if (ambient != f) {
+			ambient = f;
+			method14370();
+		}
+	}
+</source>
+<source file="systems/search_results/733/bvx$c.java" startline="105" endline="112" pcid="3267">
+  public final void d(float paramFloat)
+  {
+    if (paramFloat != q)
+    {
+      q = paramFloat;
+      d();
+    }
+  }
+</source>
+<source file="systems/search_results/726/BoxShape.java" startline="281" endline="288" pcid="1990">
+  public final void setBorderWidth(float borderWidth)
+  {
+    if (_borderWidth != borderWidth)
+    {
+      _borderWidth = borderWidth;
+      cleanMesh();
+    }
+  }
+</source>
+<source file="systems/search_results/726/CircularBorderDrawable.java" startline="181" endline="188" pcid="1381">
+  public final void setRotation(float paramFloat)
+  {
+    if (paramFloat != m)
+    {
+      m = paramFloat;
+      invalidateSelf();
+    }
+  }
+</source>
+<source file="systems/search_results/733/PlanetRenderer.java" startline="996" endline="1003" pcid="3323">
+  public final void setVerticalExaggeration(float verticalExaggeration)
+  {
+    if (_verticalExaggeration != verticalExaggeration)
+    {
+      _verticalExaggeration = verticalExaggeration;
+      changed();
+    }
+  }
+</source>
+<source file="systems/search_results/726/x.java" startline="222" endline="229" pcid="1357">
+    public final void e(float f1)
+    {
+        if (f1 != q)
+        {
+            q = f1;
+            p();
+        }
+    }
+</source>
+<source file="systems/search_results/726/Layer.java" startline="123" endline="130" pcid="1390">
+  public final void setTransparency(float transparency)
+  {
+    if (_transparency != transparency)
+    {
+      _transparency = transparency;
+      notifyChanges();
+    }
+  }
+</source>
+<source file="systems/search_results/726/CircleShape.java" startline="100" endline="107" pcid="1332">
+  public final void setRadius(float radius)
+  {
+    if (_radius != radius)
+    {
+      _radius = radius;
+      cleanMesh();
+    }
+  }
+</source>
+<source file="systems/search_results/733/BezierView.java" startline="88" endline="93" pcid="3532">
+    public final void setBezierX(float value) {
+        if (value != bezierX) {
+            bezierX = value;
+            invalidate();
+        }
+    }
+</source>
+<source file="systems/search_results/726/ShadowDrawableWrapper.java" startline="312" endline="319" pcid="1317">
+  public final void setRotation(float paramFloat)
+  {
+    if (rotation != paramFloat)
+    {
+      rotation = paramFloat;
+      invalidateSelf();
+    }
+  }
+</source>
+<source file="systems/search_results/726/buw$c.java" startline="105" endline="112" pcid="1441">
+  public final void d(float paramFloat)
+  {
+    if (paramFloat != q)
+    {
+      q = paramFloat;
+      d();
+    }
+  }
+</source>
+<source file="systems/search_results/733/Class167_Sub2.java" startline="3374" endline="3379" pcid="2979">
+	public final void method2006(float f) {
+		if (aFloat9250 != f) {
+			aFloat9250 = f;
+			method8538();
+		}
+	}
+</source>
+<source file="systems/search_results/726/Class167_Sub2.java" startline="4265" endline="4270" pcid="1788">
+	public final void method2287(float f) {
+		if (aFloat9250 != f) {
+			aFloat9250 = f;
+			method8538();
+		}
+	}
+</source>
+<source file="systems/search_results/733/g.java" startline="222" endline="229" pcid="2729">
+    public final void e(float f1)
+    {
+        if (f1 != q)
+        {
+            q = f1;
+            p();
+        }
+    }
+</source>
+<source file="systems/search_results/726/Layer_2.java" startline="122" endline="129" pcid="1960">
+  public final void setTransparency(float transparency)
+  {
+    if (_transparency != transparency)
+    {
+      _transparency = transparency;
+      notifyChanges();
+    }
+  }
+</source>
+<source file="systems/search_results/733/buw$c.java" startline="105" endline="112" pcid="2706">
+  public final void d(float paramFloat)
+  {
+    if (paramFloat != q)
+    {
+      q = paramFloat;
+      d();
+    }
+  }
+</source>
+<source file="systems/search_results/733/Layer_1.java" startline="122" endline="129" pcid="2678">
+  public final void setTransparency(float transparency)
+  {
+    if (_transparency != transparency)
+    {
+      _transparency = transparency;
+      notifyChanges();
+    }
+  }
+</source>
+<source file="systems/search_results/733/ShadowDrawableWrapper.java" startline="312" endline="319" pcid="2582">
+  public final void setRotation(float paramFloat)
+  {
+    if (rotation != paramFloat)
+    {
+      rotation = paramFloat;
+      invalidateSelf();
+    }
+  }
+</source>
+<source file="systems/search_results/733/Layer.java" startline="123" endline="130" pcid="2655">
+  public final void setTransparency(float transparency)
+  {
+    if (_transparency != transparency)
+    {
+      _transparency = transparency;
+      notifyChanges();
+    }
+  }
+</source>
+<source file="systems/search_results/733/CircleShape.java" startline="100" endline="107" pcid="2597">
+  public final void setRadius(float radius)
+  {
+    if (_radius != radius)
+    {
+      _radius = radius;
+      cleanMesh();
+    }
+  }
+</source>
+<source file="systems/search_results/726/BezierView.java" startline="88" endline="93" pcid="2267">
+    public final void setBezierX(float value) {
+        if (value != bezierX) {
+            bezierX = value;
+            invalidate();
+        }
+    }
+</source>
+<source file="systems/search_results/733/CircularBorderDrawable.java" startline="181" endline="188" pcid="2646">
+  public final void setRotation(float paramFloat)
+  {
+    if (paramFloat != m)
+    {
+      m = paramFloat;
+      invalidateSelf();
+    }
+  }
+</source>
+<source file="systems/search_results/733/Class167_Sub2.java" startline="4265" endline="4270" pcid="3053">
+	public final void method2287(float f) {
+		if (aFloat9250 != f) {
+			aFloat9250 = f;
+			method8538();
+		}
+	}
+</source>
+<source file="systems/search_results/733/x.java" startline="222" endline="229" pcid="2622">
+    public final void e(float f1)
+    {
+        if (f1 != q)
+        {
+            q = f1;
+            p();
+        }
+    }
+</source>
+<source file="systems/search_results/733/Layer_2.java" startline="122" endline="129" pcid="3225">
+  public final void setTransparency(float transparency)
+  {
+    if (_transparency != transparency)
+    {
+      _transparency = transparency;
+      notifyChanges();
+    }
+  }
+</source>
+<source file="systems/search_results/726/BoxShape_1.java" startline="279" endline="286" pcid="2289">
+  public final void setBorderWidth(float borderWidth)
+  {
+    if (_borderWidth != borderWidth)
+    {
+      _borderWidth = borderWidth;
+      cleanMesh();
+    }
+  }
+</source>
+<source file="systems/search_results/726/Layer_1.java" startline="122" endline="129" pcid="1413">
+  public final void setTransparency(float transparency)
+  {
+    if (_transparency != transparency)
+    {
+      _transparency = transparency;
+      notifyChanges();
+    }
+  }
+</source>
+<source file="systems/2048_4096/prompt_00726.java" startline="5" endline="12" pcid="626">
+public final void setContentX(float x) 
+{
+    if (mContentX != x)
+    {
+        mContentX = x;
+        invalidate();
+    }
+}   
+</source>
+&lt;/class&gt;
+
+&lt;class classid="6" nclones="40" nlines="7" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_01724.java" startline="9" endline="19" pcid="301">
+protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+{
+    try
+    {
+        processRequest(request, response);
+    }
+    catch (Exception ex)
+    {
+        Logger.getLogger(UploadServlet.class.getName()).log(Level.SEVERE, null, ex);
+    }
+}   
+</source>
+<source file="systems/search_results/1724/AddVoucherController.java" startline="102" endline="108" pcid="2336">
+  protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+      try {
+          processRequest(request, response);
+      } catch (ParseException ex) {
+          Logger.getLogger(AddVoucherController.class.getName()).log(Level.SEVERE, null, ex);
+      }
+  }
+</source>
+<source file="systems/search_results/1724/Index.java" startline="99" endline="105" pcid="2411">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(Index.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/AddVoucherController.java" startline="85" endline="91" pcid="2335">
+  protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+      try {
+          processRequest(request, response);
+      } catch (ParseException ex) {
+          Logger.getLogger(AddVoucherController.class.getName()).log(Level.SEVERE, null, ex);
+      }
+  }
+</source>
+<source file="systems/search_results/1724/Index.java" startline="82" endline="88" pcid="2410">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(Index.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/AuthLogin.java" startline="120" endline="126" pcid="2332">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(AuthLogin.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/AuthRegister.java" startline="103" endline="109" pcid="2339">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(AuthRegister.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/AuthLogin.java" startline="103" endline="109" pcid="2331">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(AuthLogin.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/LoginController.java" startline="33" endline="39" pcid="2407">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(LoginController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/RegistrationController.java" startline="33" endline="39" pcid="2328">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(RegistrationController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/StaffMember.java" startline="184" endline="190" pcid="2414">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (ClassNotFoundException ex) {
+            Logger.getLogger(StaffEvents.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/RegistrationController.java" startline="24" endline="30" pcid="2327">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(RegistrationController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/AuthRegister.java" startline="120" endline="126" pcid="2340">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(AuthRegister.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/SRVLCadastrarLocacao.java" startline="96" endline="103" pcid="2361">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+          try {
+              processRequest(request, response);
+          } catch (ParseException ex) {
+              Logger.getLogger(SRVLCadastrarLocacao.class.getName()).log(Level.SEVERE, null, ex);
+          }
+    }
+</source>
+<source file="systems/search_results/1724/StaffMember.java" startline="193" endline="199" pcid="2415">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (ClassNotFoundException ex) {
+            Logger.getLogger(StaffEvents.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/ParcAtualiza.java" startline="131" endline="137" pcid="2366">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        try {
+            processRequest(request, response);
+        } catch (ParseException ex) {
+            Logger.getLogger(ParcAtualiza.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/Home.java" startline="98" endline="104" pcid="2343">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(Home.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/ParcAtualiza.java" startline="147" endline="154" pcid="2367">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (ParseException ex) {
+            Logger.getLogger(ParcAtualiza.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/Home.java" startline="115" endline="121" pcid="2344">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(Home.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/Admin.java" startline="156" endline="162" pcid="2370">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(Admin.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/AvisSaisi.java" startline="100" endline="106" pcid="2417">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(AvisSaisi.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/Admin.java" startline="173" endline="179" pcid="2371">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(Admin.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/HapusGedung.java" startline="70" endline="77" pcid="2347">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (NonexistentEntityException ex) {
+            Logger.getLogger(HapusGedung.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }
+</source>
+<source file="systems/search_results/1724/updateLinePositions.java" startline="163" endline="169" pcid="2374">
+   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+      try {
+         processRequest(request, response);
+      } catch (SQLException ex) {
+         Logger.getLogger(updateLinePositions.class.getName()).log(Level.SEVERE, null, ex);
+      }
+   }
+</source>
+<source file="systems/search_results/1724/AvisSaisi.java" startline="117" endline="123" pcid="2418">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(AvisSaisi.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/updateLinePositions.java" startline="181" endline="187" pcid="2375">
+   protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+      try {
+         processRequest(request, response);
+      } catch (SQLException ex) {
+         Logger.getLogger(updateLinePositions.class.getName()).log(Level.SEVERE, null, ex);
+      }
+   }
+</source>
+<source file="systems/search_results/1724/HapusGedung.java" startline="87" endline="95" pcid="2348">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (NonexistentEntityException ex) {
+            Logger.getLogger(HapusGedung.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }
+</source>
+<source file="systems/search_results/1724/SRVLCadastrarCliente.java" startline="190" endline="201" pcid="2383">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+        try
+        {
+            processRequest(request, response);
+        }
+        
+        catch (ParseException ex)
+        {
+            Logger.getLogger(SRVLCadastrarCliente.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/FilmListe.java" startline="139" endline="145" pcid="2351">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(FilmListe.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/SRVLCadastrarCliente.java" startline="204" endline="214" pcid="2384">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+        try
+        {
+            processRequest(request, response);
+        } 
+        catch (ParseException ex)
+        {
+            Logger.getLogger(SRVLCadastrarCliente.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/FilmListe.java" startline="156" endline="162" pcid="2352">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(FilmListe.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/SRVLCadastrarItem.java" startline="130" endline="137" pcid="2391">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+         try {
+             processRequest(request, response);
+         } catch (ParseException ex) {
+             Logger.getLogger(SRVLCadastrarItem.class.getName()).log(Level.SEVERE, null, ex);
+         }
+    }
+</source>
+<source file="systems/search_results/1724/ServletLogin.java" startline="32" endline="38" pcid="2354">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(ServletLogin.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/SRVLCadastrarItem.java" startline="140" endline="147" pcid="2392">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+         try {
+             processRequest(request, response);
+         } catch (ParseException ex) {
+             Logger.getLogger(SRVLCadastrarItem.class.getName()).log(Level.SEVERE, null, ex);
+         }
+    }
+</source>
+<source file="systems/search_results/1724/ServletLogin.java" startline="41" endline="47" pcid="2355">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(ServletLogin.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/InventoryController.java" startline="33" endline="39" pcid="2395">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(InventoryController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/SRVLCadastrarLocacao.java" startline="86" endline="93" pcid="2360">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+          try {
+              processRequest(request, response);
+          } catch (ParseException ex) {
+              Logger.getLogger(SRVLCadastrarLocacao.class.getName()).log(Level.SEVERE, null, ex);
+          }
+    }
+</source>
+<source file="systems/search_results/1724/FilmResultatRequete.java" startline="182" endline="188" pcid="2403">
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(FilmResultatRequete.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/LoginController.java" startline="24" endline="30" pcid="2406">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(LoginController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+<source file="systems/search_results/1724/FilmResultatRequete.java" startline="199" endline="205" pcid="2404">
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(FilmResultatRequete.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="7" nclones="2" nlines="6" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00914.java" startline="4" endline="11" pcid="344">
+public static synchronized ThreadSafeLazyLoadedMouseDriver getInstance() 
+{
+    if (instance == null)
+    {
+        instance = new ThreadSafeLazyLoadedMouseDriver();
+    }
+    return instance;
+}   
+</source>
+<source file="systems/search_results/992/GameApplication.java" startline="11" endline="16" pcid="2300">
+    public static synchronized GameState getInstance() {
+        if (instance == null) {
+            instance = new GameState();
+        }
+        return instance;
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="8" nclones="8" nlines="7" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00712.java" startline="3" endline="11" pcid="371">
+private static void header(Comparable[] array) 
+{
+    System.out.print("Original: ");
+    for (int i = 0; i &lt; array.length; i++)
+    {
+        System.out.print(array[i] + " ");
+    }
+    System.out.println();
+}   
+</source>
+<source file="systems/search_results/712/TShirtShop.java" startline="108" endline="115" pcid="1041">
+    private static void printAllTsirt(String[] tshirt) {
+        System.out.println("Футболки в наличии: ");
+        for (int i = 0; i &lt; tshirt.length; i++) {
+            System.out.print(tshirt[i] + " ");
+
+        }
+        System.out.println();
+    }
+</source>
+<source file="systems/search_results/712/OracleExtractionHG.java" startline="722" endline="728" pcid="1066">
+	private static void printState(Object[] state) {
+		System.out.println("State is");
+		for (int i = 0; i &lt; state.length; i++) {
+			System.out.print(state[i] + " ---- ");
+		}
+		System.out.println();
+	}
+</source>
+<source file="systems/search_results/712/BookShop.java" startline="74" endline="80" pcid="1101">
+    private static void printAllBooks(String[] books) {
+        System.out.println("Наши книги: ");
+        for (int i = 0; i &lt; books.length; i++) {
+            System.out.print(books[i] + " ");
+        }
+        System.out.println();
+    }
+</source>
+<source file="systems/search_results/712/TSP.java" startline="70" endline="76" pcid="1291">
+	private static void print(Vertex[] a) {
+		System.out.print("tour: ");
+		for (int i = 0; i &lt; a.length; i++) {
+			System.out.print(a[i] + " ");
+		}
+		System.out.println();
+	}
+</source>
+<source file="systems/search_results/712/OracleExtractionHG_2.java" startline="748" endline="754" pcid="1193">
+  private static void printState(Object[] state) {
+    System.out.println("State is");
+    for (int i = 0; i &lt; state.length; i++) {
+      System.out.print(state[i] + " ---- ");
+    }
+    System.out.println();
+  }
+</source>
+<source file="systems/search_results/712/OracleExtractionHG_1.java" startline="714" endline="720" pcid="1221">
+	private static void printState(Object[] state) {
+		System.out.println("State is");
+		for (int i = 0; i &lt; state.length; i++) {
+			System.out.print(state[i] + " ---- ");
+		}
+		System.out.println();
+	}
+</source>
+<source file="systems/search_results/712/OracleExtractionHG_3.java" startline="718" endline="724" pcid="1259">
+  private static void printState(Object[] state) {
+    System.out.println("State is");
+    for (int i = 0; i &lt; state.length; i++) {
+      System.out.print(state[i] + " ---- ");
+    }
+    System.out.println();
+  }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="9" nclones="2" nlines="6" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_01546.java" startline="2" endline="10" pcid="479">
+public void setAutoFreezeDelay(int seconds) 
+{
+    if (seconds &lt; 0)
+    {
+        throw new IllegalArgumentException("Delay cannot be negative");
+    }
+
+    this.autoFreezeDelay = seconds;
+}   
+</source>
+<source file="systems/search_results/507/SeatTable.java" startline="150" endline="155" pcid="3716">
+    public void setPadding(int padding) {
+        if (padding &lt; 0){
+            throw new RuntimeException("padding must &gt;= 0");
+        }
+        this.padding = padding;
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="10" nclones="13" nlines="5" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00036.java" startline="4" endline="10" pcid="719">
+protected void ensureCaseExecutionTreeInitialized() 
+{
+    if (!caseExecutionTreeInitialized)
+    {
+        initializeCaseExecutionTree();
+    }
+}   
+</source>
+<source file="systems/search_results/36/SeparatePiecesRunner_8.java" startline="131" endline="135" pcid="3651">
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+</source>
+<source file="systems/search_results/36/SeparatePiecesRunner_7.java" startline="131" endline="135" pcid="3661">
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+</source>
+<source file="systems/search_results/36/SeparatePiecesRunner.java" startline="129" endline="133" pcid="3641">
+        protected void doInAwtIfSuccess() {
+            if (! mySuspended) {
+                ping();
+            }
+        }
+</source>
+<source file="systems/search_results/36/SeparatePiecesRunner_10.java" startline="130" endline="134" pcid="3631">
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+</source>
+<source file="systems/search_results/36/SeparatePiecesRunner_1.java" startline="110" endline="114" pcid="3670">
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+</source>
+<source file="systems/search_results/36/SeparatePiecesRunner_2.java" startline="130" endline="134" pcid="3680">
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+</source>
+<source file="systems/search_results/36/SeparatePiecesRunner_5.java" startline="136" endline="140" pcid="3621">
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+</source>
+<source file="systems/search_results/36/SeparatePiecesRunner_3.java" startline="136" endline="140" pcid="3611">
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+</source>
+<source file="systems/search_results/36/SeparatePiecesRunner_4.java" startline="136" endline="140" pcid="3690">
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+</source>
+<source file="systems/search_results/36/SeparatePiecesRunner_9.java" startline="131" endline="135" pcid="3700">
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+</source>
+<source file="systems/search_results/36/SeparatePiecesRunner_11.java" startline="136" endline="140" pcid="3601">
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+</source>
+<source file="systems/search_results/36/SeparatePiecesRunner_6.java" startline="131" endline="135" pcid="3591">
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="11" nclones="2" nlines="12" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00400.java" startline="8" endline="21" pcid="906">
+public String getValue(String fieldName) 
+{
+    switch (fieldName)
+    {
+        case "PPid":
+            return PPid;
+        case "Uid":
+            return Uid;
+        case "Groups":
+            return Groups;
+        default:
+            return null;
+    }
+}   
+</source>
+<source file="systems/search_results/400/MeetUpGroupMongo.java" startline="93" endline="104" pcid="3574">
+  public Object get(String aField) {
+    switch (aField) {
+      case "_id" :
+        return _id;
+      case "groupname" :
+        return groupName;
+      case "mailinglistemail" :
+        return mailingListEmail;
+      default :
+        return null;
+    }
+  }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="12" nclones="28" nlines="6" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00507.java" startline="8" endline="15" pcid="917">
+public void setUserUnit(float userUnit) 
+{
+    if (userUnit &lt;= 0)
+    {
+        throw new IllegalArgumentException("UserUnit must be a positive number");
+    }
+    this.userUnit = userUnit;
+}   
+</source>
+<source file="systems/search_results/507/ScaleToRequest.java" startline="60" endline="65" pcid="3786">
+    public void setTargetValue(float targetValue) {
+        if (targetValue &lt;= 0) {
+            throw new IllegalArgumentException("zero or negative target height");
+        }
+        this.targetValue = targetValue;
+    }
+</source>
+<source file="systems/search_results/507/Cylinder.java" startline="28" endline="33" pcid="3839">
+    public void setHeight(float height) {
+        if (height &lt;= 0) {
+            throw new ArithmeticException("Radius cannot be less or equal to 0");
+        }
+        this.height = height;
+    }
+</source>
+<source file="systems/search_results/507/CompilerHints.java" startline="78" endline="84" pcid="3779">
+	public void setAvgOutputRecordSize(float avgOutputRecordSize) {
+		if (avgOutputRecordSize &lt;= 0) {
+			throw new IllegalArgumentException("The size of produced records must be positive.");
+		}
+		
+		this.avgOutputRecordSize = avgOutputRecordSize;
+	}
+</source>
+<source file="systems/search_results/507/Carro.java" startline="115" endline="120" pcid="3802">
+  public void setTempo0a100(float tempo0a100) {
+    if (tempo0a100 &lt;= 0) {
+      throw new IllegalArgumentException("Tempo de 0 a 100 inválido");
+    }
+    this.tempo0a100 = tempo0a100;
+  }
+</source>
+<source file="systems/search_results/507/Carro.java" startline="126" endline="131" pcid="3804">
+  public void setConsumoCidade(float consumoCidade) {
+    if (consumoCidade &lt;= 0) {
+      throw new IllegalArgumentException("Consumo na cidade inválido");
+    }
+    this.consumoCidade = consumoCidade;
+  }
+</source>
+<source file="systems/search_results/507/Cylinder.java" startline="21" endline="26" pcid="3838">
+    public void setRadius(float radius) {
+        if (radius &lt;= 0) {
+            throw new ArithmeticException("Radius cannot be less or equal to 0");
+        }
+        this.radius = radius;
+    }
+</source>
+<source file="systems/search_results/507/GraphRenderingOptionsImpl.java" startline="33" endline="39" pcid="3997">
+    public void setEdgeScale(float edgeScale) {
+        if (edgeScale &lt;= 0) {
+            throw new IllegalArgumentException("edgeScale should be &gt; 0");
+        }
+
+        this.edgeScale = edgeScale;
+    }
+</source>
+<source file="systems/search_results/507/SeatTable.java" startline="136" endline="141" pcid="3714">
+    public void setSeatWidth(float seatWidth) {
+        if (seatWidth &lt;= 0){
+            throw new RuntimeException("seat width must &gt; 0");
+        }
+        this.seatWidth = seatWidth;
+    }
+</source>
+<source file="systems/search_results/507/Carro.java" startline="137" endline="142" pcid="3806">
+  public void setConsumoEstrada(float consumoEstrada) {
+    if (consumoEstrada &lt;= 0) {
+      throw new IllegalArgumentException("Consumo na estrada inválido");
+    }
+    this.consumoEstrada = consumoEstrada;
+  }
+</source>
+<source file="systems/search_results/507/Camera.java" startline="175" endline="181" pcid="3819">
+    public void setZoom(float zoom) {
+        if (zoom &lt;= 0) {
+            throw new IllegalArgumentException("Der Kamerazoom kann nicht kleiner oder gleich 0 sein.");
+        }
+
+        this.zoom = zoom;
+    }
+</source>
+<source file="systems/search_results/507/ScaleByRequest.java" startline="47" endline="52" pcid="3721">
+    public void setFactor(float factor) {
+        if (factor &lt;= 0) {
+            throw new IllegalArgumentException("zero or negative factor");
+        }
+        this.factor = factor;
+    }
+</source>
+<source file="systems/search_results/507/ShapeSeedingStrategy.java" startline="80" endline="85" pcid="3932">
+	public void setInitialDensity(float initialDensity) {
+		if (initialDensity &lt;= 0) {
+			throw new IllegalArgumentException("density variation must be positive");
+		}
+		this.initialDensity = initialDensity;
+	}
+</source>
+<source file="systems/search_results/507/FloatSampleBuffer.java" startline="508" endline="513" pcid="3984">
+  public void setDitherBits(float ditherBits) {
+    if (ditherBits &lt;= 0) {
+      throw new IllegalArgumentException("DitherBits must be greater than 0");
+    }
+    this.ditherBits = ditherBits;
+  }
+</source>
+<source file="systems/search_results/507/SeatTable.java" startline="143" endline="148" pcid="3715">
+    public void setSeatHeight(float seatHeight) {
+        if (seatHeight &lt;= 0){
+            throw new RuntimeException("seat height must &gt; 0");
+        }
+        this.seatHeight = seatHeight;
+    }
+</source>
+<source file="systems/search_results/507/GeometryData.java" startline="52" endline="57" pcid="3895">
+    public void setHeight(float height) {
+        if (height &lt;= 0) {
+            throw new RuntimeException("Height must be positive");
+        }
+        this.height = height;
+    }
+</source>
+<source file="systems/search_results/507/GeometryData.java" startline="41" endline="46" pcid="3893">
+    public void setWidth(float width) {
+        if (width &lt;= 0) {
+            throw new RuntimeException("Width must be positive");
+        }
+        this.width = width;
+    }
+</source>
+<source file="systems/search_results/507/Imc.java" startline="28" endline="34" pcid="3886">
+  public void setPeso(float peso) {
+    if (peso &lt;= 0) {
+      throw new IllegalArgumentException("O peso deve ser maior do que 0.");
+    }
+
+    this.peso = peso;
+  }
+</source>
+<source file="systems/search_results/507/MobileApp.java" startline="78" endline="83" pcid="3854">
+    public void setPrezzo(float prezzo) {
+        if (prezzo &lt;= 0) {
+            throw new IllegalArgumentException("Il prezzo deve essere maggiore di zero");
+        }
+        this.prezzo = prezzo;
+    }
+</source>
+<source file="systems/search_results/507/CubicTank.java" startline="170" endline="175" pcid="3867">
+    public void setVolume(float volume) {
+        if (volume &lt;= 0) {
+            throw new IllegalArgumentException("Volumen muss größer als 0 sein.");
+        }
+        this.volume = volume;
+    }
+</source>
+<source file="systems/search_results/507/FloatSampleBuffer.java" startline="473" endline="478" pcid="3981">
+  public void setSampleRate(float sampleRate) {
+    if (sampleRate &lt;= 0) {
+      throw new IllegalArgumentException("Invalid samplerate for FloatSampleBuffer.");
+    }
+    this.sampleRate = sampleRate;
+  }
+</source>
+<source file="systems/search_results/507/Imc.java" startline="20" endline="26" pcid="3885">
+  public void setAltura(float altura) {
+    if (altura &lt;= 0) {
+      throw new IllegalArgumentException("A altura deve ser maior do que 0.");
+    }
+
+    this.altura = altura;
+  }
+</source>
+<source file="systems/search_results/507/ContaCorrente.java" startline="36" endline="43" pcid="3878">
+    public void setValorLimite(float valor) {
+        
+        if (valor &lt;= 0) {
+            throw new IllegalArgumentException("Voce colocou um valor menor que negativo ou 0");
+        }
+
+        this.valorLimite = valor;
+    }  
+</source>
+<source file="systems/search_results/507/CubicTank.java" startline="258" endline="263" pcid="3875">
+    public void setHeight(float height) {
+        if (height &lt;= 0) {
+            throw new IllegalArgumentException("Höhe muss größer als 0 sein.");
+        }
+        this.height = height;
+    }
+</source>
+<source file="systems/search_results/507/CubicTank.java" startline="236" endline="241" pcid="3873">
+    public void setWidth(float width) {
+        if (width &lt;= 0) {
+            throw new IllegalArgumentException("Breite muss größer als 0 sein.");
+        }
+        this.width = width;
+    }
+</source>
+<source file="systems/search_results/507/Item.java" startline="57" endline="63" pcid="3921">
+    public void setPrice(float price) {
+        if (price &lt;= 0) {
+            throw new IllegalArgumentException("The price of an item must be more than zero.");
+        }
+
+        this.price = price;
+    }
+</source>
+<source file="systems/search_results/507/CubicTank.java" startline="214" endline="219" pcid="3871">
+    public void setLength(float length) {
+        if (length &lt;= 0) {
+            throw new IllegalArgumentException("Länge muss größer als 0 sein.");
+        }
+        this.length = length;
+    }
+</source>
+<source file="systems/search_results/507/CubicTank.java" startline="192" endline="197" pcid="3869">
+    public void setDailyEnergy(float dailyEnergy) {
+        if (dailyEnergy &lt;= 0) {
+            throw new IllegalArgumentException("Tägliche Energie muss größer als 0 sein.");
+        }
+        this.dailyEnergy = dailyEnergy;
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="13" nclones="2" nlines="4" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00608.java" startline="7" endline="11" pcid="970">
+public Builder(int pinnedHeaderId, int pinnedHeaderType) 
+{
+    this.pinnedHeaderId = pinnedHeaderId;
+    this.pinnedHeaderType = pinnedHeaderType;
+}   
+</source>
+<source file="systems/search_results/1314/CustomGridLayout.java" startline="212" endline="215" pcid="2450">
+        public CellSpan(int rowSpan, int columnSpan){
+            this.rowSpan = rowSpan;
+            this.columnSpan = columnSpan;
+        }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="14" nclones="2" nlines="5" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_01314.java" startline="7" endline="12" pcid="987">
+private Point getActionViewCoordinates() 
+{
+    int[] location = new int[2];
+    actionView.getLocationOnScreen(location);
+    return new Point(location[0], location[1]);
+}   
+</source>
+<source file="systems/search_results/1314/CustomGridLayout.java" startline="658" endline="662" pcid="2471">
+    private Point getLocationInWindow() {
+        int[] location = new int[2];
+        super.getLocationInWindow(location);
+        return new Point(location[0], location[1]);
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="15" nclones="9" nlines="6" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00107.java" startline="8" endline="15" pcid="1031">
+public final void setOptionsMenuHidden(boolean optionsMenuHidden) 
+{
+    if (mOptionsMenuHidden != optionsMenuHidden)
+    {
+        mOptionsMenuHidden = optionsMenuHidden;
+        onOptionsMenuHiddenChanged();
+    }
+}   
+</source>
+<source file="systems/search_results/733/g.java" startline="158" endline="165" pcid="2718">
+    public final void a(boolean flag)
+    {
+        if (o != flag)
+        {
+            o = flag;
+            p();
+        }
+    }
+</source>
+<source file="systems/search_results/733/buw$c.java" startline="56" endline="63" pcid="2699">
+  public final void a(boolean paramBoolean)
+  {
+    if (o != paramBoolean)
+    {
+      o = paramBoolean;
+      d();
+    }
+  }
+</source>
+<source file="systems/search_results/733/x.java" startline="158" endline="165" pcid="2611">
+    public final void a(boolean flag)
+    {
+        if (o != flag)
+        {
+            o = flag;
+            p();
+        }
+    }
+</source>
+<source file="systems/search_results/733/bvx$c.java" startline="56" endline="63" pcid="3260">
+  public final void a(boolean paramBoolean)
+  {
+    if (o != paramBoolean)
+    {
+      o = paramBoolean;
+      d();
+    }
+  }
+</source>
+<source file="systems/search_results/726/bvx$c.java" startline="56" endline="63" pcid="1995">
+  public final void a(boolean paramBoolean)
+  {
+    if (o != paramBoolean)
+    {
+      o = paramBoolean;
+      d();
+    }
+  }
+</source>
+<source file="systems/search_results/726/buw$c.java" startline="56" endline="63" pcid="1434">
+  public final void a(boolean paramBoolean)
+  {
+    if (o != paramBoolean)
+    {
+      o = paramBoolean;
+      d();
+    }
+  }
+</source>
+<source file="systems/search_results/726/x.java" startline="158" endline="165" pcid="1346">
+    public final void a(boolean flag)
+    {
+        if (o != flag)
+        {
+            o = flag;
+            p();
+        }
+    }
+</source>
+<source file="systems/search_results/726/g.java" startline="158" endline="165" pcid="1453">
+    public final void a(boolean flag)
+    {
+        if (o != flag)
+        {
+            o = flag;
+            p();
+        }
+    }
+</source>
+&lt;/class&gt;
+
+&lt;/clones&gt;
+
+</root>

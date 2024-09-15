@@ -1,0 +1,261 @@
+<root>
+&lt;clones&gt;
+&lt;systeminfo processor="nicad6" system="8_16" system2="search_results" granularity="functions-blind" threshold="0%" minlines="4" maxlines="2500"/&gt;
+&lt;cloneinfo npcs="2232" npairs="18"/&gt;
+&lt;runinfo ncompares="142517" cputime="21626"/&gt;
+&lt;classinfo nclasses="6"/&gt;
+
+&lt;class classid="1" nclones="2" nlines="5" similarity="100"&gt;
+<source file="systems/8_16/prompt_00815.java" startline="5" endline="11" pcid="38">
+final public synchronized void copyVisionImage(SensorMatrix matrix) 
+{
+    if (visionImage != null)
+    {
+        visionImage.copyTo(matrix);
+    }
+}   
+</source>
+<source file="systems/search_results/815/MediaController.java" startline="796" endline="800" pcid="1511">
+    final public synchronized void removeControllerListener(ControllerListener listener) {
+	if (listenerList != null) {
+	    listenerList.removeElement(listener);
+	}
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="2" nclones="3" nlines="7" similarity="100"&gt;
+<source file="systems/8_16/prompt_00018.java" startline="7" endline="17" pcid="105">
+public URL getDocumentBase() 
+{
+    try
+    {
+        return new URL("file:" + System.getProperty("user.dir") + "/");
+    }
+    catch (MalformedURLException e)
+    {
+        return null;
+    }
+}	
+</source>
+<source file="systems/search_results/18/DesktopStub.java" startline="39" endline="45" pcid="1911">
+    public URL getCodeBase() {
+        try {
+            return new URL("file:///" + System.getProperty("user.dir") + "/");
+        } catch (MalformedURLException ex) {
+            return null;
+        }
+    }
+</source>
+<source file="systems/search_results/18/DesktopStub.java" startline="27" endline="33" pcid="1910">
+    public URL getDocumentBase() {
+        try {
+            return new URL("file:///" + System.getProperty("user.dir") + "/");
+        } catch (MalformedURLException ex) {
+            return null;
+        }
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="3" nclones="5" nlines="5" similarity="100"&gt;
+<source file="systems/8_16/prompt_00202.java" startline="4" endline="10" pcid="290">
+	protected void onResume() 
+{
+    super.onResume();
+    // Start the game loop
+    gameLoopThread = new GameLoopThread(this);
+    gameLoopThread.start();
+}	
+</source>
+<source file="systems/search_results/202/MainActivity_1.java" startline="85" endline="89" pcid="2213">
+    protected void onResume(){
+        super.onResume();
+        tg = new TwitterGetter(this);
+        tg.start();
+    }
+</source>
+<source file="systems/search_results/202/AdapterExampleActivity_1.java" startline="71" endline="75" pcid="2190">
+    protected void onResume() {
+        super.onResume();
+        workerThread = new WorkerThread(this);
+        workerThread.start();
+    }
+</source>
+<source file="systems/search_results/202/MainActivity.java" startline="40" endline="45" pcid="2204">
+    protected void onResume() {
+        super.onResume();
+
+        thread = new CheckMessageThread(this);
+        thread.start();
+    }
+</source>
+<source file="systems/search_results/202/AdapterExampleActivity.java" startline="69" endline="73" pcid="2198">
+    protected void onResume() {
+        super.onResume();
+        workerThread = new WorkerThread(this);
+        workerThread.start();
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="4" nclones="6" nlines="7" similarity="100"&gt;
+<source file="systems/8_16/prompt_00947.java" startline="8" endline="16" pcid="314">
+public double[] feedForward(double[] input) 
+{
+    double[] output = new double[numOutputs];
+    for (int i = 0; i &lt; numOutputs; i++)
+    {
+        output[i] = outputs[i].compute(input);
+    }
+    return output;
+}   
+</source>
+<source file="systems/search_results/947/SVMclassifier_1.java" startline="93" endline="99" pcid="1037">
+	public double[] getScores(double[] x) {
+		double[] scores = new double[numClasses];
+		for (int i = 0; i &lt; numClasses; i++) {
+			scores[i] = svm[i].compScore(x);
+		}
+		return scores;
+	}
+</source>
+<source file="systems/search_results/947/SVMclassifier.java" startline="95" endline="101" pcid="1048">
+	public double[] getScores(double[] x) {
+		double[] scores = new double[numClasses];
+		for (int i = 0; i &lt; numClasses; i++) {
+			scores[i] = svm[i].compScore(x);
+		}
+		return scores;
+	}
+</source>
+<source file="systems/search_results/947/Layer.java" startline="15" endline="21" pcid="1030">
+    public double[] feedForward(double[] inputs) {
+        double[] outputs = new double[numNeurons];
+        for (int i = 0; i &lt; numNeurons; i++) {
+            outputs[i] = neurons[i].feedForward(inputs);
+        }
+        return outputs;
+    }
+</source>
+<source file="systems/search_results/947/Couche.java" startline="51" endline="57" pcid="1058">
+    public double[] calculerSortie(double[] entrees) {
+        double[] sorties = new double[nombreNeurones];
+        for (int i = 0; i &lt; nombreNeurones; i++) {
+            sorties[i] = neurones[i].activer(entrees);
+        }
+        return sorties;
+    }
+</source>
+<source file="systems/search_results/947/SVMclassifier_2.java" startline="95" endline="101" pcid="1065">
+	public double[] getScores(double[] x) {
+		double[] scores = new double[numClasses];
+		for (int i = 0; i &lt; numClasses; i++) {
+			scores[i] = svm[i].compScore(x);
+		}
+		return scores;
+	}
+</source>
+&lt;/class&gt;
+
+&lt;class classid="5" nclones="5" nlines="7" similarity="100"&gt;
+<source file="systems/8_16/prompt_00951.java" startline="6" endline="14" pcid="371">
+public boolean[] toBooleanArray() 
+{
+    boolean[] result = new boolean[map.length];
+    for (int i = 0; i &lt; map.length; i++)
+    {
+        result[i] = map[i];
+    }
+    return result;
+}   
+</source>
+<source file="systems/search_results/951/WebMarshal.java" startline="172" endline="178" pcid="1697">
+	public boolean[] getModuleValids() {
+		boolean[] rtn = new boolean[moduleValids.length];
+		for (int i = 0; i &lt; rtn.length; i++) {
+			rtn[i] = moduleValids[i];
+		}
+		return rtn;
+	}
+</source>
+<source file="systems/search_results/951/GePropertyTypeDispatcher.java" startline="522" endline="528" pcid="1609">
+            public boolean[] getClonedArray() {
+                boolean[] result = new boolean[property.length];
+                for (int i = 0; i &lt; result.length; i++) {
+                    result[i] = property[i];
+                }
+                return result;
+            }
+</source>
+<source file="systems/search_results/951/DatePanel.java" startline="601" endline="607" pcid="1758">
+    public boolean[] getWorkingDays() {
+        boolean[] retorno = new boolean[workingDays.length];
+        for (int i = 0; i &lt; workingDays.length; i++) {
+            retorno[i] = workingDays[i];
+        }
+        return retorno;
+    }
+</source>
+<source file="systems/search_results/951/CachedBeanData.java" startline="45" endline="51" pcid="1654">
+  public boolean[] copyLoaded() {
+    boolean[] dest = new boolean[data.length];
+    for (int i = 0; i &lt; dest.length; i++) {
+      dest[i] = loaded[i];
+    }
+    return dest;
+  }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="6" nclones="3" nlines="10" similarity="100"&gt;
+<source file="systems/8_16/prompt_00014.java" startline="4" endline="22" pcid="436">
+public void run() 
+{
+    while (true)
+    {
+        try
+        {
+            // Get the next message from the queue
+            Message message = messageQueue.take();
+
+            // Process the message
+            processMessage(message);
+        }
+        catch (InterruptedException e)
+        {
+            // Handle the exception
+            e.printStackTrace();
+        }
+    }
+}   
+</source>
+<source file="systems/search_results/14/ChatImpl.java" startline="17" endline="26" pcid="1467">
+			public void run() {
+				while (true) {
+					try {
+						String message = messages.take();
+						broadcast(message);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+				}
+			}
+</source>
+<source file="systems/search_results/14/SocketHandler.java" startline="23" endline="32" pcid="1462">
+			public void run() {
+				while (true) {
+					try {
+						String message = messages.take();
+						sendViaSocket(message);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+				}
+			}
+</source>
+&lt;/class&gt;
+
+&lt;/clones&gt;
+
+</root>

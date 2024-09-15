@@ -1,0 +1,2598 @@
+<root>
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;NiCad6 Clone Report&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+        body {font-family:sans-serif;}
+        table {background-color:white; border:0px; padding:0px; border-spacing:4px; width:auto; margin-left:30px; margin-right:auto;}
+        td {background-color:rgba(192,212,238,0.8); border:0px; padding:8px; width:auto; vertical-align:top; border-radius:8px}
+        pre {background-color:white; padding:4px;}
+        a {color:darkblue;}
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h2&gt;NiCad6 Clone Report&lt;/h2&gt;
+&lt;table&gt;
+&lt;tr style="font-size:14pt"&gt;
+&lt;td&gt;&lt;b&gt;System 1:&lt;/b&gt; &amp;nbsp; 2048_4096&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;System 2:&lt;/b&gt; &amp;nbsp; search_results&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Clone pairs:&lt;/b&gt; &amp;nbsp; 184&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Clone classes:&lt;/b&gt; &amp;nbsp; 15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="font-size:12pt"&gt;
+&lt;td style="background-color:white"&gt;Clone type: &amp;nbsp; 2&lt;/td&gt;
+&lt;td style="background-color:white"&gt;Granularity: &amp;nbsp; functions-blind&lt;/td&gt;
+&lt;td style="background-color:white"&gt;Max diff threshold: &amp;nbsp; 0%&lt;/td&gt;
+&lt;td style="background-color:white"&gt;Clone size: &amp;nbsp; 4 - 2500 lines&lt;/td&gt;
+&lt;td style="background-color:white"&gt;Total functions-blind: &amp;nbsp; 4021&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 1:&lt;/b&gt; &amp;nbsp; 2 fragments, nominal size 4 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag13')" href="javascript:;"&gt;
+2048_4096/prompt_01491.java: 2-6
+&lt;/a&gt;
+&lt;div class="mid" id="frag13" style="display:none"&gt;&lt;pre&gt;
+public NormalListDialog itemTextSize(float itemTextSize_SP) 
+{
+    this.itemTextSize_SP = itemTextSize_SP;
+    return this;
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3758')" href="javascript:;"&gt;
+search_results/507/EulerCamera.java: 644-647
+&lt;/a&gt;
+&lt;div class="mid" id="frag3758" style="display:none"&gt;&lt;pre&gt;
+        public Builder setFieldOfView(float fov) {
+            this.fov = fov;
+            return this;
+        }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 2:&lt;/b&gt; &amp;nbsp; 8 fragments, nominal size 7 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag57')" href="javascript:;"&gt;
+2048_4096/prompt_00271.java: 7-15
+&lt;/a&gt;
+&lt;div class="mid" id="frag57" style="display:none"&gt;&lt;pre&gt;
+public static String article(String value) 
+{
+    if (null == value)
+    {
+        return "";
+    }
+    String html = MarkdownUtils.markdownToHtmlExtensions(value);
+    return html;
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2420')" href="javascript:;"&gt;
+search_results/271/FormatUtils.java: 54-63
+&lt;/a&gt;
+&lt;div class="mid" id="frag2420" style="display:none"&gt;&lt;pre&gt;
+    public static String date2yyyyMMddxhhmmss(Date date) {
+        if (null == date) {
+            return "";
+        }
+
+        String updateDateTimeStamp = yyyyMMddxhhmmss.format(date);
+
+        return updateDateTimeStamp;
+
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2426')" href="javascript:;"&gt;
+search_results/271/FormatUtils.java: 149-157
+&lt;/a&gt;
+&lt;div class="mid" id="frag2426" style="display:none"&gt;&lt;pre&gt;
+    public static String date2MMdd(Date date) {
+        if (null == date) {
+            return "";
+        }
+
+        String updateDateTimeStamp = md.format(date);
+
+        return updateDateTimeStamp;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2421')" href="javascript:;"&gt;
+search_results/271/FormatUtils.java: 70-80
+&lt;/a&gt;
+&lt;div class="mid" id="frag2421" style="display:none"&gt;&lt;pre&gt;
+    public static String date2yyyyMMddHHmmss(Date date) {
+        // TODO Auto-generated method stub
+        if (null == date) {
+            return "";
+        }
+
+        String updateDateTimeStamp = yyyyMMddHHmmss.format(date);
+
+        return updateDateTimeStamp;
+
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2424')" href="javascript:;"&gt;
+search_results/271/FormatUtils.java: 119-127
+&lt;/a&gt;
+&lt;div class="mid" id="frag2424" style="display:none"&gt;&lt;pre&gt;
+    public static String date2HHxmm(Date date) {
+        if (null == date) {
+            return "";
+        }
+
+        String updateDateTimeStamp = hhmm.format(date);
+
+        return updateDateTimeStamp;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2422')" href="javascript:;"&gt;
+search_results/271/FormatUtils.java: 87-97
+&lt;/a&gt;
+&lt;div class="mid" id="frag2422" style="display:none"&gt;&lt;pre&gt;
+    public static String date2yyyyMMddHHmmssSSS(Date date) {
+        // TODO Auto-generated method stub
+        if (null == date) {
+            return "";
+        }
+
+        String updateDateTimeStamp = yyyyMMddHHmmssSSS.format(date);
+
+        return updateDateTimeStamp;
+
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2425')" href="javascript:;"&gt;
+search_results/271/FormatUtils.java: 134-142
+&lt;/a&gt;
+&lt;div class="mid" id="frag2425" style="display:none"&gt;&lt;pre&gt;
+    public static String date2MMddxhhmm(Date date) {
+        if (null == date) {
+            return "";
+        }
+
+        String updateDateTimeStamp = mmddHHmm.format(date);
+
+        return updateDateTimeStamp;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2423')" href="javascript:;"&gt;
+search_results/271/FormatUtils.java: 104-112
+&lt;/a&gt;
+&lt;div class="mid" id="frag2423" style="display:none"&gt;&lt;pre&gt;
+    public static String date2yyyyMMdd(Date date) {
+        if (null == date) {
+            return "";
+        }
+
+        String updateDateTimeStamp = yyyyMMdd.format(date);
+
+        return updateDateTimeStamp;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 3:&lt;/b&gt; &amp;nbsp; 2 fragments, nominal size 10 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag126')" href="javascript:;"&gt;
+2048_4096/prompt_01383.java: 2-12
+&lt;/a&gt;
+&lt;div class="mid" id="frag126" style="display:none"&gt;&lt;pre&gt;
+public static boolean xssInspect(String value) 
+{
+    if (value == null || value.isEmpty()) {
+        return false;
+    }
+    String valueLower = value.toLowerCase();
+    if (valueLower.contains("&amp;lt;script&amp;gt;") || valueLower.contains("&amp;lt;/script&amp;gt;")) {
+        return true;
+    }
+    return false;
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2446')" href="javascript:;"&gt;
+search_results/1383/DRMFileUtil.java: 182-191
+&lt;/a&gt;
+&lt;div class="mid" id="frag2446" style="display:none"&gt;&lt;pre&gt;
+    public static boolean isRightsFileType(String filePath) {
+        if (filePath == null || filePath.isEmpty()) {
+            return false;
+        }
+        String filepath = filePath.toLowerCase();
+        if (filepath.endsWith(".dr") || filepath.endsWith(".drc")) {
+            return true;
+        }
+        return false;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 4:&lt;/b&gt; &amp;nbsp; 6 fragments, nominal size 11 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag186')" href="javascript:;"&gt;
+2048_4096/prompt_00992.java: 5-19
+&lt;/a&gt;
+&lt;div class="mid" id="frag186" style="display:none"&gt;&lt;pre&gt;
+public static AbsTransport getTransport(String protocol) 
+{
+    if (protocol.equalsIgnoreCase("udp"))
+    {
+        return new UdpTransport();
+    }
+    else if (protocol.equalsIgnoreCase("tcp"))
+    {
+        return new TcpTransport();
+    }
+    else
+    {
+        throw new IllegalArgumentException("Invalid protocol: " + protocol);
+    }
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2315')" href="javascript:;"&gt;
+search_results/992/AnimalFactory.java: 5-13
+&lt;/a&gt;
+&lt;div class="mid" id="frag2315" style="display:none"&gt;&lt;pre&gt;
+    public static Animal createAnimal(String type) {
+        if (type.equalsIgnoreCase("dog")) {
+            return new Dog();
+        } else if (type.equalsIgnoreCase("cat")) {
+            return new Cat();
+        } else {
+            throw new IllegalArgumentException("Invalid animal type: " + type);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2305')" href="javascript:;"&gt;
+search_results/992/GameApplication.java: 46-54
+&lt;/a&gt;
+&lt;div class="mid" id="frag2305" style="display:none"&gt;&lt;pre&gt;
+    public static Enemy createEnemy(String difficulty) {
+        if (difficulty.equalsIgnoreCase("easy")) {
+            return new EasyEnemy();
+        } else if (difficulty.equalsIgnoreCase("hard")) {
+            return new HardEnemy();
+        } else {
+            throw new IllegalArgumentException("Unknown difficulty: " + difficulty);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2297')" href="javascript:;"&gt;
+search_results/992/Lab4_HandsOn1.java: 48-62
+&lt;/a&gt;
+&lt;div class="mid" id="frag2297" style="display:none"&gt;&lt;pre&gt;
+    public static File createFile(String fileType)
+    {
+        if (fileType.equalsIgnoreCase("PDF"))
+        {
+            return new PDFFile();
+        }
+        else if (fileType.equalsIgnoreCase("Word"))
+        {
+            return new WordFile();
+        }
+        else
+        {
+            throw new IllegalArgumentException("Invalid file type: " + fileType);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2292')" href="javascript:;"&gt;
+search_results/992/ShapeFactory.java: 4-12
+&lt;/a&gt;
+&lt;div class="mid" id="frag2292" style="display:none"&gt;&lt;pre&gt;
+  public static Shape createShape(String shapeType) {
+    if (shapeType.equalsIgnoreCase("circle")) {
+      return new Circle();
+    } else if (shapeType.equalsIgnoreCase("square")) {
+      return new Square();
+    } else {
+      throw new IllegalArgumentException("Invalid shape type: " + shapeType);
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2291')" href="javascript:;"&gt;
+search_results/992/PaymentMethodFactory.java: 3-11
+&lt;/a&gt;
+&lt;div class="mid" id="frag2291" style="display:none"&gt;&lt;pre&gt;
+  public static PaymentMethod getPaymentMethod(String paymentType) {
+    if (paymentType.equalsIgnoreCase("PayPal")) {
+      return new PayPalPayment();
+    } else if (paymentType.equalsIgnoreCase("CreditCard")) {
+      return new CreditCardPayment();
+    } else {
+      throw new IllegalArgumentException("Unsupported payment method: " + paymentType);
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 5:&lt;/b&gt; &amp;nbsp; 38 fragments, nominal size 6 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag290')" href="javascript:;"&gt;
+2048_4096/prompt_00733.java: 5-12
+&lt;/a&gt;
+&lt;div class="mid" id="frag290" style="display:none"&gt;&lt;pre&gt;
+public final void setContentY(float y) 
+{
+    if (mContentY != y)
+    {
+        mContentY = y;
+        invalidate();
+    }
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3554')" href="javascript:;"&gt;
+search_results/733/BoxShape_1.java: 279-286
+&lt;/a&gt;
+&lt;div class="mid" id="frag3554" style="display:none"&gt;&lt;pre&gt;
+  public final void setBorderWidth(float borderWidth)
+  {
+    if (_borderWidth != borderWidth)
+    {
+      _borderWidth = borderWidth;
+      cleanMesh();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3384')" href="javascript:;"&gt;
+search_results/733/OpenGlToolkit.java: 1199-1204
+&lt;/a&gt;
+&lt;div class="mid" id="frag3384" style="display:none"&gt;&lt;pre&gt;
+	public final void method2476(float f) {
+		if (ambient != f) {
+			ambient = f;
+			method14370();
+		}
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3255')" href="javascript:;"&gt;
+search_results/733/BoxShape.java: 281-288
+&lt;/a&gt;
+&lt;div class="mid" id="frag3255" style="display:none"&gt;&lt;pre&gt;
+  public final void setBorderWidth(float borderWidth)
+  {
+    if (_borderWidth != borderWidth)
+    {
+      _borderWidth = borderWidth;
+      cleanMesh();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2002')" href="javascript:;"&gt;
+search_results/726/bvx$c.java: 105-112
+&lt;/a&gt;
+&lt;div class="mid" id="frag2002" style="display:none"&gt;&lt;pre&gt;
+  public final void d(float paramFloat)
+  {
+    if (paramFloat != q)
+    {
+      q = paramFloat;
+      d();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3271')" href="javascript:;"&gt;
+search_results/733/AspectRatioFrameLayout.java: 52-59
+&lt;/a&gt;
+&lt;div class="mid" id="frag3271" style="display:none"&gt;&lt;pre&gt;
+    public final void setAspectRatio(float f)
+    {
+        if (videoAspectRatio != f)
+        {
+            videoAspectRatio = f;
+            requestLayout();
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2058')" href="javascript:;"&gt;
+search_results/726/PlanetRenderer.java: 996-1003
+&lt;/a&gt;
+&lt;div class="mid" id="frag2058" style="display:none"&gt;&lt;pre&gt;
+  public final void setVerticalExaggeration(float verticalExaggeration)
+  {
+    if (_verticalExaggeration != verticalExaggeration)
+    {
+      _verticalExaggeration = verticalExaggeration;
+      changed();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2006')" href="javascript:;"&gt;
+search_results/726/AspectRatioFrameLayout.java: 52-59
+&lt;/a&gt;
+&lt;div class="mid" id="frag2006" style="display:none"&gt;&lt;pre&gt;
+    public final void setAspectRatio(float f)
+    {
+        if (videoAspectRatio != f)
+        {
+            videoAspectRatio = f;
+            requestLayout();
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1464')" href="javascript:;"&gt;
+search_results/726/g.java: 222-229
+&lt;/a&gt;
+&lt;div class="mid" id="frag1464" style="display:none"&gt;&lt;pre&gt;
+    public final void e(float f1)
+    {
+        if (f1 != q)
+        {
+            q = f1;
+            p();
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1714')" href="javascript:;"&gt;
+search_results/726/Class167_Sub2.java: 3374-3379
+&lt;/a&gt;
+&lt;div class="mid" id="frag1714" style="display:none"&gt;&lt;pre&gt;
+	public final void method2006(float f) {
+		if (aFloat9250 != f) {
+			aFloat9250 = f;
+			method8538();
+		}
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2119')" href="javascript:;"&gt;
+search_results/726/OpenGlToolkit.java: 1199-1204
+&lt;/a&gt;
+&lt;div class="mid" id="frag2119" style="display:none"&gt;&lt;pre&gt;
+	public final void method2476(float f) {
+		if (ambient != f) {
+			ambient = f;
+			method14370();
+		}
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3267')" href="javascript:;"&gt;
+search_results/733/bvx$c.java: 105-112
+&lt;/a&gt;
+&lt;div class="mid" id="frag3267" style="display:none"&gt;&lt;pre&gt;
+  public final void d(float paramFloat)
+  {
+    if (paramFloat != q)
+    {
+      q = paramFloat;
+      d();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1990')" href="javascript:;"&gt;
+search_results/726/BoxShape.java: 281-288
+&lt;/a&gt;
+&lt;div class="mid" id="frag1990" style="display:none"&gt;&lt;pre&gt;
+  public final void setBorderWidth(float borderWidth)
+  {
+    if (_borderWidth != borderWidth)
+    {
+      _borderWidth = borderWidth;
+      cleanMesh();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1381')" href="javascript:;"&gt;
+search_results/726/CircularBorderDrawable.java: 181-188
+&lt;/a&gt;
+&lt;div class="mid" id="frag1381" style="display:none"&gt;&lt;pre&gt;
+  public final void setRotation(float paramFloat)
+  {
+    if (paramFloat != m)
+    {
+      m = paramFloat;
+      invalidateSelf();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3323')" href="javascript:;"&gt;
+search_results/733/PlanetRenderer.java: 996-1003
+&lt;/a&gt;
+&lt;div class="mid" id="frag3323" style="display:none"&gt;&lt;pre&gt;
+  public final void setVerticalExaggeration(float verticalExaggeration)
+  {
+    if (_verticalExaggeration != verticalExaggeration)
+    {
+      _verticalExaggeration = verticalExaggeration;
+      changed();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1357')" href="javascript:;"&gt;
+search_results/726/x.java: 222-229
+&lt;/a&gt;
+&lt;div class="mid" id="frag1357" style="display:none"&gt;&lt;pre&gt;
+    public final void e(float f1)
+    {
+        if (f1 != q)
+        {
+            q = f1;
+            p();
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1390')" href="javascript:;"&gt;
+search_results/726/Layer.java: 123-130
+&lt;/a&gt;
+&lt;div class="mid" id="frag1390" style="display:none"&gt;&lt;pre&gt;
+  public final void setTransparency(float transparency)
+  {
+    if (_transparency != transparency)
+    {
+      _transparency = transparency;
+      notifyChanges();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1332')" href="javascript:;"&gt;
+search_results/726/CircleShape.java: 100-107
+&lt;/a&gt;
+&lt;div class="mid" id="frag1332" style="display:none"&gt;&lt;pre&gt;
+  public final void setRadius(float radius)
+  {
+    if (_radius != radius)
+    {
+      _radius = radius;
+      cleanMesh();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3532')" href="javascript:;"&gt;
+search_results/733/BezierView.java: 88-93
+&lt;/a&gt;
+&lt;div class="mid" id="frag3532" style="display:none"&gt;&lt;pre&gt;
+    public final void setBezierX(float value) {
+        if (value != bezierX) {
+            bezierX = value;
+            invalidate();
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1317')" href="javascript:;"&gt;
+search_results/726/ShadowDrawableWrapper.java: 312-319
+&lt;/a&gt;
+&lt;div class="mid" id="frag1317" style="display:none"&gt;&lt;pre&gt;
+  public final void setRotation(float paramFloat)
+  {
+    if (rotation != paramFloat)
+    {
+      rotation = paramFloat;
+      invalidateSelf();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1441')" href="javascript:;"&gt;
+search_results/726/buw$c.java: 105-112
+&lt;/a&gt;
+&lt;div class="mid" id="frag1441" style="display:none"&gt;&lt;pre&gt;
+  public final void d(float paramFloat)
+  {
+    if (paramFloat != q)
+    {
+      q = paramFloat;
+      d();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2979')" href="javascript:;"&gt;
+search_results/733/Class167_Sub2.java: 3374-3379
+&lt;/a&gt;
+&lt;div class="mid" id="frag2979" style="display:none"&gt;&lt;pre&gt;
+	public final void method2006(float f) {
+		if (aFloat9250 != f) {
+			aFloat9250 = f;
+			method8538();
+		}
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1788')" href="javascript:;"&gt;
+search_results/726/Class167_Sub2.java: 4265-4270
+&lt;/a&gt;
+&lt;div class="mid" id="frag1788" style="display:none"&gt;&lt;pre&gt;
+	public final void method2287(float f) {
+		if (aFloat9250 != f) {
+			aFloat9250 = f;
+			method8538();
+		}
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2729')" href="javascript:;"&gt;
+search_results/733/g.java: 222-229
+&lt;/a&gt;
+&lt;div class="mid" id="frag2729" style="display:none"&gt;&lt;pre&gt;
+    public final void e(float f1)
+    {
+        if (f1 != q)
+        {
+            q = f1;
+            p();
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1960')" href="javascript:;"&gt;
+search_results/726/Layer_2.java: 122-129
+&lt;/a&gt;
+&lt;div class="mid" id="frag1960" style="display:none"&gt;&lt;pre&gt;
+  public final void setTransparency(float transparency)
+  {
+    if (_transparency != transparency)
+    {
+      _transparency = transparency;
+      notifyChanges();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2706')" href="javascript:;"&gt;
+search_results/733/buw$c.java: 105-112
+&lt;/a&gt;
+&lt;div class="mid" id="frag2706" style="display:none"&gt;&lt;pre&gt;
+  public final void d(float paramFloat)
+  {
+    if (paramFloat != q)
+    {
+      q = paramFloat;
+      d();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2678')" href="javascript:;"&gt;
+search_results/733/Layer_1.java: 122-129
+&lt;/a&gt;
+&lt;div class="mid" id="frag2678" style="display:none"&gt;&lt;pre&gt;
+  public final void setTransparency(float transparency)
+  {
+    if (_transparency != transparency)
+    {
+      _transparency = transparency;
+      notifyChanges();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2582')" href="javascript:;"&gt;
+search_results/733/ShadowDrawableWrapper.java: 312-319
+&lt;/a&gt;
+&lt;div class="mid" id="frag2582" style="display:none"&gt;&lt;pre&gt;
+  public final void setRotation(float paramFloat)
+  {
+    if (rotation != paramFloat)
+    {
+      rotation = paramFloat;
+      invalidateSelf();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2655')" href="javascript:;"&gt;
+search_results/733/Layer.java: 123-130
+&lt;/a&gt;
+&lt;div class="mid" id="frag2655" style="display:none"&gt;&lt;pre&gt;
+  public final void setTransparency(float transparency)
+  {
+    if (_transparency != transparency)
+    {
+      _transparency = transparency;
+      notifyChanges();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2597')" href="javascript:;"&gt;
+search_results/733/CircleShape.java: 100-107
+&lt;/a&gt;
+&lt;div class="mid" id="frag2597" style="display:none"&gt;&lt;pre&gt;
+  public final void setRadius(float radius)
+  {
+    if (_radius != radius)
+    {
+      _radius = radius;
+      cleanMesh();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2267')" href="javascript:;"&gt;
+search_results/726/BezierView.java: 88-93
+&lt;/a&gt;
+&lt;div class="mid" id="frag2267" style="display:none"&gt;&lt;pre&gt;
+    public final void setBezierX(float value) {
+        if (value != bezierX) {
+            bezierX = value;
+            invalidate();
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2646')" href="javascript:;"&gt;
+search_results/733/CircularBorderDrawable.java: 181-188
+&lt;/a&gt;
+&lt;div class="mid" id="frag2646" style="display:none"&gt;&lt;pre&gt;
+  public final void setRotation(float paramFloat)
+  {
+    if (paramFloat != m)
+    {
+      m = paramFloat;
+      invalidateSelf();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3053')" href="javascript:;"&gt;
+search_results/733/Class167_Sub2.java: 4265-4270
+&lt;/a&gt;
+&lt;div class="mid" id="frag3053" style="display:none"&gt;&lt;pre&gt;
+	public final void method2287(float f) {
+		if (aFloat9250 != f) {
+			aFloat9250 = f;
+			method8538();
+		}
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2622')" href="javascript:;"&gt;
+search_results/733/x.java: 222-229
+&lt;/a&gt;
+&lt;div class="mid" id="frag2622" style="display:none"&gt;&lt;pre&gt;
+    public final void e(float f1)
+    {
+        if (f1 != q)
+        {
+            q = f1;
+            p();
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3225')" href="javascript:;"&gt;
+search_results/733/Layer_2.java: 122-129
+&lt;/a&gt;
+&lt;div class="mid" id="frag3225" style="display:none"&gt;&lt;pre&gt;
+  public final void setTransparency(float transparency)
+  {
+    if (_transparency != transparency)
+    {
+      _transparency = transparency;
+      notifyChanges();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2289')" href="javascript:;"&gt;
+search_results/726/BoxShape_1.java: 279-286
+&lt;/a&gt;
+&lt;div class="mid" id="frag2289" style="display:none"&gt;&lt;pre&gt;
+  public final void setBorderWidth(float borderWidth)
+  {
+    if (_borderWidth != borderWidth)
+    {
+      _borderWidth = borderWidth;
+      cleanMesh();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1413')" href="javascript:;"&gt;
+search_results/726/Layer_1.java: 122-129
+&lt;/a&gt;
+&lt;div class="mid" id="frag1413" style="display:none"&gt;&lt;pre&gt;
+  public final void setTransparency(float transparency)
+  {
+    if (_transparency != transparency)
+    {
+      _transparency = transparency;
+      notifyChanges();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag626')" href="javascript:;"&gt;
+2048_4096/prompt_00726.java: 5-12
+&lt;/a&gt;
+&lt;div class="mid" id="frag626" style="display:none"&gt;&lt;pre&gt;
+public final void setContentX(float x) 
+{
+    if (mContentX != x)
+    {
+        mContentX = x;
+        invalidate();
+    }
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 6:&lt;/b&gt; &amp;nbsp; 40 fragments, nominal size 7 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag301')" href="javascript:;"&gt;
+2048_4096/prompt_01724.java: 9-19
+&lt;/a&gt;
+&lt;div class="mid" id="frag301" style="display:none"&gt;&lt;pre&gt;
+protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+{
+    try
+    {
+        processRequest(request, response);
+    }
+    catch (Exception ex)
+    {
+        Logger.getLogger(UploadServlet.class.getName()).log(Level.SEVERE, null, ex);
+    }
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2336')" href="javascript:;"&gt;
+search_results/1724/AddVoucherController.java: 102-108
+&lt;/a&gt;
+&lt;div class="mid" id="frag2336" style="display:none"&gt;&lt;pre&gt;
+  protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+      try {
+          processRequest(request, response);
+      } catch (ParseException ex) {
+          Logger.getLogger(AddVoucherController.class.getName()).log(Level.SEVERE, null, ex);
+      }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2411')" href="javascript:;"&gt;
+search_results/1724/Index.java: 99-105
+&lt;/a&gt;
+&lt;div class="mid" id="frag2411" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(Index.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2335')" href="javascript:;"&gt;
+search_results/1724/AddVoucherController.java: 85-91
+&lt;/a&gt;
+&lt;div class="mid" id="frag2335" style="display:none"&gt;&lt;pre&gt;
+  protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+      try {
+          processRequest(request, response);
+      } catch (ParseException ex) {
+          Logger.getLogger(AddVoucherController.class.getName()).log(Level.SEVERE, null, ex);
+      }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2410')" href="javascript:;"&gt;
+search_results/1724/Index.java: 82-88
+&lt;/a&gt;
+&lt;div class="mid" id="frag2410" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(Index.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2332')" href="javascript:;"&gt;
+search_results/1724/AuthLogin.java: 120-126
+&lt;/a&gt;
+&lt;div class="mid" id="frag2332" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(AuthLogin.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2339')" href="javascript:;"&gt;
+search_results/1724/AuthRegister.java: 103-109
+&lt;/a&gt;
+&lt;div class="mid" id="frag2339" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(AuthRegister.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2331')" href="javascript:;"&gt;
+search_results/1724/AuthLogin.java: 103-109
+&lt;/a&gt;
+&lt;div class="mid" id="frag2331" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(AuthLogin.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2407')" href="javascript:;"&gt;
+search_results/1724/LoginController.java: 33-39
+&lt;/a&gt;
+&lt;div class="mid" id="frag2407" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(LoginController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2328')" href="javascript:;"&gt;
+search_results/1724/RegistrationController.java: 33-39
+&lt;/a&gt;
+&lt;div class="mid" id="frag2328" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(RegistrationController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2414')" href="javascript:;"&gt;
+search_results/1724/StaffMember.java: 184-190
+&lt;/a&gt;
+&lt;div class="mid" id="frag2414" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (ClassNotFoundException ex) {
+            Logger.getLogger(StaffEvents.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2327')" href="javascript:;"&gt;
+search_results/1724/RegistrationController.java: 24-30
+&lt;/a&gt;
+&lt;div class="mid" id="frag2327" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(RegistrationController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2340')" href="javascript:;"&gt;
+search_results/1724/AuthRegister.java: 120-126
+&lt;/a&gt;
+&lt;div class="mid" id="frag2340" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(AuthRegister.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2361')" href="javascript:;"&gt;
+search_results/1724/SRVLCadastrarLocacao.java: 96-103
+&lt;/a&gt;
+&lt;div class="mid" id="frag2361" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+          try {
+              processRequest(request, response);
+          } catch (ParseException ex) {
+              Logger.getLogger(SRVLCadastrarLocacao.class.getName()).log(Level.SEVERE, null, ex);
+          }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2415')" href="javascript:;"&gt;
+search_results/1724/StaffMember.java: 193-199
+&lt;/a&gt;
+&lt;div class="mid" id="frag2415" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (ClassNotFoundException ex) {
+            Logger.getLogger(StaffEvents.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2366')" href="javascript:;"&gt;
+search_results/1724/ParcAtualiza.java: 131-137
+&lt;/a&gt;
+&lt;div class="mid" id="frag2366" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        try {
+            processRequest(request, response);
+        } catch (ParseException ex) {
+            Logger.getLogger(ParcAtualiza.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2343')" href="javascript:;"&gt;
+search_results/1724/Home.java: 98-104
+&lt;/a&gt;
+&lt;div class="mid" id="frag2343" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(Home.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2367')" href="javascript:;"&gt;
+search_results/1724/ParcAtualiza.java: 147-154
+&lt;/a&gt;
+&lt;div class="mid" id="frag2367" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (ParseException ex) {
+            Logger.getLogger(ParcAtualiza.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2344')" href="javascript:;"&gt;
+search_results/1724/Home.java: 115-121
+&lt;/a&gt;
+&lt;div class="mid" id="frag2344" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(Home.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2370')" href="javascript:;"&gt;
+search_results/1724/Admin.java: 156-162
+&lt;/a&gt;
+&lt;div class="mid" id="frag2370" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(Admin.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2417')" href="javascript:;"&gt;
+search_results/1724/AvisSaisi.java: 100-106
+&lt;/a&gt;
+&lt;div class="mid" id="frag2417" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(AvisSaisi.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2371')" href="javascript:;"&gt;
+search_results/1724/Admin.java: 173-179
+&lt;/a&gt;
+&lt;div class="mid" id="frag2371" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(Admin.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2347')" href="javascript:;"&gt;
+search_results/1724/HapusGedung.java: 70-77
+&lt;/a&gt;
+&lt;div class="mid" id="frag2347" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (NonexistentEntityException ex) {
+            Logger.getLogger(HapusGedung.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2374')" href="javascript:;"&gt;
+search_results/1724/updateLinePositions.java: 163-169
+&lt;/a&gt;
+&lt;div class="mid" id="frag2374" style="display:none"&gt;&lt;pre&gt;
+   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+      try {
+         processRequest(request, response);
+      } catch (SQLException ex) {
+         Logger.getLogger(updateLinePositions.class.getName()).log(Level.SEVERE, null, ex);
+      }
+   }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2418')" href="javascript:;"&gt;
+search_results/1724/AvisSaisi.java: 117-123
+&lt;/a&gt;
+&lt;div class="mid" id="frag2418" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(AvisSaisi.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2375')" href="javascript:;"&gt;
+search_results/1724/updateLinePositions.java: 181-187
+&lt;/a&gt;
+&lt;div class="mid" id="frag2375" style="display:none"&gt;&lt;pre&gt;
+   protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+      try {
+         processRequest(request, response);
+      } catch (SQLException ex) {
+         Logger.getLogger(updateLinePositions.class.getName()).log(Level.SEVERE, null, ex);
+      }
+   }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2348')" href="javascript:;"&gt;
+search_results/1724/HapusGedung.java: 87-95
+&lt;/a&gt;
+&lt;div class="mid" id="frag2348" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (NonexistentEntityException ex) {
+            Logger.getLogger(HapusGedung.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2383')" href="javascript:;"&gt;
+search_results/1724/SRVLCadastrarCliente.java: 190-201
+&lt;/a&gt;
+&lt;div class="mid" id="frag2383" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+        try
+        {
+            processRequest(request, response);
+        }
+        
+        catch (ParseException ex)
+        {
+            Logger.getLogger(SRVLCadastrarCliente.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2351')" href="javascript:;"&gt;
+search_results/1724/FilmListe.java: 139-145
+&lt;/a&gt;
+&lt;div class="mid" id="frag2351" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(FilmListe.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2384')" href="javascript:;"&gt;
+search_results/1724/SRVLCadastrarCliente.java: 204-214
+&lt;/a&gt;
+&lt;div class="mid" id="frag2384" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+        try
+        {
+            processRequest(request, response);
+        } 
+        catch (ParseException ex)
+        {
+            Logger.getLogger(SRVLCadastrarCliente.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2352')" href="javascript:;"&gt;
+search_results/1724/FilmListe.java: 156-162
+&lt;/a&gt;
+&lt;div class="mid" id="frag2352" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(FilmListe.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2391')" href="javascript:;"&gt;
+search_results/1724/SRVLCadastrarItem.java: 130-137
+&lt;/a&gt;
+&lt;div class="mid" id="frag2391" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+         try {
+             processRequest(request, response);
+         } catch (ParseException ex) {
+             Logger.getLogger(SRVLCadastrarItem.class.getName()).log(Level.SEVERE, null, ex);
+         }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2354')" href="javascript:;"&gt;
+search_results/1724/ServletLogin.java: 32-38
+&lt;/a&gt;
+&lt;div class="mid" id="frag2354" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(ServletLogin.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2392')" href="javascript:;"&gt;
+search_results/1724/SRVLCadastrarItem.java: 140-147
+&lt;/a&gt;
+&lt;div class="mid" id="frag2392" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+         try {
+             processRequest(request, response);
+         } catch (ParseException ex) {
+             Logger.getLogger(SRVLCadastrarItem.class.getName()).log(Level.SEVERE, null, ex);
+         }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2355')" href="javascript:;"&gt;
+search_results/1724/ServletLogin.java: 41-47
+&lt;/a&gt;
+&lt;div class="mid" id="frag2355" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(ServletLogin.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2395')" href="javascript:;"&gt;
+search_results/1724/InventoryController.java: 33-39
+&lt;/a&gt;
+&lt;div class="mid" id="frag2395" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(InventoryController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2360')" href="javascript:;"&gt;
+search_results/1724/SRVLCadastrarLocacao.java: 86-93
+&lt;/a&gt;
+&lt;div class="mid" id="frag2360" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+          try {
+              processRequest(request, response);
+          } catch (ParseException ex) {
+              Logger.getLogger(SRVLCadastrarLocacao.class.getName()).log(Level.SEVERE, null, ex);
+          }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2403')" href="javascript:;"&gt;
+search_results/1724/FilmResultatRequete.java: 182-188
+&lt;/a&gt;
+&lt;div class="mid" id="frag2403" style="display:none"&gt;&lt;pre&gt;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(FilmResultatRequete.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2406')" href="javascript:;"&gt;
+search_results/1724/LoginController.java: 24-30
+&lt;/a&gt;
+&lt;div class="mid" id="frag2406" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(LoginController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2404')" href="javascript:;"&gt;
+search_results/1724/FilmResultatRequete.java: 199-205
+&lt;/a&gt;
+&lt;div class="mid" id="frag2404" style="display:none"&gt;&lt;pre&gt;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            processRequest(request, response);
+        } catch (SQLException ex) {
+            Logger.getLogger(FilmResultatRequete.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 7:&lt;/b&gt; &amp;nbsp; 2 fragments, nominal size 6 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag344')" href="javascript:;"&gt;
+2048_4096/prompt_00914.java: 4-11
+&lt;/a&gt;
+&lt;div class="mid" id="frag344" style="display:none"&gt;&lt;pre&gt;
+public static synchronized ThreadSafeLazyLoadedMouseDriver getInstance() 
+{
+    if (instance == null)
+    {
+        instance = new ThreadSafeLazyLoadedMouseDriver();
+    }
+    return instance;
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2300')" href="javascript:;"&gt;
+search_results/992/GameApplication.java: 11-16
+&lt;/a&gt;
+&lt;div class="mid" id="frag2300" style="display:none"&gt;&lt;pre&gt;
+    public static synchronized GameState getInstance() {
+        if (instance == null) {
+            instance = new GameState();
+        }
+        return instance;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 8:&lt;/b&gt; &amp;nbsp; 8 fragments, nominal size 7 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag371')" href="javascript:;"&gt;
+2048_4096/prompt_00712.java: 3-11
+&lt;/a&gt;
+&lt;div class="mid" id="frag371" style="display:none"&gt;&lt;pre&gt;
+private static void header(Comparable[] array) 
+{
+    System.out.print("Original: ");
+    for (int i = 0; i &amp;lt; array.length; i++)
+    {
+        System.out.print(array[i] + " ");
+    }
+    System.out.println();
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1041')" href="javascript:;"&gt;
+search_results/712/TShirtShop.java: 108-115
+&lt;/a&gt;
+&lt;div class="mid" id="frag1041" style="display:none"&gt;&lt;pre&gt;
+    private static void printAllTsirt(String[] tshirt) {
+        System.out.println("Футболки в наличии: ");
+        for (int i = 0; i &amp;lt; tshirt.length; i++) {
+            System.out.print(tshirt[i] + " ");
+
+        }
+        System.out.println();
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1066')" href="javascript:;"&gt;
+search_results/712/OracleExtractionHG.java: 722-728
+&lt;/a&gt;
+&lt;div class="mid" id="frag1066" style="display:none"&gt;&lt;pre&gt;
+	private static void printState(Object[] state) {
+		System.out.println("State is");
+		for (int i = 0; i &amp;lt; state.length; i++) {
+			System.out.print(state[i] + " ---- ");
+		}
+		System.out.println();
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1101')" href="javascript:;"&gt;
+search_results/712/BookShop.java: 74-80
+&lt;/a&gt;
+&lt;div class="mid" id="frag1101" style="display:none"&gt;&lt;pre&gt;
+    private static void printAllBooks(String[] books) {
+        System.out.println("Наши книги: ");
+        for (int i = 0; i &amp;lt; books.length; i++) {
+            System.out.print(books[i] + " ");
+        }
+        System.out.println();
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1291')" href="javascript:;"&gt;
+search_results/712/TSP.java: 70-76
+&lt;/a&gt;
+&lt;div class="mid" id="frag1291" style="display:none"&gt;&lt;pre&gt;
+	private static void print(Vertex[] a) {
+		System.out.print("tour: ");
+		for (int i = 0; i &amp;lt; a.length; i++) {
+			System.out.print(a[i] + " ");
+		}
+		System.out.println();
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1193')" href="javascript:;"&gt;
+search_results/712/OracleExtractionHG_2.java: 748-754
+&lt;/a&gt;
+&lt;div class="mid" id="frag1193" style="display:none"&gt;&lt;pre&gt;
+  private static void printState(Object[] state) {
+    System.out.println("State is");
+    for (int i = 0; i &amp;lt; state.length; i++) {
+      System.out.print(state[i] + " ---- ");
+    }
+    System.out.println();
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1221')" href="javascript:;"&gt;
+search_results/712/OracleExtractionHG_1.java: 714-720
+&lt;/a&gt;
+&lt;div class="mid" id="frag1221" style="display:none"&gt;&lt;pre&gt;
+	private static void printState(Object[] state) {
+		System.out.println("State is");
+		for (int i = 0; i &amp;lt; state.length; i++) {
+			System.out.print(state[i] + " ---- ");
+		}
+		System.out.println();
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1259')" href="javascript:;"&gt;
+search_results/712/OracleExtractionHG_3.java: 718-724
+&lt;/a&gt;
+&lt;div class="mid" id="frag1259" style="display:none"&gt;&lt;pre&gt;
+  private static void printState(Object[] state) {
+    System.out.println("State is");
+    for (int i = 0; i &amp;lt; state.length; i++) {
+      System.out.print(state[i] + " ---- ");
+    }
+    System.out.println();
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 9:&lt;/b&gt; &amp;nbsp; 2 fragments, nominal size 6 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag479')" href="javascript:;"&gt;
+2048_4096/prompt_01546.java: 2-10
+&lt;/a&gt;
+&lt;div class="mid" id="frag479" style="display:none"&gt;&lt;pre&gt;
+public void setAutoFreezeDelay(int seconds) 
+{
+    if (seconds &amp;lt; 0)
+    {
+        throw new IllegalArgumentException("Delay cannot be negative");
+    }
+
+    this.autoFreezeDelay = seconds;
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3716')" href="javascript:;"&gt;
+search_results/507/SeatTable.java: 150-155
+&lt;/a&gt;
+&lt;div class="mid" id="frag3716" style="display:none"&gt;&lt;pre&gt;
+    public void setPadding(int padding) {
+        if (padding &amp;lt; 0){
+            throw new RuntimeException("padding must &amp;gt;= 0");
+        }
+        this.padding = padding;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 10:&lt;/b&gt; &amp;nbsp; 13 fragments, nominal size 5 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag719')" href="javascript:;"&gt;
+2048_4096/prompt_00036.java: 4-10
+&lt;/a&gt;
+&lt;div class="mid" id="frag719" style="display:none"&gt;&lt;pre&gt;
+protected void ensureCaseExecutionTreeInitialized() 
+{
+    if (!caseExecutionTreeInitialized)
+    {
+        initializeCaseExecutionTree();
+    }
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3651')" href="javascript:;"&gt;
+search_results/36/SeparatePiecesRunner_8.java: 131-135
+&lt;/a&gt;
+&lt;div class="mid" id="frag3651" style="display:none"&gt;&lt;pre&gt;
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3661')" href="javascript:;"&gt;
+search_results/36/SeparatePiecesRunner_7.java: 131-135
+&lt;/a&gt;
+&lt;div class="mid" id="frag3661" style="display:none"&gt;&lt;pre&gt;
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3641')" href="javascript:;"&gt;
+search_results/36/SeparatePiecesRunner.java: 129-133
+&lt;/a&gt;
+&lt;div class="mid" id="frag3641" style="display:none"&gt;&lt;pre&gt;
+        protected void doInAwtIfSuccess() {
+            if (! mySuspended) {
+                ping();
+            }
+        }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3631')" href="javascript:;"&gt;
+search_results/36/SeparatePiecesRunner_10.java: 130-134
+&lt;/a&gt;
+&lt;div class="mid" id="frag3631" style="display:none"&gt;&lt;pre&gt;
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3670')" href="javascript:;"&gt;
+search_results/36/SeparatePiecesRunner_1.java: 110-114
+&lt;/a&gt;
+&lt;div class="mid" id="frag3670" style="display:none"&gt;&lt;pre&gt;
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3680')" href="javascript:;"&gt;
+search_results/36/SeparatePiecesRunner_2.java: 130-134
+&lt;/a&gt;
+&lt;div class="mid" id="frag3680" style="display:none"&gt;&lt;pre&gt;
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3621')" href="javascript:;"&gt;
+search_results/36/SeparatePiecesRunner_5.java: 136-140
+&lt;/a&gt;
+&lt;div class="mid" id="frag3621" style="display:none"&gt;&lt;pre&gt;
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3611')" href="javascript:;"&gt;
+search_results/36/SeparatePiecesRunner_3.java: 136-140
+&lt;/a&gt;
+&lt;div class="mid" id="frag3611" style="display:none"&gt;&lt;pre&gt;
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3690')" href="javascript:;"&gt;
+search_results/36/SeparatePiecesRunner_4.java: 136-140
+&lt;/a&gt;
+&lt;div class="mid" id="frag3690" style="display:none"&gt;&lt;pre&gt;
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3700')" href="javascript:;"&gt;
+search_results/36/SeparatePiecesRunner_9.java: 131-135
+&lt;/a&gt;
+&lt;div class="mid" id="frag3700" style="display:none"&gt;&lt;pre&gt;
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3601')" href="javascript:;"&gt;
+search_results/36/SeparatePiecesRunner_11.java: 136-140
+&lt;/a&gt;
+&lt;div class="mid" id="frag3601" style="display:none"&gt;&lt;pre&gt;
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3591')" href="javascript:;"&gt;
+search_results/36/SeparatePiecesRunner_6.java: 131-135
+&lt;/a&gt;
+&lt;div class="mid" id="frag3591" style="display:none"&gt;&lt;pre&gt;
+    protected void doInAwtIfSuccess() {
+      if (! mySuspended) {
+        ping();
+      }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 11:&lt;/b&gt; &amp;nbsp; 2 fragments, nominal size 12 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag906')" href="javascript:;"&gt;
+2048_4096/prompt_00400.java: 8-21
+&lt;/a&gt;
+&lt;div class="mid" id="frag906" style="display:none"&gt;&lt;pre&gt;
+public String getValue(String fieldName) 
+{
+    switch (fieldName)
+    {
+        case "PPid":
+            return PPid;
+        case "Uid":
+            return Uid;
+        case "Groups":
+            return Groups;
+        default:
+            return null;
+    }
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3574')" href="javascript:;"&gt;
+search_results/400/MeetUpGroupMongo.java: 93-104
+&lt;/a&gt;
+&lt;div class="mid" id="frag3574" style="display:none"&gt;&lt;pre&gt;
+  public Object get(String aField) {
+    switch (aField) {
+      case "_id" :
+        return _id;
+      case "groupname" :
+        return groupName;
+      case "mailinglistemail" :
+        return mailingListEmail;
+      default :
+        return null;
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 12:&lt;/b&gt; &amp;nbsp; 28 fragments, nominal size 6 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag917')" href="javascript:;"&gt;
+2048_4096/prompt_00507.java: 8-15
+&lt;/a&gt;
+&lt;div class="mid" id="frag917" style="display:none"&gt;&lt;pre&gt;
+public void setUserUnit(float userUnit) 
+{
+    if (userUnit &amp;lt;= 0)
+    {
+        throw new IllegalArgumentException("UserUnit must be a positive number");
+    }
+    this.userUnit = userUnit;
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3786')" href="javascript:;"&gt;
+search_results/507/ScaleToRequest.java: 60-65
+&lt;/a&gt;
+&lt;div class="mid" id="frag3786" style="display:none"&gt;&lt;pre&gt;
+    public void setTargetValue(float targetValue) {
+        if (targetValue &amp;lt;= 0) {
+            throw new IllegalArgumentException("zero or negative target height");
+        }
+        this.targetValue = targetValue;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3839')" href="javascript:;"&gt;
+search_results/507/Cylinder.java: 28-33
+&lt;/a&gt;
+&lt;div class="mid" id="frag3839" style="display:none"&gt;&lt;pre&gt;
+    public void setHeight(float height) {
+        if (height &amp;lt;= 0) {
+            throw new ArithmeticException("Radius cannot be less or equal to 0");
+        }
+        this.height = height;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3779')" href="javascript:;"&gt;
+search_results/507/CompilerHints.java: 78-84
+&lt;/a&gt;
+&lt;div class="mid" id="frag3779" style="display:none"&gt;&lt;pre&gt;
+	public void setAvgOutputRecordSize(float avgOutputRecordSize) {
+		if (avgOutputRecordSize &amp;lt;= 0) {
+			throw new IllegalArgumentException("The size of produced records must be positive.");
+		}
+		
+		this.avgOutputRecordSize = avgOutputRecordSize;
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3802')" href="javascript:;"&gt;
+search_results/507/Carro.java: 115-120
+&lt;/a&gt;
+&lt;div class="mid" id="frag3802" style="display:none"&gt;&lt;pre&gt;
+  public void setTempo0a100(float tempo0a100) {
+    if (tempo0a100 &amp;lt;= 0) {
+      throw new IllegalArgumentException("Tempo de 0 a 100 inválido");
+    }
+    this.tempo0a100 = tempo0a100;
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3804')" href="javascript:;"&gt;
+search_results/507/Carro.java: 126-131
+&lt;/a&gt;
+&lt;div class="mid" id="frag3804" style="display:none"&gt;&lt;pre&gt;
+  public void setConsumoCidade(float consumoCidade) {
+    if (consumoCidade &amp;lt;= 0) {
+      throw new IllegalArgumentException("Consumo na cidade inválido");
+    }
+    this.consumoCidade = consumoCidade;
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3838')" href="javascript:;"&gt;
+search_results/507/Cylinder.java: 21-26
+&lt;/a&gt;
+&lt;div class="mid" id="frag3838" style="display:none"&gt;&lt;pre&gt;
+    public void setRadius(float radius) {
+        if (radius &amp;lt;= 0) {
+            throw new ArithmeticException("Radius cannot be less or equal to 0");
+        }
+        this.radius = radius;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3997')" href="javascript:;"&gt;
+search_results/507/GraphRenderingOptionsImpl.java: 33-39
+&lt;/a&gt;
+&lt;div class="mid" id="frag3997" style="display:none"&gt;&lt;pre&gt;
+    public void setEdgeScale(float edgeScale) {
+        if (edgeScale &amp;lt;= 0) {
+            throw new IllegalArgumentException("edgeScale should be &amp;gt; 0");
+        }
+
+        this.edgeScale = edgeScale;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3714')" href="javascript:;"&gt;
+search_results/507/SeatTable.java: 136-141
+&lt;/a&gt;
+&lt;div class="mid" id="frag3714" style="display:none"&gt;&lt;pre&gt;
+    public void setSeatWidth(float seatWidth) {
+        if (seatWidth &amp;lt;= 0){
+            throw new RuntimeException("seat width must &amp;gt; 0");
+        }
+        this.seatWidth = seatWidth;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3806')" href="javascript:;"&gt;
+search_results/507/Carro.java: 137-142
+&lt;/a&gt;
+&lt;div class="mid" id="frag3806" style="display:none"&gt;&lt;pre&gt;
+  public void setConsumoEstrada(float consumoEstrada) {
+    if (consumoEstrada &amp;lt;= 0) {
+      throw new IllegalArgumentException("Consumo na estrada inválido");
+    }
+    this.consumoEstrada = consumoEstrada;
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3819')" href="javascript:;"&gt;
+search_results/507/Camera.java: 175-181
+&lt;/a&gt;
+&lt;div class="mid" id="frag3819" style="display:none"&gt;&lt;pre&gt;
+    public void setZoom(float zoom) {
+        if (zoom &amp;lt;= 0) {
+            throw new IllegalArgumentException("Der Kamerazoom kann nicht kleiner oder gleich 0 sein.");
+        }
+
+        this.zoom = zoom;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3721')" href="javascript:;"&gt;
+search_results/507/ScaleByRequest.java: 47-52
+&lt;/a&gt;
+&lt;div class="mid" id="frag3721" style="display:none"&gt;&lt;pre&gt;
+    public void setFactor(float factor) {
+        if (factor &amp;lt;= 0) {
+            throw new IllegalArgumentException("zero or negative factor");
+        }
+        this.factor = factor;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3932')" href="javascript:;"&gt;
+search_results/507/ShapeSeedingStrategy.java: 80-85
+&lt;/a&gt;
+&lt;div class="mid" id="frag3932" style="display:none"&gt;&lt;pre&gt;
+	public void setInitialDensity(float initialDensity) {
+		if (initialDensity &amp;lt;= 0) {
+			throw new IllegalArgumentException("density variation must be positive");
+		}
+		this.initialDensity = initialDensity;
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3984')" href="javascript:;"&gt;
+search_results/507/FloatSampleBuffer.java: 508-513
+&lt;/a&gt;
+&lt;div class="mid" id="frag3984" style="display:none"&gt;&lt;pre&gt;
+  public void setDitherBits(float ditherBits) {
+    if (ditherBits &amp;lt;= 0) {
+      throw new IllegalArgumentException("DitherBits must be greater than 0");
+    }
+    this.ditherBits = ditherBits;
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3715')" href="javascript:;"&gt;
+search_results/507/SeatTable.java: 143-148
+&lt;/a&gt;
+&lt;div class="mid" id="frag3715" style="display:none"&gt;&lt;pre&gt;
+    public void setSeatHeight(float seatHeight) {
+        if (seatHeight &amp;lt;= 0){
+            throw new RuntimeException("seat height must &amp;gt; 0");
+        }
+        this.seatHeight = seatHeight;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3895')" href="javascript:;"&gt;
+search_results/507/GeometryData.java: 52-57
+&lt;/a&gt;
+&lt;div class="mid" id="frag3895" style="display:none"&gt;&lt;pre&gt;
+    public void setHeight(float height) {
+        if (height &amp;lt;= 0) {
+            throw new RuntimeException("Height must be positive");
+        }
+        this.height = height;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3893')" href="javascript:;"&gt;
+search_results/507/GeometryData.java: 41-46
+&lt;/a&gt;
+&lt;div class="mid" id="frag3893" style="display:none"&gt;&lt;pre&gt;
+    public void setWidth(float width) {
+        if (width &amp;lt;= 0) {
+            throw new RuntimeException("Width must be positive");
+        }
+        this.width = width;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3886')" href="javascript:;"&gt;
+search_results/507/Imc.java: 28-34
+&lt;/a&gt;
+&lt;div class="mid" id="frag3886" style="display:none"&gt;&lt;pre&gt;
+  public void setPeso(float peso) {
+    if (peso &amp;lt;= 0) {
+      throw new IllegalArgumentException("O peso deve ser maior do que 0.");
+    }
+
+    this.peso = peso;
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3854')" href="javascript:;"&gt;
+search_results/507/MobileApp.java: 78-83
+&lt;/a&gt;
+&lt;div class="mid" id="frag3854" style="display:none"&gt;&lt;pre&gt;
+    public void setPrezzo(float prezzo) {
+        if (prezzo &amp;lt;= 0) {
+            throw new IllegalArgumentException("Il prezzo deve essere maggiore di zero");
+        }
+        this.prezzo = prezzo;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3867')" href="javascript:;"&gt;
+search_results/507/CubicTank.java: 170-175
+&lt;/a&gt;
+&lt;div class="mid" id="frag3867" style="display:none"&gt;&lt;pre&gt;
+    public void setVolume(float volume) {
+        if (volume &amp;lt;= 0) {
+            throw new IllegalArgumentException("Volumen muss größer als 0 sein.");
+        }
+        this.volume = volume;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3981')" href="javascript:;"&gt;
+search_results/507/FloatSampleBuffer.java: 473-478
+&lt;/a&gt;
+&lt;div class="mid" id="frag3981" style="display:none"&gt;&lt;pre&gt;
+  public void setSampleRate(float sampleRate) {
+    if (sampleRate &amp;lt;= 0) {
+      throw new IllegalArgumentException("Invalid samplerate for FloatSampleBuffer.");
+    }
+    this.sampleRate = sampleRate;
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3885')" href="javascript:;"&gt;
+search_results/507/Imc.java: 20-26
+&lt;/a&gt;
+&lt;div class="mid" id="frag3885" style="display:none"&gt;&lt;pre&gt;
+  public void setAltura(float altura) {
+    if (altura &amp;lt;= 0) {
+      throw new IllegalArgumentException("A altura deve ser maior do que 0.");
+    }
+
+    this.altura = altura;
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3878')" href="javascript:;"&gt;
+search_results/507/ContaCorrente.java: 36-43
+&lt;/a&gt;
+&lt;div class="mid" id="frag3878" style="display:none"&gt;&lt;pre&gt;
+    public void setValorLimite(float valor) {
+        
+        if (valor &amp;lt;= 0) {
+            throw new IllegalArgumentException("Voce colocou um valor menor que negativo ou 0");
+        }
+
+        this.valorLimite = valor;
+    }  
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3875')" href="javascript:;"&gt;
+search_results/507/CubicTank.java: 258-263
+&lt;/a&gt;
+&lt;div class="mid" id="frag3875" style="display:none"&gt;&lt;pre&gt;
+    public void setHeight(float height) {
+        if (height &amp;lt;= 0) {
+            throw new IllegalArgumentException("Höhe muss größer als 0 sein.");
+        }
+        this.height = height;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3873')" href="javascript:;"&gt;
+search_results/507/CubicTank.java: 236-241
+&lt;/a&gt;
+&lt;div class="mid" id="frag3873" style="display:none"&gt;&lt;pre&gt;
+    public void setWidth(float width) {
+        if (width &amp;lt;= 0) {
+            throw new IllegalArgumentException("Breite muss größer als 0 sein.");
+        }
+        this.width = width;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3921')" href="javascript:;"&gt;
+search_results/507/Item.java: 57-63
+&lt;/a&gt;
+&lt;div class="mid" id="frag3921" style="display:none"&gt;&lt;pre&gt;
+    public void setPrice(float price) {
+        if (price &amp;lt;= 0) {
+            throw new IllegalArgumentException("The price of an item must be more than zero.");
+        }
+
+        this.price = price;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3871')" href="javascript:;"&gt;
+search_results/507/CubicTank.java: 214-219
+&lt;/a&gt;
+&lt;div class="mid" id="frag3871" style="display:none"&gt;&lt;pre&gt;
+    public void setLength(float length) {
+        if (length &amp;lt;= 0) {
+            throw new IllegalArgumentException("Länge muss größer als 0 sein.");
+        }
+        this.length = length;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3869')" href="javascript:;"&gt;
+search_results/507/CubicTank.java: 192-197
+&lt;/a&gt;
+&lt;div class="mid" id="frag3869" style="display:none"&gt;&lt;pre&gt;
+    public void setDailyEnergy(float dailyEnergy) {
+        if (dailyEnergy &amp;lt;= 0) {
+            throw new IllegalArgumentException("Tägliche Energie muss größer als 0 sein.");
+        }
+        this.dailyEnergy = dailyEnergy;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 13:&lt;/b&gt; &amp;nbsp; 2 fragments, nominal size 4 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag970')" href="javascript:;"&gt;
+2048_4096/prompt_00608.java: 7-11
+&lt;/a&gt;
+&lt;div class="mid" id="frag970" style="display:none"&gt;&lt;pre&gt;
+public Builder(int pinnedHeaderId, int pinnedHeaderType) 
+{
+    this.pinnedHeaderId = pinnedHeaderId;
+    this.pinnedHeaderType = pinnedHeaderType;
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2450')" href="javascript:;"&gt;
+search_results/1314/CustomGridLayout.java: 212-215
+&lt;/a&gt;
+&lt;div class="mid" id="frag2450" style="display:none"&gt;&lt;pre&gt;
+        public CellSpan(int rowSpan, int columnSpan){
+            this.rowSpan = rowSpan;
+            this.columnSpan = columnSpan;
+        }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 14:&lt;/b&gt; &amp;nbsp; 2 fragments, nominal size 5 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag987')" href="javascript:;"&gt;
+2048_4096/prompt_01314.java: 7-12
+&lt;/a&gt;
+&lt;div class="mid" id="frag987" style="display:none"&gt;&lt;pre&gt;
+private Point getActionViewCoordinates() 
+{
+    int[] location = new int[2];
+    actionView.getLocationOnScreen(location);
+    return new Point(location[0], location[1]);
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2471')" href="javascript:;"&gt;
+search_results/1314/CustomGridLayout.java: 658-662
+&lt;/a&gt;
+&lt;div class="mid" id="frag2471" style="display:none"&gt;&lt;pre&gt;
+    private Point getLocationInWindow() {
+        int[] location = new int[2];
+        super.getLocationInWindow(location);
+        return new Point(location[0], location[1]);
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 15:&lt;/b&gt; &amp;nbsp; 9 fragments, nominal size 6 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1031')" href="javascript:;"&gt;
+2048_4096/prompt_00107.java: 8-15
+&lt;/a&gt;
+&lt;div class="mid" id="frag1031" style="display:none"&gt;&lt;pre&gt;
+public final void setOptionsMenuHidden(boolean optionsMenuHidden) 
+{
+    if (mOptionsMenuHidden != optionsMenuHidden)
+    {
+        mOptionsMenuHidden = optionsMenuHidden;
+        onOptionsMenuHiddenChanged();
+    }
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2718')" href="javascript:;"&gt;
+search_results/733/g.java: 158-165
+&lt;/a&gt;
+&lt;div class="mid" id="frag2718" style="display:none"&gt;&lt;pre&gt;
+    public final void a(boolean flag)
+    {
+        if (o != flag)
+        {
+            o = flag;
+            p();
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2699')" href="javascript:;"&gt;
+search_results/733/buw$c.java: 56-63
+&lt;/a&gt;
+&lt;div class="mid" id="frag2699" style="display:none"&gt;&lt;pre&gt;
+  public final void a(boolean paramBoolean)
+  {
+    if (o != paramBoolean)
+    {
+      o = paramBoolean;
+      d();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2611')" href="javascript:;"&gt;
+search_results/733/x.java: 158-165
+&lt;/a&gt;
+&lt;div class="mid" id="frag2611" style="display:none"&gt;&lt;pre&gt;
+    public final void a(boolean flag)
+    {
+        if (o != flag)
+        {
+            o = flag;
+            p();
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag3260')" href="javascript:;"&gt;
+search_results/733/bvx$c.java: 56-63
+&lt;/a&gt;
+&lt;div class="mid" id="frag3260" style="display:none"&gt;&lt;pre&gt;
+  public final void a(boolean paramBoolean)
+  {
+    if (o != paramBoolean)
+    {
+      o = paramBoolean;
+      d();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1995')" href="javascript:;"&gt;
+search_results/726/bvx$c.java: 56-63
+&lt;/a&gt;
+&lt;div class="mid" id="frag1995" style="display:none"&gt;&lt;pre&gt;
+  public final void a(boolean paramBoolean)
+  {
+    if (o != paramBoolean)
+    {
+      o = paramBoolean;
+      d();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1434')" href="javascript:;"&gt;
+search_results/726/buw$c.java: 56-63
+&lt;/a&gt;
+&lt;div class="mid" id="frag1434" style="display:none"&gt;&lt;pre&gt;
+  public final void a(boolean paramBoolean)
+  {
+    if (o != paramBoolean)
+    {
+      o = paramBoolean;
+      d();
+    }
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1346')" href="javascript:;"&gt;
+search_results/726/x.java: 158-165
+&lt;/a&gt;
+&lt;div class="mid" id="frag1346" style="display:none"&gt;&lt;pre&gt;
+    public final void a(boolean flag)
+    {
+        if (o != flag)
+        {
+            o = flag;
+            p();
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1453')" href="javascript:;"&gt;
+search_results/726/g.java: 158-165
+&lt;/a&gt;
+&lt;div class="mid" id="frag1453" style="display:none"&gt;&lt;pre&gt;
+    public final void a(boolean flag)
+    {
+        if (o != flag)
+        {
+            o = flag;
+            p();
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;script language="JavaScript"&gt;
+function ShowHide(divId) { 
+    if(document.getElementById(divId).style.display == 'none') {
+        document.getElementById(divId).style.display='block';
+    } else { 
+        document.getElementById(divId).style.display = 'none';
+    } 
+}
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</root>

@@ -1,0 +1,462 @@
+<root>
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;NiCad6 Clone Report&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+        body {font-family:sans-serif;}
+        table {background-color:white; border:0px; padding:0px; border-spacing:4px; width:auto; margin-left:30px; margin-right:auto;}
+        td {background-color:rgba(192,212,238,0.8); border:0px; padding:8px; width:auto; vertical-align:top; border-radius:8px}
+        pre {background-color:white; padding:4px;}
+        a {color:darkblue;}
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h2&gt;NiCad6 Clone Report&lt;/h2&gt;
+&lt;table&gt;
+&lt;tr style="font-size:14pt"&gt;
+&lt;td&gt;&lt;b&gt;System 1:&lt;/b&gt; &amp;nbsp; 8_16&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;System 2:&lt;/b&gt; &amp;nbsp; search_results&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Clone pairs:&lt;/b&gt; &amp;nbsp; 18&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Clone classes:&lt;/b&gt; &amp;nbsp; 6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="font-size:12pt"&gt;
+&lt;td style="background-color:white"&gt;Clone type: &amp;nbsp; 2&lt;/td&gt;
+&lt;td style="background-color:white"&gt;Granularity: &amp;nbsp; functions-blind&lt;/td&gt;
+&lt;td style="background-color:white"&gt;Max diff threshold: &amp;nbsp; 0%&lt;/td&gt;
+&lt;td style="background-color:white"&gt;Clone size: &amp;nbsp; 4 - 2500 lines&lt;/td&gt;
+&lt;td style="background-color:white"&gt;Total functions-blind: &amp;nbsp; 2232&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 1:&lt;/b&gt; &amp;nbsp; 2 fragments, nominal size 5 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag38')" href="javascript:;"&gt;
+8_16/prompt_00815.java: 5-11
+&lt;/a&gt;
+&lt;div class="mid" id="frag38" style="display:none"&gt;&lt;pre&gt;
+final public synchronized void copyVisionImage(SensorMatrix matrix) 
+{
+    if (visionImage != null)
+    {
+        visionImage.copyTo(matrix);
+    }
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1511')" href="javascript:;"&gt;
+search_results/815/MediaController.java: 796-800
+&lt;/a&gt;
+&lt;div class="mid" id="frag1511" style="display:none"&gt;&lt;pre&gt;
+    final public synchronized void removeControllerListener(ControllerListener listener) {
+	if (listenerList != null) {
+	    listenerList.removeElement(listener);
+	}
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 2:&lt;/b&gt; &amp;nbsp; 3 fragments, nominal size 7 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag105')" href="javascript:;"&gt;
+8_16/prompt_00018.java: 7-17
+&lt;/a&gt;
+&lt;div class="mid" id="frag105" style="display:none"&gt;&lt;pre&gt;
+public URL getDocumentBase() 
+{
+    try
+    {
+        return new URL("file:" + System.getProperty("user.dir") + "/");
+    }
+    catch (MalformedURLException e)
+    {
+        return null;
+    }
+}	
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1911')" href="javascript:;"&gt;
+search_results/18/DesktopStub.java: 39-45
+&lt;/a&gt;
+&lt;div class="mid" id="frag1911" style="display:none"&gt;&lt;pre&gt;
+    public URL getCodeBase() {
+        try {
+            return new URL("file:///" + System.getProperty("user.dir") + "/");
+        } catch (MalformedURLException ex) {
+            return null;
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1910')" href="javascript:;"&gt;
+search_results/18/DesktopStub.java: 27-33
+&lt;/a&gt;
+&lt;div class="mid" id="frag1910" style="display:none"&gt;&lt;pre&gt;
+    public URL getDocumentBase() {
+        try {
+            return new URL("file:///" + System.getProperty("user.dir") + "/");
+        } catch (MalformedURLException ex) {
+            return null;
+        }
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 3:&lt;/b&gt; &amp;nbsp; 5 fragments, nominal size 5 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag290')" href="javascript:;"&gt;
+8_16/prompt_00202.java: 4-10
+&lt;/a&gt;
+&lt;div class="mid" id="frag290" style="display:none"&gt;&lt;pre&gt;
+	protected void onResume() 
+{
+    super.onResume();
+    // Start the game loop
+    gameLoopThread = new GameLoopThread(this);
+    gameLoopThread.start();
+}	
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2213')" href="javascript:;"&gt;
+search_results/202/MainActivity_1.java: 85-89
+&lt;/a&gt;
+&lt;div class="mid" id="frag2213" style="display:none"&gt;&lt;pre&gt;
+    protected void onResume(){
+        super.onResume();
+        tg = new TwitterGetter(this);
+        tg.start();
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2190')" href="javascript:;"&gt;
+search_results/202/AdapterExampleActivity_1.java: 71-75
+&lt;/a&gt;
+&lt;div class="mid" id="frag2190" style="display:none"&gt;&lt;pre&gt;
+    protected void onResume() {
+        super.onResume();
+        workerThread = new WorkerThread(this);
+        workerThread.start();
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2204')" href="javascript:;"&gt;
+search_results/202/MainActivity.java: 40-45
+&lt;/a&gt;
+&lt;div class="mid" id="frag2204" style="display:none"&gt;&lt;pre&gt;
+    protected void onResume() {
+        super.onResume();
+
+        thread = new CheckMessageThread(this);
+        thread.start();
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag2198')" href="javascript:;"&gt;
+search_results/202/AdapterExampleActivity.java: 69-73
+&lt;/a&gt;
+&lt;div class="mid" id="frag2198" style="display:none"&gt;&lt;pre&gt;
+    protected void onResume() {
+        super.onResume();
+        workerThread = new WorkerThread(this);
+        workerThread.start();
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 4:&lt;/b&gt; &amp;nbsp; 6 fragments, nominal size 7 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag314')" href="javascript:;"&gt;
+8_16/prompt_00947.java: 8-16
+&lt;/a&gt;
+&lt;div class="mid" id="frag314" style="display:none"&gt;&lt;pre&gt;
+public double[] feedForward(double[] input) 
+{
+    double[] output = new double[numOutputs];
+    for (int i = 0; i &amp;lt; numOutputs; i++)
+    {
+        output[i] = outputs[i].compute(input);
+    }
+    return output;
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1037')" href="javascript:;"&gt;
+search_results/947/SVMclassifier_1.java: 93-99
+&lt;/a&gt;
+&lt;div class="mid" id="frag1037" style="display:none"&gt;&lt;pre&gt;
+	public double[] getScores(double[] x) {
+		double[] scores = new double[numClasses];
+		for (int i = 0; i &amp;lt; numClasses; i++) {
+			scores[i] = svm[i].compScore(x);
+		}
+		return scores;
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1048')" href="javascript:;"&gt;
+search_results/947/SVMclassifier.java: 95-101
+&lt;/a&gt;
+&lt;div class="mid" id="frag1048" style="display:none"&gt;&lt;pre&gt;
+	public double[] getScores(double[] x) {
+		double[] scores = new double[numClasses];
+		for (int i = 0; i &amp;lt; numClasses; i++) {
+			scores[i] = svm[i].compScore(x);
+		}
+		return scores;
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1030')" href="javascript:;"&gt;
+search_results/947/Layer.java: 15-21
+&lt;/a&gt;
+&lt;div class="mid" id="frag1030" style="display:none"&gt;&lt;pre&gt;
+    public double[] feedForward(double[] inputs) {
+        double[] outputs = new double[numNeurons];
+        for (int i = 0; i &amp;lt; numNeurons; i++) {
+            outputs[i] = neurons[i].feedForward(inputs);
+        }
+        return outputs;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1058')" href="javascript:;"&gt;
+search_results/947/Couche.java: 51-57
+&lt;/a&gt;
+&lt;div class="mid" id="frag1058" style="display:none"&gt;&lt;pre&gt;
+    public double[] calculerSortie(double[] entrees) {
+        double[] sorties = new double[nombreNeurones];
+        for (int i = 0; i &amp;lt; nombreNeurones; i++) {
+            sorties[i] = neurones[i].activer(entrees);
+        }
+        return sorties;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1065')" href="javascript:;"&gt;
+search_results/947/SVMclassifier_2.java: 95-101
+&lt;/a&gt;
+&lt;div class="mid" id="frag1065" style="display:none"&gt;&lt;pre&gt;
+	public double[] getScores(double[] x) {
+		double[] scores = new double[numClasses];
+		for (int i = 0; i &amp;lt; numClasses; i++) {
+			scores[i] = svm[i].compScore(x);
+		}
+		return scores;
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 5:&lt;/b&gt; &amp;nbsp; 5 fragments, nominal size 7 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag371')" href="javascript:;"&gt;
+8_16/prompt_00951.java: 6-14
+&lt;/a&gt;
+&lt;div class="mid" id="frag371" style="display:none"&gt;&lt;pre&gt;
+public boolean[] toBooleanArray() 
+{
+    boolean[] result = new boolean[map.length];
+    for (int i = 0; i &amp;lt; map.length; i++)
+    {
+        result[i] = map[i];
+    }
+    return result;
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1697')" href="javascript:;"&gt;
+search_results/951/WebMarshal.java: 172-178
+&lt;/a&gt;
+&lt;div class="mid" id="frag1697" style="display:none"&gt;&lt;pre&gt;
+	public boolean[] getModuleValids() {
+		boolean[] rtn = new boolean[moduleValids.length];
+		for (int i = 0; i &amp;lt; rtn.length; i++) {
+			rtn[i] = moduleValids[i];
+		}
+		return rtn;
+	}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1609')" href="javascript:;"&gt;
+search_results/951/GePropertyTypeDispatcher.java: 522-528
+&lt;/a&gt;
+&lt;div class="mid" id="frag1609" style="display:none"&gt;&lt;pre&gt;
+            public boolean[] getClonedArray() {
+                boolean[] result = new boolean[property.length];
+                for (int i = 0; i &amp;lt; result.length; i++) {
+                    result[i] = property[i];
+                }
+                return result;
+            }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1758')" href="javascript:;"&gt;
+search_results/951/DatePanel.java: 601-607
+&lt;/a&gt;
+&lt;div class="mid" id="frag1758" style="display:none"&gt;&lt;pre&gt;
+    public boolean[] getWorkingDays() {
+        boolean[] retorno = new boolean[workingDays.length];
+        for (int i = 0; i &amp;lt; workingDays.length; i++) {
+            retorno[i] = workingDays[i];
+        }
+        return retorno;
+    }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1654')" href="javascript:;"&gt;
+search_results/951/CachedBeanData.java: 45-51
+&lt;/a&gt;
+&lt;div class="mid" id="frag1654" style="display:none"&gt;&lt;pre&gt;
+  public boolean[] copyLoaded() {
+    boolean[] dest = new boolean[data.length];
+    for (int i = 0; i &amp;lt; dest.length; i++) {
+      dest[i] = loaded[i];
+    }
+    return dest;
+  }
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table style="width:1000px; border:2px solid lightgrey; border-radius:8px;"&gt;
+&lt;tr&gt;&lt;td style="background-color:white"&gt;
+&lt;p style="font-size:14pt"&gt;&lt;b&gt;Class 6:&lt;/b&gt; &amp;nbsp; 3 fragments, nominal size 10 lines, similarity 100%&lt;/p&gt;
+&lt;table cellpadding=4 border=2&gt;
+&lt;tr&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag436')" href="javascript:;"&gt;
+8_16/prompt_00014.java: 4-22
+&lt;/a&gt;
+&lt;div class="mid" id="frag436" style="display:none"&gt;&lt;pre&gt;
+public void run() 
+{
+    while (true)
+    {
+        try
+        {
+            // Get the next message from the queue
+            Message message = messageQueue.take();
+
+            // Process the message
+            processMessage(message);
+        }
+        catch (InterruptedException e)
+        {
+            // Handle the exception
+            e.printStackTrace();
+        }
+    }
+}   
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1467')" href="javascript:;"&gt;
+search_results/14/ChatImpl.java: 17-26
+&lt;/a&gt;
+&lt;div class="mid" id="frag1467" style="display:none"&gt;&lt;pre&gt;
+			public void run() {
+				while (true) {
+					try {
+						String message = messages.take();
+						broadcast(message);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+				}
+			}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td width="auto"&gt;
+&lt;a onclick="javascript:ShowHide('frag1462')" href="javascript:;"&gt;
+search_results/14/SocketHandler.java: 23-32
+&lt;/a&gt;
+&lt;div class="mid" id="frag1462" style="display:none"&gt;&lt;pre&gt;
+			public void run() {
+				while (true) {
+					try {
+						String message = messages.take();
+						sendViaSocket(message);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+				}
+			}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;script language="JavaScript"&gt;
+function ShowHide(divId) { 
+    if(document.getElementById(divId).style.display == 'none') {
+        document.getElementById(divId).style.display='block';
+    } else { 
+        document.getElementById(divId).style.display = 'none';
+    } 
+}
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</root>

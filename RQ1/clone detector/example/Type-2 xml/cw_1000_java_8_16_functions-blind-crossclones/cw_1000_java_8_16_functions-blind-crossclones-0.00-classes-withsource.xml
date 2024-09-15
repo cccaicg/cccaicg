@@ -1,0 +1,1611 @@
+<clones>
+<systeminfo processor="nicad6" system="cw_1000_java_8_16" system2="source" granularity="functions-blind" threshold="0%" minlines="4" maxlines="2500"/>
+<cloneinfo npcs="2907" npairs="316"/>
+<runinfo ncompares="344371" cputime="46"/>
+<classinfo nclasses="35"/>
+
+<class classid="1" nclones="4" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00023.java" startline="5" endline="9" pcid="14">
+public Ann(String type, boolean visitable) 
+{
+    this.type = type;
+    this.visitable = visitable;
+}   
+</source>
+<source file="./systems/source/01411.java" startline="6" endline="9" pcid="2378">
+public RespondToApplication(String agent, boolean accepted){
+	this.agent = agent;
+	this.accepted = accepted;
+}
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_01411.java" startline="6" endline="10" pcid="749">
+public RespondToApplication(String agent, boolean accepted) 
+{
+    this.agent = agent;
+    this.accepted = accepted;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_01253.java" startline="9" endline="13" pcid="672">
+public Tag(String name, boolean single) 
+{
+    this.name = name;
+    this.single = single;
+}   
+</source>
+</class>
+
+<class classid="2" nclones="4" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00037.java" startline="4" endline="9" pcid="23">
+public DumpDexCodeAdapter(DexCodeVisitor dcv, Method m, PrintWriter out) 
+{
+    this.dcv = dcv;
+    this.m = m;
+    this.out = out;
+}   
+</source>
+<source file="./systems/source/01844.java" startline="7" endline="14" pcid="2773">
+public UpdateStatusTask(
+        IdenticaController controller,
+        IdenticaApi api,
+        String status){
+    this.controller = controller;
+    this.api = api;
+    this.status = status;
+}
+</source>
+<source file="./systems/source/01561.java" startline="13" endline="17" pcid="2521">
+public Scenario(MapEnvironment env, Map agentMap, String agentLoc){
+	this.agentMap = agentMap;
+	this.env = env;
+	this.initAgentLoc = agentLoc;
+}
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00829.java" startline="7" endline="12" pcid="451">
+public NumericCoordinate(Double x, Double y, Double z) 
+{
+    this.x = x;
+    this.y = y;
+    this.z = z;
+}   
+</source>
+</class>
+
+<class classid="3" nclones="9" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00140.java" startline="9" endline="13" pcid="86">
+public CommentRequestConfiguration withPageSize(Integer pageSize) 
+{
+    this.pageSize = pageSize;
+    return this;
+}   
+</source>
+<source file="./systems/source/01237.java" startline="6" endline="9" pcid="2228">
+public HibernateObjectModel setFactoryKey(Object key){
+	this.factoryKey = key;
+	return this;
+}
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00143.java" startline="9" endline="13" pcid="87">
+public SearchQuestionsRequestConfiguration withMax(String max) 
+{
+    this.max = max;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00144.java" startline="9" endline="13" pcid="88">
+public SearchQuestionsRequestConfiguration withTagged(String tagged) 
+{
+    this.tagged = tagged;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00145.java" startline="10" endline="14" pcid="89">
+public CommentRequestConfiguration withOrder(String order) 
+{
+    this.order = order;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00151.java" startline="9" endline="13" pcid="90">
+public CommentRequestConfiguration withMin(Integer min) 
+{
+    this.min = min;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00154.java" startline="9" endline="13" pcid="91">
+public AnswersForUserRequestConfiguration withBody(Boolean body) 
+{
+    this.body = body;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00159.java" startline="10" endline="14" pcid="93">
+public SearchQuestionsRequestConfiguration withSort(String sort) 
+{
+    this.sort = sort;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00155.java" startline="10" endline="14" pcid="92">
+public CommentRequestConfiguration withSort(String sort) 
+{
+    this.sort = sort;
+    return this;
+}   
+</source>
+</class>
+
+<class classid="4" nclones="2" nlines="7" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00183.java" startline="10" endline="20" pcid="104">
+public boolean optBoolean(int index, boolean defaultValue) 
+{
+    try
+    {
+        return getBoolean(index);
+    }
+    catch (Exception e)
+    {
+        return defaultValue;
+    }
+}   
+</source>
+<source file="./systems/source/00183.java" startline="10" endline="16" pcid="1215">
+public boolean optBoolean(int index, boolean defaultValue){
+    try {
+        return getBoolean(index);
+    } catch (Exception e) {
+        return defaultValue;
+    }
+}
+</source>
+</class>
+
+<class classid="5" nclones="8" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00270.java" startline="6" endline="10" pcid="147">
+public DonutJoinClosure(DonutClient donutClient, TNode knownNode) 
+{
+    this.donutClient = donutClient;
+    this.knownNode = knownNode;
+}   
+</source>
+<source file="./systems/source/00875.java" startline="5" endline="9" pcid="1867">
+public ValuePropertyDetailSet(IValueProperty masterProperty,
+		ISetProperty detailProperty){
+	this.masterProperty = masterProperty;
+	this.detailProperty = detailProperty;
+}
+</source>
+<source file="./systems/source/01944.java" startline="6" endline="9" pcid="2870">
+public TextFile(String fileName, String contents){
+	this.fileName = fileName;
+	this.contents = contents;
+}
+</source>
+<source file="./systems/source/01224.java" startline="9" endline="12" pcid="2215">
+public HibernateObjectModel(Class objectClass, CriteriaBuilder criteriaBuilder){
+	this.objectClass = objectClass;
+	this.criteriaBuilder = criteriaBuilder;
+}
+</source>
+<source file="./systems/source/01109.java" startline="7" endline="10" pcid="2104">
+public LoginRedditJSON(String username, String password){
+	this.username = username;
+	this.password = password;
+}
+</source>
+<source file="./systems/source/01233.java" startline="7" endline="10" pcid="2224">
+public HibernateObjectModel(Class objectClass, Serializable entityId){
+	this.objectClass = objectClass;
+	this.objectId = entityId;
+}
+</source>
+<source file="./systems/source/00270.java" startline="6" endline="9" pcid="1294">
+public DonutJoinClosure(DonutClient donutClient, TNode knownNode){
+    this.donutClient = donutClient;
+    this.knownNode = knownNode;
+}
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_01224.java" startline="9" endline="13" pcid="658">
+public HibernateObjectModel(Class objectClass, CriteriaBuilder criteriaBuilder) 
+{
+    this.objectClass = objectClass;
+    this.criteriaBuilder = criteriaBuilder;
+}   
+</source>
+</class>
+
+<class classid="6" nclones="8" nlines="12" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00280.java" startline="2" endline="20" pcid="155">
+public final void mLCLOSE() throws RecognitionException 
+{
+    try
+    {
+        int _type = LCLOSE;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // C:\\Users\\dani\\Documents\\Work\\Speciale\\Speciale\\Type.g:7:7: ( '}' )
+        // C:\\Users\\dani\\Documents\\Work\\Speciale\\Speciale\\Type.g:7:9: '}'
+        {
+            match('}');
+
+        }
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally
+    {
+    }
+}   
+</source>
+<source file="./systems/source/00298.java" startline="2" endline="18" pcid="1322">
+public final void mT__30() throws RecognitionException{
+    try {
+        int _type = T__30;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:14:7: ( '=' )
+        // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:14:9: '='
+        {
+        match('='); 
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally {
+    }
+}
+</source>
+<source file="./systems/source/01079.java" startline="2" endline="18" pcid="2075">
+public final void mT__40() throws RecognitionException{
+    try {
+        int _type = T__40;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:36:7: ( '>' )
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:36:9: '>'
+        {
+        match('>'); 
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally {
+    }
+}
+</source>
+<source file="./systems/source/01075.java" startline="2" endline="18" pcid="2072">
+public final void mT__34() throws RecognitionException{
+    try {
+        int _type = T__34;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:30:7: ( '(' )
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:30:9: '('
+        {
+        match('('); 
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally {
+    }
+}
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_01064.java" startline="2" endline="21" pcid="590">
+public final void mT__37() throws RecognitionException 
+{
+    try
+    {
+        int _type = T__37;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // C:\\Users\\Rohin\\Documents\\NetBeansProjects\\CSC 413 Grammar\\Project2.g:7:7: ( '!' )
+        // C:\\Users\\Rohin\\Documents\\NetBeansProjects\\CSC 413 Grammar\\Project2.g:7:9: '!'
+        {
+            match('!');
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally
+    {
+    }
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_01075.java" startline="2" endline="20" pcid="594">
+public final void mT__34() throws RecognitionException 
+{
+    try
+    {
+        int _type = T__34;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // C.g4:11:7: ( '!' )
+        // C.g4:11:9: '!'
+        {
+        match('!'); 
+
+        }
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally
+    {
+    }
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00295.java" startline="2" endline="21" pcid="163">
+public final void mT__29() throws RecognitionException 
+{
+    try
+    {
+        int _type = T__29;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // D:\\Dropbox\\code\\semantic\\UniRule.g4:7:7: ( '!' )
+        // D:\\Dropbox\\code\\semantic\\UniRule.g4:7:9: '!'
+        {
+        match('!');
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally
+    {
+    }
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00281.java" startline="2" endline="20" pcid="156">
+public final void mT__28() throws RecognitionException 
+{
+    try
+    {
+        int _type = T__28;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // C.g4:7:7: ( '!' )
+        // C.g4:7:9: '!'
+        {
+        match('!'); 
+
+        }
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally
+    {
+    }
+}   
+</source>
+</class>
+
+<class classid="7" nclones="30" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00320.java" startline="23" endline="30" pcid="173">
+public List<String> getAuthor() 
+{
+    if (author == null)
+    {
+        author = new ArrayList<String>();
+    }
+    return this.author;
+}   
+</source>
+<source file="./systems/source/00330.java" startline="23" endline="28" pcid="1347">
+public List<Field> getField(){
+    if (field == null) {
+        field = new ArrayList<Field>();
+    }
+    return this.field;
+}
+</source>
+<source file="./systems/source/00327.java" startline="23" endline="28" pcid="1344">
+public List<Relation> getRelation(){
+    if (relation == null) {
+        relation = new ArrayList<Relation>();
+    }
+    return this.relation;
+}
+</source>
+<source file="./systems/source/00332.java" startline="23" endline="28" pcid="1349">
+public List<PrimKey> getPrimKey(){
+    if (primKey == null) {
+        primKey = new ArrayList<PrimKey>();
+    }
+    return this.primKey;
+}
+</source>
+<source file="./systems/source/00326.java" startline="23" endline="28" pcid="1343">
+public List<KeyMap> getKeyMap(){
+    if (keyMap == null) {
+        keyMap = new ArrayList<KeyMap>();
+    }
+    return this.keyMap;
+}
+</source>
+<source file="./systems/source/00336.java" startline="23" endline="28" pcid="1352">
+public List<Index> getIndex(){
+    if (index == null) {
+        index = new ArrayList<Index>();
+    }
+    return this.index;
+}
+</source>
+<source file="./systems/source/00338.java" startline="23" endline="28" pcid="1354">
+public List<Exclude> getExclude(){
+    if (exclude == null) {
+        exclude = new ArrayList<Exclude>();
+    }
+    return this.exclude;
+}
+</source>
+<source file="./systems/source/00321.java" startline="25" endline="30" pcid="1338">
+public List<Object> getEntityOrViewEntityOrExtendEntity(){
+    if (entityOrViewEntityOrExtendEntity == null) {
+        entityOrViewEntityOrExtendEntity = new ArrayList<Object>();
+    }
+    return this.entityOrViewEntityOrExtendEntity;
+}
+</source>
+<source file="./systems/source/01497.java" startline="23" endline="28" pcid="2460">
+public List<QName> getEndPointRef(){
+    if (endPointRef == null) {
+        endPointRef = new ArrayList<QName>();
+    }
+    return this.endPointRef;
+}
+</source>
+<source file="./systems/source/00320.java" startline="23" endline="28" pcid="1337">
+public List<String> getAuthor(){
+    if (author == null) {
+        author = new ArrayList<String>();
+    }
+    return this.author;
+}
+</source>
+<source file="./systems/source/00324.java" startline="24" endline="29" pcid="1341">
+public List<Object> getConditionExprOrConditionList(){
+    if (conditionExprOrConditionList == null) {
+        conditionExprOrConditionList = new ArrayList<Object>();
+    }
+    return this.conditionExprOrConditionList;
+}
+</source>
+<source file="./systems/source/01494.java" startline="23" endline="28" pcid="2457">
+public List<TProperty> getProperty(){
+    if (property == null) {
+        property = new ArrayList<TProperty>();
+    }
+    return this.property;
+}
+</source>
+<source file="./systems/source/01489.java" startline="23" endline="28" pcid="2453">
+public List<TDataOutputAssociation> getDataOutputAssociation(){
+    if (dataOutputAssociation == null) {
+        dataOutputAssociation = new ArrayList<TDataOutputAssociation>();
+    }
+    return this.dataOutputAssociation;
+}
+</source>
+<source file="./systems/source/01487.java" startline="23" endline="28" pcid="2451">
+public List<QName> getInterfaceRef(){
+    if (interfaceRef == null) {
+        interfaceRef = new ArrayList<QName>();
+    }
+    return this.interfaceRef;
+}
+</source>
+<source file="./systems/source/00323.java" startline="23" endline="28" pcid="1340">
+public List<String> getCopyright(){
+    if (copyright == null) {
+        copyright = new ArrayList<String>();
+    }
+    return this.copyright;
+}
+</source>
+<source file="./systems/source/01483.java" startline="23" endline="28" pcid="2448">
+public List<TDataInputAssociation> getDataInputAssociation(){
+    if (dataInputAssociation == null) {
+        dataInputAssociation = new ArrayList<TDataInputAssociation>();
+    }
+    return this.dataInputAssociation;
+}
+</source>
+<source file="./systems/source/01480.java" startline="23" endline="28" pcid="2445">
+public List<TCorrelationKey> getCorrelationKey(){
+    if (correlationKey == null) {
+        correlationKey = new ArrayList<TCorrelationKey>();
+    }
+    return this.correlationKey;
+}
+</source>
+<source file="./systems/source/01798.java" startline="23" endline="28" pcid="2746">
+public List<PhoneNumberDictionaryEntryType> getEntry(){
+    if (entry == null) {
+        entry = new ArrayList<PhoneNumberDictionaryEntryType>();
+    }
+    return this.entry;
+}
+</source>
+<source file="./systems/source/01793.java" startline="23" endline="28" pcid="2741">
+public List<SidAndAttributesType> getRestrictedGroupIdentifier(){
+    if (restrictedGroupIdentifier == null) {
+        restrictedGroupIdentifier = new ArrayList<SidAndAttributesType>();
+    }
+    return this.restrictedGroupIdentifier;
+}
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_01497.java" startline="24" endline="31" pcid="800">
+public List<QName> getEndPointRef() 
+{
+    if (endPointRef == null)
+    {
+        endPointRef = new ArrayList<QName>();
+    }
+    return this.endPointRef;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_01793.java" startline="23" endline="30" pcid="939">
+public List<SidAndAttributesType> getRestrictedGroupIdentifier() 
+{
+    if (restrictedGroupIdentifier == null)
+    {
+        restrictedGroupIdentifier = new ArrayList<SidAndAttributesType>();
+    }
+    return this.restrictedGroupIdentifier;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_01494.java" startline="23" endline="30" pcid="798">
+public List<TProperty> getProperty() 
+{
+    if (property == null)
+    {
+        property = new ArrayList<TProperty>();
+    }
+    return this.property;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00321.java" startline="25" endline="32" pcid="174">
+public List<Object> getEntityOrViewEntityOrExtendEntity() 
+{
+    if (entityOrViewEntityOrExtendEntity == null)
+    {
+        entityOrViewEntityOrExtendEntity = new ArrayList<Object>();
+    }
+    return this.entityOrViewEntityOrExtendEntity;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00338.java" startline="23" endline="30" pcid="183">
+public List<Exclude> getExclude() 
+{
+    if (exclude == null)
+    {
+        exclude = new ArrayList<Exclude>();
+    }
+    return this.exclude;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00330.java" startline="23" endline="30" pcid="180">
+public List<Field> getField() 
+{
+    if (field == null)
+    {
+        field = new ArrayList<Field>();
+    }
+    return this.field;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_01487.java" startline="23" endline="30" pcid="795">
+public List<QName> getInterfaceRef() 
+{
+    if (interfaceRef == null)
+    {
+        interfaceRef = new ArrayList<QName>();
+    }
+    return this.interfaceRef;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_01480.java" startline="23" endline="30" pcid="791">
+public List<TCorrelationKey> getCorrelationKey() 
+{
+    if (correlationKey == null)
+    {
+        correlationKey = new ArrayList<TCorrelationKey>();
+    }
+    return this.correlationKey;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00326.java" startline="23" endline="30" pcid="176">
+public List<KeyMap> getKeyMap() 
+{
+    if (keyMap == null)
+    {
+        keyMap = new ArrayList<KeyMap>();
+    }
+    return this.keyMap;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00336.java" startline="23" endline="30" pcid="182">
+public List<Index> getIndex() 
+{
+    if (index == null)
+    {
+        index = new ArrayList<Index>();
+    }
+    return this.index;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00327.java" startline="23" endline="30" pcid="177">
+public List<Relation> getRelation() 
+{
+    if (relation == null)
+    {
+        relation = new ArrayList<Relation>();
+    }
+    return this.relation;
+}   
+</source>
+</class>
+
+<class classid="8" nclones="2" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00403.java" startline="4" endline="8" pcid="224">
+public StepSupport(String string) 
+{
+    super();
+    this.string = string;
+}   
+</source>
+<source file="./systems/source/00403.java" startline="4" endline="7" pcid="1417">
+public StepSupport(String string){
+    super();
+    this.name = string;
+}
+</source>
+</class>
+
+<class classid="9" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00528.java" startline="3" endline="9" pcid="275">
+@Override
+public boolean onCreateOptionsMenu(Menu menu) 
+{
+    // Inflate the menu; this adds items to the action bar if it is present.
+    getMenuInflater().inflate(R.menu.main, menu);
+    return true;
+}   
+</source>
+<source file="./systems/source/01914.java" startline="2" endline="6" pcid="2843">
+@Override
+public boolean onCreateOptionsMenu(Menu menu){
+  getMenuInflater().inflate(R.menu.menu, menu);
+  return true;
+}
+</source>
+</class>
+
+<class classid="10" nclones="4" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00537.java" startline="4" endline="10" pcid="279">
+@Override
+public boolean onCreateOptionsMenu(Menu menu) 
+{
+    MenuInflater inflater = getMenuInflater();
+    inflater.inflate(R.menu.options_menu, menu);
+    return true;
+}   
+</source>
+<source file="./systems/source/00547.java" startline="6" endline="11" pcid="1542">
+@Override
+public boolean onCreateOptionsMenu(Menu menu){
+    MenuInflater inflater = getMenuInflater();
+    inflater.inflate(R.menu.login, menu);
+    return true;
+}
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00547.java" startline="7" endline="13" pcid="284">
+@Override
+public boolean onCreateOptionsMenu(Menu menu) 
+{
+    MenuInflater inflater = getMenuInflater();
+    inflater.inflate(R.menu.options_menu, menu);
+    return true;
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_01914.java" startline="2" endline="8" pcid="996">
+@Override
+public boolean onCreateOptionsMenu(Menu menu) 
+{
+    MenuInflater inflater = getMenuInflater();
+    inflater.inflate(R.menu.options_menu, menu);
+    return true;
+}   
+</source>
+</class>
+
+<class classid="11" nclones="4" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00667.java" startline="5" endline="11" pcid="349">
+public void addHiddenLayer(Layer hiddenLayer) 
+{
+	if (hiddenLayers == null) {
+		hiddenLayers = new ArrayList<Layer>();
+	}
+	hiddenLayers.add(hiddenLayer);
+}	
+</source>
+<source file="./systems/source/01644.java" startline="13" endline="19" pcid="2595">
+public void addPortal(Portal portal){
+	if (portals == null)
+	{
+		portals = new ArrayList<Portal>();
+	}
+	portals.add(portal);
+}
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_01612.java" startline="6" endline="13" pcid="856">
+public void addThreat(PossiblePiece piece) 
+{
+    if (threats == null)
+    {
+        threats = new ArrayList<PossiblePiece>();
+    }
+    threats.add(piece);
+}   
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_01644.java" startline="14" endline="21" pcid="871">
+public void addPortal(Portal portal) 
+{
+    if (portals == null)
+    {
+        portals = new ArrayList<Portal>();
+    }
+    portals.add(portal);
+}   
+</source>
+</class>
+
+<class classid="12" nclones="2" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00749.java" startline="6" endline="14" pcid="402">
+public int getMarkedPosition() 
+{
+    if (!markingEnabled)
+    {
+        throw new IllegalStateException("Marking is disabled.");
+    }
+
+    return markedPosition;
+}   
+</source>
+<source file="./systems/source/00749.java" startline="6" endline="11" pcid="1748">
+public int getMarkedPosition(){
+    if (!mMarking) {
+        throw new IllegalStateException("getMarkedPosition() called without automatic marking support.");
+    }
+    return mMarkedPosition;
+}
+</source>
+</class>
+
+<class classid="13" nclones="2" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00826.java" startline="6" endline="10" pcid="450">
+public Helix pass(double depth) 
+{
+    this.depth = depth;
+    return this;
+}   
+</source>
+<source file="./systems/source/00826.java" startline="6" endline="9" pcid="1827">
+public Helix pass(double depth){
+	this.passdepth = depth;
+	return this;
+}
+</source>
+</class>
+
+<class classid="14" nclones="7" nlines="9" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00861.java" startline="7" endline="18" pcid="470">
+public static HbCascadeType getByName(String name) 
+{
+  for (int i = 0; i < VALUES_ARRAY.length; ++i)
+  {
+    HbCascadeType result = VALUES_ARRAY[i];
+    if (result.getName().equals(name))
+    {
+      return result;
+    }
+  }
+  return null;
+}   
+</source>
+<source file="./systems/source/00876.java" startline="7" endline="15" pcid="1868">
+public static BookCategory getByName(String name){
+		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+			BookCategory result = VALUES_ARRAY[i];
+			if (result.getName().equals(name)) {
+				return result;
+			}
+		}
+		return null;
+	}
+</source>
+<source file="./systems/source/00865.java" startline="7" endline="15" pcid="1862">
+public static BookCategory get(String literal){
+		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+			BookCategory result = VALUES_ARRAY[i];
+			if (result.toString().equals(literal)) {
+				return result;
+			}
+		}
+		return null;
+	}
+</source>
+<source file="./systems/source/00861.java" startline="7" endline="15" pcid="1860">
+public static HbCascadeType getByName(String name){
+	for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+		HbCascadeType result = VALUES_ARRAY[i];
+		if (result.getName().equals(name)) {
+			return result;
+		}
+	}
+	return null;
+}
+</source>
+<source file="./systems/source/00869.java" startline="7" endline="15" pcid="1865">
+public static HbCascadeType get(String literal){
+	for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+		HbCascadeType result = VALUES_ARRAY[i];
+		if (result.toString().equals(literal)) {
+			return result;
+		}
+	}
+	return null;
+}
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00865.java" startline="7" endline="18" pcid="471">
+public static BookCategory get(String literal) 
+{
+		for (int i = 0; i < VALUES_ARRAY.length; ++i)
+		{
+			BookCategory result = VALUES_ARRAY[i];
+			if (result.toString().equals(literal))
+			{
+				return result;
+			}
+		}
+		return null;
+	}	
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_00869.java" startline="7" endline="18" pcid="473">
+public static HbCascadeType get(String literal) 
+{
+  for (int i = 0; i < VALUES_ARRAY.length; ++i)
+  {
+    HbCascadeType result = VALUES_ARRAY[i];
+    if (result.toString().equals(literal))
+    {
+      return result;
+    }
+  }
+  return null;
+}   
+</source>
+</class>
+
+<class classid="15" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00870.java" startline="7" endline="12" pcid="474">
+private HbCascadeType(int value, String name, String literal) 
+{
+    this.value = value;
+    this.name = name;
+    this.literal = literal;
+}   
+</source>
+<source file="./systems/source/00870.java" startline="7" endline="11" pcid="1866">
+private HbCascadeType(int value, String name, String literal){
+	this.value = value;
+	this.name = name;
+	this.literal = literal;
+}
+</source>
+</class>
+
+<class classid="16" nclones="3" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00875.java" startline="5" endline="11" pcid="475">
+public ValuePropertyDetailSet(IValueProperty masterProperty,
+		ISetProperty detailProperty) 
+{
+	super();
+	this.masterProperty = masterProperty;
+	this.detailProperty = detailProperty;
+}	
+</source>
+<source file="./systems/source/01794.java" startline="9" endline="13" pcid="2742">
+public ImpersonatedUserId(ConnectingIdType idType, String id){
+	this();
+	this.idType = idType;
+	this.id = id;
+}
+</source>
+<source file="./systems/source/01790.java" startline="9" endline="13" pcid="2739">
+public MessageBody(BodyType bodyType, String text){
+	this();
+	this.bodyType = bodyType;
+	this.text = text;
+}
+</source>
+</class>
+
+<class classid="17" nclones="2" nlines="9" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_00966.java" startline="11" endline="21" pcid="531">
+public JSONWriter array() throws JSONException 
+{
+    if (this.mode == 'i' || this.mode == 'o' || this.mode == 'a')
+    {
+        this.push('a');
+        this.append("[");
+        this.comma = false;
+        return this;
+    }
+    throw new JSONException("Misplaced array.");
+}   
+</source>
+<source file="./systems/source/00966.java" startline="10" endline="18" pcid="1958">
+public JSONWriter array() throws JSONException{
+    if (this.mode == 'i' || this.mode == 'o' || this.mode == 'a') {
+        this.push('a');
+        this.append("[");
+        this.comma = false;
+        return this;
+    }
+    throw new JSONException("Misplaced array.");
+}
+</source>
+</class>
+
+<class classid="18" nclones="2" nlines="7" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01047.java" startline="6" endline="13" pcid="579">
+public static boolean checkAvailable() 
+{
+    String state = Environment.getExternalStorageState();
+    if (Environment.MEDIA_MOUNTED.equals(state)) {
+        return true;
+    }
+    return false;
+}   
+</source>
+<source file="./systems/source/01045.java" startline="5" endline="17" pcid="2045">
+public static boolean checkWritable(){
+	
+	// Retrieving the external storage state
+	String state = Environment.getExternalStorageState();
+	
+	// Check if writable
+	if (Environment.MEDIA_MOUNTED.equals(state)) {
+		return true;
+	}
+	
+	return false;
+	
+}
+</source>
+</class>
+
+<class classid="19" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01049.java" startline="10" endline="15" pcid="581">
+@Override
+protected void drawableStateChanged() 
+{
+    super.drawableStateChanged();
+    invalidate();
+}   
+</source>
+<source file="./systems/source/01228.java" startline="5" endline="9" pcid="2219">
+@Override
+protected void internalInit(){
+	super.internalInit();
+	authInit();
+}
+</source>
+</class>
+
+<class classid="20" nclones="2" nlines="7" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01056.java" startline="5" endline="15" pcid="585">
+public String getValueString() 
+{
+    try
+    {
+        return element.getStringValue();
+    }
+    catch (Exception e)
+    {
+        return null;
+    }
+}   
+</source>
+<source file="./systems/source/01690.java" startline="4" endline="10" pcid="2639">
+public String getReasonPhrase(){
+	try {
+            return m_conn.getResponseMessage();
+        } catch (IOException e) {
+            return null;
+        }
+}
+</source>
+</class>
+
+<class classid="21" nclones="12" nlines="12" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01071.java" startline="2" endline="23" pcid="593">
+public final void mT__35() throws RecognitionException 
+{
+    try
+    {
+        int _type = T__35;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // C:\\Users\\user\\Desktop\\Unb\\TCC\\tcc\\grammars\\Gramatica.g:11:7: ( 'else' )
+        // C:\\Users\\user\\Desktop\\Unb\\TCC\\tcc\\grammars\\Gramatica.g:11:9: 'else'
+        {
+        match("else"); 
+
+
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally
+    {
+    }
+}   
+</source>
+<source file="./systems/source/01063.java" startline="2" endline="19" pcid="2061">
+public final void mT__31() throws RecognitionException{
+    try {
+        int _type = T__31;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:27:7: ( '*/' )
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:27:9: '*/'
+        {
+        match("*/"); 
+
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally {
+    }
+}
+</source>
+<source file="./systems/source/01064.java" startline="2" endline="19" pcid="2062">
+public final void mT__37() throws RecognitionException{
+    try {
+        int _type = T__37;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:33:7: ( 'data;' )
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:33:9: 'data;'
+        {
+        match("data;"); 
+
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally {
+    }
+}
+</source>
+<source file="./systems/source/01067.java" startline="2" endline="19" pcid="2065">
+public final void mT__41() throws RecognitionException{
+    try {
+        int _type = T__41;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:37:7: ( 'set<' )
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:37:9: 'set<'
+        {
+        match("set<"); 
+
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally {
+    }
+}
+</source>
+<source file="./systems/source/01068.java" startline="2" endline="19" pcid="2066">
+public final void mPROPERTY() throws RecognitionException{
+    try {
+        int _type = PROPERTY;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:17:10: ( 'property' )
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:17:12: 'property'
+        {
+        match("property"); 
+
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally {
+    }
+}
+</source>
+<source file="./systems/source/01069.java" startline="2" endline="19" pcid="2067">
+public final void mTYPE_PRIMITIVE() throws RecognitionException{
+    try {
+        int _type = TYPE_PRIMITIVE;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:16:16: ( 'primitive' )
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:16:18: 'primitive'
+        {
+        match("primitive"); 
+
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally {
+    }
+}
+</source>
+<source file="./systems/source/01071.java" startline="2" endline="19" pcid="2069">
+public final void mT__35() throws RecognitionException{
+    try {
+        int _type = T__35;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:31:7: ( ')]' )
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:31:9: ')]'
+        {
+        match(")]"); 
+
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally {
+    }
+}
+</source>
+<source file="./systems/source/01074.java" startline="2" endline="19" pcid="2071">
+public final void mENUM() throws RecognitionException{
+    try {
+        int _type = ENUM;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:21:6: ( 'enum' )
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:21:8: 'enum'
+        {
+        match("enum"); 
+
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally {
+    }
+}
+</source>
+<source file="./systems/source/01061.java" startline="2" endline="19" pcid="2059">
+public final void mTYPE_LIST() throws RecognitionException{
+    try {
+        int _type = TYPE_LIST;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:14:11: ( 'list' )
+        // com/lowereast/guiceymongo/data/generator/parser/GuiceyData.g:14:13: 'list'
+        {
+        match("list"); 
+
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally {
+    }
+}
+</source>
+<source file="./systems/source/00295.java" startline="2" endline="19" pcid="1319">
+public final void mT__29() throws RecognitionException{
+    try {
+        int _type = T__29;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:13:7: ( '</>' )
+        // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:13:9: '</>'
+        {
+        match("</>"); 
+
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally {
+    }
+}
+</source>
+<source file="./systems/source/00281.java" startline="2" endline="19" pcid="1305">
+public final void mT__28() throws RecognitionException{
+    try {
+        int _type = T__28;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:12:7: ( '<>' )
+        // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:12:9: '<>'
+        {
+        match("<>"); 
+
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally {
+    }
+}
+</source>
+<source file="./systems/source/00280.java" startline="2" endline="19" pcid="1304">
+public final void mLCLOSE() throws RecognitionException{
+    try {
+        int _type = LCLOSE;
+        int _channel = DEFAULT_TOKEN_CHANNEL;
+        // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:184:9: ( '</' )
+        // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:184:12: '</'
+        {
+        match("</"); 
+
+
+        }
+
+        state.type = _type;
+        state.channel = _channel;
+    }
+    finally {
+    }
+}
+</source>
+</class>
+
+<class classid="22" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01200.java" startline="5" endline="10" pcid="648">
+public void mentionEntity(DiscourseEntity e) 
+{
+    if (!mentionedEntities.contains(e)) {
+        mentionedEntities.add(e);
+    }
+}   
+</source>
+<source file="./systems/source/01612.java" startline="6" endline="11" pcid="2568">
+public void addThreat(PossiblePiece piece){
+    if (!threats.contains(piece))
+    {
+        threats.addElement(piece);
+    }
+}
+</source>
+</class>
+
+<class classid="23" nclones="2" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01225.java" startline="5" endline="9" pcid="659">
+public PropertyQueryBinder(final Object object, final String[] properties) 
+{
+    this.object = object;
+    this.properties = properties;
+}   
+</source>
+<source file="./systems/source/01225.java" startline="5" endline="8" pcid="2216">
+public PropertyQueryBinder(final Object object, final String[] properties){
+	this.object = object;
+	this.properties = properties;
+}
+</source>
+</class>
+
+<class classid="24" nclones="2" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01264.java" startline="5" endline="12" pcid="676">
+public static ExceptionLineParser getInstance() 
+{
+    if (instance == null)
+    {
+        instance = new ExceptionLineParser();
+    }
+    return instance;
+}   
+</source>
+<source file="./systems/source/00552.java" startline="4" endline="10" pcid="1546">
+public static UrlBuilder getInstance(){
+	if (instance == null) {
+		instance = new UrlBuilder();
+	}
+	
+	return instance;
+}
+</source>
+</class>
+
+<class classid="25" nclones="2" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01321.java" startline="9" endline="13" pcid="705">
+public JSONObject put(String key, int value) throws JSONException 
+{
+    put(key, new Integer(value));
+    return this;
+}   
+</source>
+<source file="./systems/source/01321.java" startline="9" endline="12" pcid="2307">
+public JSONObject put(String key, int value) throws JSONException{
+    put(key, new Integer(value));
+    return this;
+}
+</source>
+</class>
+
+<class classid="26" nclones="2" nlines="10" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01327.java" startline="10" endline="26" pcid="709">
+public boolean getBoolean(String key) throws JSONException 
+{
+    Object object = get(key);
+    if (object.equals(Boolean.FALSE) ||
+        (object instanceof String &&
+         ((String)object).equalsIgnoreCase("false")))
+    {
+        return false;
+    }
+    else if (object.equals(Boolean.TRUE) ||
+             (object instanceof String &&
+              ((String)object).equalsIgnoreCase("true")))
+    {
+        return true;
+    }
+    throw new JSONException("JSONObject[" + quote(key) + "] is not a Boolean.");
+}   
+</source>
+<source file="./systems/source/01327.java" startline="9" endline="22" pcid="2313">
+public boolean getBoolean(String key) throws JSONException{
+    Object o = get(key);
+    if (o.equals(Boolean.FALSE) ||
+            (o instanceof String &&
+            ((String)o).equalsIgnoreCase("false"))) {
+        return false;
+    } else if (o.equals(Boolean.TRUE) ||
+            (o instanceof String &&
+            ((String)o).equalsIgnoreCase("true"))) {
+        return true;
+    }
+    throw new JSONException("JSONObject[" + quote(key) +
+            "] is not a Boolean.");
+}
+</source>
+</class>
+
+<class classid="27" nclones="2" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01389.java" startline="7" endline="14" pcid="734">
+public CommandConfigImpl(Environment environment, String name,
+        List<String> arguments, Map<Option, String> options) 
+{
+    this.environment = environment;
+    this.name = name;
+    this.arguments = arguments;
+    this.options = options;
+}       
+</source>
+<source file="./systems/source/01389.java" startline="7" endline="13" pcid="2358">
+public CommandConfigImpl(Environment environment, String name,
+        List<String> arguments, Map<Option, String> options){
+    this.environment = environment;
+    this.name = name;
+    this.arguments = arguments;
+    this.options = options;
+}
+</source>
+</class>
+
+<class classid="28" nclones="2" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01451.java" startline="4" endline="8" pcid="773">
+public Item(int x, int y) 
+{
+    this.x = x;
+    this.y = y;
+}   
+</source>
+<source file="./systems/source/01451.java" startline="4" endline="7" pcid="2417">
+public Item(int x, int y){
+	this.x = x;
+	this.y = y;
+}
+</source>
+</class>
+
+<class classid="29" nclones="4" nlines="8" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01490.java" startline="9" endline="19" pcid="797">
+public boolean isIsForCompensation() 
+{
+    if (isForCompensation == null)
+    {
+        return false;
+    }
+    else
+    {
+        return isForCompensation;
+    }
+}   
+</source>
+<source file="./systems/source/01490.java" startline="9" endline="15" pcid="2454">
+public boolean isIsForCompensation(){
+    if (isForCompensation == null) {
+        return false;
+    } else {
+        return isForCompensation;
+    }
+}
+</source>
+<source file="./systems/source/01495.java" startline="9" endline="15" pcid="2458">
+public boolean isIsCollection(){
+    if (isCollection == null) {
+        return false;
+    } else {
+        return isCollection;
+    }
+}
+</source>
+<source file="./systems/cw_1000_java_8_16/prompt_01495.java" startline="9" endline="19" pcid="799">
+public boolean isIsCollection() 
+{
+    if (isCollection == null)
+    {
+        return false;
+    }
+    else
+    {
+        return isCollection;
+    }
+}   
+</source>
+</class>
+
+<class classid="30" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01541.java" startline="4" endline="10" pcid="816">
+public static State[] copyOf(State[] original, int newLength) 
+{
+    State[] copy = new State[newLength];
+    System.arraycopy(original, 0, copy, 0,
+                     Math.min(original.length, newLength));
+    return copy;
+}   
+</source>
+<source file="./systems/source/01541.java" startline="4" endline="8" pcid="2502">
+public static State[] copyOf(State[] original, int newLength){
+	State[] copy = new State[newLength];
+	System.arraycopy(original, 0, copy, 0, Math.min(original.length, newLength));
+	return copy;
+}
+</source>
+</class>
+
+<class classid="31" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01554.java" startline="9" endline="14" pcid="821">
+static public boolean setAllowMutate(boolean flag) 
+{
+	boolean old = allowMutate;
+	allowMutate = flag;
+	return old;
+}   
+</source>
+<source file="./systems/source/01554.java" startline="9" endline="13" pcid="2514">
+static public boolean setAllowMutate(boolean flag){
+	boolean b = allow_mutation;
+	allow_mutation = flag;
+	return b;
+}
+</source>
+</class>
+
+<class classid="32" nclones="2" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01558.java" startline="11" endline="16" pcid="824">
+public static Automaton load(InputStream stream) throws IOException, OptionalDataException, ClassCastException, 
+                                                        ClassNotFoundException, InvalidClassException 
+{
+    ObjectInputStream ois = new ObjectInputStream(stream);
+    return (Automaton) ois.readObject();
+}   
+</source>
+<source file="./systems/source/01558.java" startline="10" endline="14" pcid="2518">
+public static Automaton load(InputStream stream) throws IOException, OptionalDataException, ClassCastException, 
+                                                        ClassNotFoundException, InvalidClassException{
+	ObjectInputStream s = new ObjectInputStream(stream);
+	return (Automaton)s.readObject();
+}
+</source>
+</class>
+
+<class classid="33" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01650.java" startline="5" endline="15" pcid="875">
+public void onDisable() 
+{
+    // Shut down Persistence
+    Persistence.shutdown();
+
+    // Save data
+    Data.save();
+
+    // Clear cache
+    Cache.clear();
+}   
+</source>
+<source file="./systems/source/00265.java" startline="4" endline="8" pcid="1289">
+public void kill(){
+    stabilize.kill();
+    checkPredecessor.kill();
+    fixFingers.kill();
+}
+</source>
+</class>
+
+<class classid="34" nclones="2" nlines="9" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01862.java" startline="11" endline="20" pcid="967">
+public SpawnTemplate(float x, float y, float z, byte heading, int walkerId, int randomWalk, int npcfly) 
+{
+    this.x = x;
+    this.y = y;
+    this.z = z;
+    this.heading = heading;
+    this.walkerId = walkerId;
+    this.randomWalk = randomWalk;
+    this.npcfly = npcfly;
+}   
+</source>
+<source file="./systems/source/01862.java" startline="11" endline="19" pcid="2791">
+public SpawnTemplate(float x, float y, float z, byte heading, int walkerId, int randomWalk, int npcfly){
+	this.x = x;
+	this.y = y;
+	this.z = z;
+	this.heading = heading;
+	this.walkerId = walkerId;
+	this.randomWalk = randomWalk;
+	this.npcfly = npcfly;
+}
+</source>
+</class>
+
+<class classid="35" nclones="2" nlines="8" similarity="100">
+<source file="./systems/cw_1000_java_8_16/prompt_01877.java" startline="12" endline="23" pcid="974">
+@Override
+public Float transform(String value, Field field) throws TransformationException 
+{
+    try
+    {
+        return Float.parseFloat(value);
+    }
+    catch (NumberFormatException e)
+    {
+        throw new TransformationException(e);
+    }
+}   
+</source>
+<source file="./systems/source/01877.java" startline="12" endline="22" pcid="2805">
+@Override
+public Float transform(String value, Field field) throws TransformationException{
+	try
+	{
+		return Float.parseFloat(value);
+	}
+	catch(Exception e)
+	{
+		throw new TransformationException(e);
+	}
+}
+</source>
+</class>
+
+</clones>

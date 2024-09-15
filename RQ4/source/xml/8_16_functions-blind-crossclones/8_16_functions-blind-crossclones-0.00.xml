@@ -1,0 +1,99 @@
+<root>
+&lt;clones&gt;
+&lt;systeminfo processor="nicad6" system="8_16" system2="search_results" granularity="functions-blind" threshold="0%" minlines="4" maxlines="2500"/&gt;
+&lt;cloneinfo npcs="2232" npairs="18"/&gt;
+&lt;runinfo ncompares="142517" cputime="21626"/&gt;
+
+&lt;clone nlines="10" similarity="100"&gt;
+<source file="systems/8_16/prompt_00014.java" startline="4" endline="22" pcid="436"&gt;&lt;/source>
+<source file="systems/search_results/14/SocketHandler.java" startline="23" endline="32" pcid="1462"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="10" similarity="100"&gt;
+<source file="systems/8_16/prompt_00014.java" startline="4" endline="22" pcid="436"&gt;&lt;/source>
+<source file="systems/search_results/14/ChatImpl.java" startline="17" endline="26" pcid="1467"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="7" similarity="100"&gt;
+<source file="systems/8_16/prompt_00951.java" startline="6" endline="14" pcid="371"&gt;&lt;/source>
+<source file="systems/search_results/951/WebMarshal.java" startline="172" endline="178" pcid="1697"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="7" similarity="100"&gt;
+<source file="systems/8_16/prompt_00951.java" startline="6" endline="14" pcid="371"&gt;&lt;/source>
+<source file="systems/search_results/951/DatePanel.java" startline="601" endline="607" pcid="1758"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="7" similarity="100"&gt;
+<source file="systems/8_16/prompt_00951.java" startline="6" endline="14" pcid="371"&gt;&lt;/source>
+<source file="systems/search_results/951/CachedBeanData.java" startline="45" endline="51" pcid="1654"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="7" similarity="100"&gt;
+<source file="systems/8_16/prompt_00951.java" startline="6" endline="14" pcid="371"&gt;&lt;/source>
+<source file="systems/search_results/951/GePropertyTypeDispatcher.java" startline="522" endline="528" pcid="1609"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="7" similarity="100"&gt;
+<source file="systems/8_16/prompt_00018.java" startline="7" endline="17" pcid="105"&gt;&lt;/source>
+<source file="systems/search_results/18/DesktopStub.java" startline="39" endline="45" pcid="1911"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="7" similarity="100"&gt;
+<source file="systems/8_16/prompt_00018.java" startline="7" endline="17" pcid="105"&gt;&lt;/source>
+<source file="systems/search_results/18/DesktopStub.java" startline="27" endline="33" pcid="1910"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="7" similarity="100"&gt;
+<source file="systems/8_16/prompt_00947.java" startline="8" endline="16" pcid="314"&gt;&lt;/source>
+<source file="systems/search_results/947/Layer.java" startline="15" endline="21" pcid="1030"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="7" similarity="100"&gt;
+<source file="systems/8_16/prompt_00947.java" startline="8" endline="16" pcid="314"&gt;&lt;/source>
+<source file="systems/search_results/947/SVMclassifier_1.java" startline="93" endline="99" pcid="1037"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="7" similarity="100"&gt;
+<source file="systems/8_16/prompt_00947.java" startline="8" endline="16" pcid="314"&gt;&lt;/source>
+<source file="systems/search_results/947/SVMclassifier.java" startline="95" endline="101" pcid="1048"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="7" similarity="100"&gt;
+<source file="systems/8_16/prompt_00947.java" startline="8" endline="16" pcid="314"&gt;&lt;/source>
+<source file="systems/search_results/947/Couche.java" startline="51" endline="57" pcid="1058"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="7" similarity="100"&gt;
+<source file="systems/8_16/prompt_00947.java" startline="8" endline="16" pcid="314"&gt;&lt;/source>
+<source file="systems/search_results/947/SVMclassifier_2.java" startline="95" endline="101" pcid="1065"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="5" similarity="100"&gt;
+<source file="systems/8_16/prompt_00202.java" startline="4" endline="10" pcid="290"&gt;&lt;/source>
+<source file="systems/search_results/202/AdapterExampleActivity.java" startline="69" endline="73" pcid="2198"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="5" similarity="100"&gt;
+<source file="systems/8_16/prompt_00202.java" startline="4" endline="10" pcid="290"&gt;&lt;/source>
+<source file="systems/search_results/202/AdapterExampleActivity_1.java" startline="71" endline="75" pcid="2190"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="5" similarity="100"&gt;
+<source file="systems/8_16/prompt_00202.java" startline="4" endline="10" pcid="290"&gt;&lt;/source>
+<source file="systems/search_results/202/MainActivity.java" startline="40" endline="45" pcid="2204"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="5" similarity="100"&gt;
+<source file="systems/8_16/prompt_00202.java" startline="4" endline="10" pcid="290"&gt;&lt;/source>
+<source file="systems/search_results/202/MainActivity_1.java" startline="85" endline="89" pcid="2213"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;clone nlines="5" similarity="100"&gt;
+<source file="systems/8_16/prompt_00815.java" startline="5" endline="11" pcid="38"&gt;&lt;/source>
+<source file="systems/search_results/815/MediaController.java" startline="796" endline="800" pcid="1511"&gt;&lt;/source>
+&lt;/clone&gt;
+
+&lt;/clones&gt;
+
+</root>

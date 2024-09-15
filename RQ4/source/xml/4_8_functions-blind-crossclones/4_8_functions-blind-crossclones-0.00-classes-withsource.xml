@@ -1,0 +1,611 @@
+<root>
+&lt;clones&gt;
+&lt;systeminfo processor="nicad6" system="4_8" system2="search_results" granularity="functions-blind" threshold="0%" minlines="4" maxlines="2500"/&gt;
+&lt;cloneinfo npcs="2150" npairs="48"/&gt;
+&lt;runinfo ncompares="163513" cputime="19702"/&gt;
+&lt;classinfo nclasses="9"/&gt;
+
+&lt;class classid="1" nclones="6" nlines="4" similarity="100"&gt;
+<source file="systems/4_8/prompt_01124.java" startline="7" endline="12" pcid="37">
+public WindowsBrowserLaunching(AbstractLogger logger,
+                               String windowsKey) 
+{
+    this.logger = logger;
+    this.windowsKey = windowsKey;
+}   
+</source>
+<source file="systems/search_results/77/MonsterEvolver.java" startline="1921" endline="1925" pcid="1176">
+	public Evolver_Combat(Creature_Evolver c1, Creature_Evolver c2)
+	{
+		this.c1 = c1;
+		this.c2 = c2;
+	}
+</source>
+<source file="systems/4_8/prompt_01234.java" startline="7" endline="11" pcid="733">
+public Image(String attachmentId, String caption) 
+{
+    this.attachmentId = attachmentId;
+    this.caption = caption;
+}   
+</source>
+<source file="systems/4_8/prompt_01222.java" startline="8" endline="12" pcid="602">
+public StyledText(String text, StyleType style) 
+{
+    this.text = text;
+    this.style = style;
+}   
+</source>
+<source file="systems/4_8/prompt_00081.java" startline="4" endline="8" pcid="363">
+public WinRegKey( String rootKeyName, String subKeyName ) 
+{
+    this.rootKeyName = rootKeyName;
+    this.subKeyName = subKeyName;
+}   
+</source>
+<source file="systems/4_8/prompt_00574.java" startline="7" endline="11" pcid="144">
+public PSGr(OutputStream o, Graphics g) 
+{
+    this.outputStream = o;
+    this.graphics = g;
+}   
+</source>
+&lt;/class&gt;
+
+&lt;class classid="2" nclones="2" nlines="10" similarity="100"&gt;
+<source file="systems/4_8/prompt_00752.java" startline="5" endline="19" pcid="453">
+public void run() 
+{
+    while (true)
+    {
+        try
+        {
+            String msg = (String) in.readObject();
+            System.out.println(msg);
+        }
+        catch (IOException | ClassNotFoundException e)
+        {
+            e.printStackTrace();
+        }
+    }
+}   
+</source>
+<source file="systems/search_results/752/ClientReceiver.java" startline="20" endline="29" pcid="1463">
+    public void run() {
+        while (true) {
+            try {
+                ProxyTripList trips = (ProxyTripList) inFromServer.readObject();
+                Main.controller.showList(trips);
+            } catch (IOException | ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="3" nclones="19" nlines="9" similarity="100"&gt;
+<source file="systems/4_8/prompt_00959.java" startline="8" endline="19" pcid="520">
+public byte getByte(String key) 
+{
+    Object value = map.get(key);
+    if (value instanceof Byte)
+    {
+        return ((Byte) value).byteValue();
+    }
+    else
+    {
+        return (byte) 0;
+    }
+}   
+</source>
+<source file="systems/search_results/959/CompoundTag_9.java" startline="105" endline="112" pcid="1737">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        } else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_15.java" startline="130" endline="137" pcid="1535">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        } else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_11.java" startline="108" endline="116" pcid="1645">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        }
+        else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_10.java" startline="106" endline="114" pcid="1824">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        }
+        else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_18.java" startline="102" endline="109" pcid="1715">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        } else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_13.java" startline="105" endline="112" pcid="1513">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        } else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_5.java" startline="105" endline="112" pcid="1868">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        } else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_14.java" startline="105" endline="112" pcid="1803">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        } else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_7.java" startline="116" endline="123" pcid="1492">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        } else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_6.java" startline="95" endline="102" pcid="1579">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        } else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_4.java" startline="108" endline="116" pcid="1623">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        }
+        else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_2.java" startline="106" endline="113" pcid="1782">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        } else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_16.java" startline="105" endline="112" pcid="1667">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        } else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_1.java" startline="114" endline="121" pcid="1760">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        } else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag.java" startline="101" endline="108" pcid="1688">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        } else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_8.java" startline="95" endline="102" pcid="1846">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        } else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_12.java" startline="108" endline="116" pcid="1556">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        }
+        else {
+            return (byte) 0;
+        }
+    }
+</source>
+<source file="systems/search_results/959/CompoundTag_3.java" startline="108" endline="116" pcid="1601">
+    public byte getByte(String key) {
+        Tag tag = value.get(key);
+        if (tag instanceof ByteTag) {
+            return ((ByteTag) tag).getValue();
+        }
+        else {
+            return (byte) 0;
+        }
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="4" nclones="5" nlines="11" similarity="100"&gt;
+<source file="systems/4_8/prompt_00289.java" startline="7" endline="21" pcid="564">
+public int getExternalSheetIndex(String sheetName) 
+{
+    if (sheetName == null)
+    {
+        return -1;
+    }
+    for (int i = 0; i &lt; workbook.getNumberOfSheets(); i++)
+    {
+        if (sheetName.equals(workbook.getSheetName(i)))
+        {
+            return i;
+        }
+    }
+    return -1;
+}   
+</source>
+<source file="systems/search_results/289/UniqueHashedArray.java" startline="128" endline="138" pcid="1918">
+  public int getIndex(UniqueKey key) {
+    if (key == null) {
+      return -1;
+    }
+    for (int i = 0; i &lt; keyArray.size(); i++) {
+      if (key.equals(keyArray.get(i))) {
+        return i;
+      }
+    }
+    return -1;
+  }
+</source>
+<source file="systems/search_results/289/JTestContainer.java" startline="239" endline="249" pcid="1932">
+	public int getRootIndex(JTest test) {
+		if (test == null) {
+			return -1;
+		}
+		for (int i = 0; i &lt; rootTests.size(); i++) {
+			if (test.equals(rootTests.elementAt(i))) {
+				return i;
+			}
+		}
+		return -1;
+	}
+</source>
+<source file="systems/search_results/289/JTestContainer.java" startline="298" endline="308" pcid="1935">
+	public int findTestIndexInAll(JTest test) {
+		if (test == null) {
+			return -1;
+		}
+		for (int i = 0; i &lt; allTests.size(); i++) {
+			if (test.equals(allTests.elementAt(i))) {
+				return i;
+			}
+		}
+		return -1;
+	}
+</source>
+<source file="systems/search_results/289/ReferenzImageList.java" startline="57" endline="69" pcid="1885">
+    public int indexOf(T reference) {
+        if (reference == null) {
+            return -1;
+        }
+
+        for (int i = 0; i &lt; referenzes.size(); i++) {
+            if (reference.equals(referenzes.get(i))) {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="5" nclones="11" nlines="7" similarity="100"&gt;
+<source file="systems/4_8/prompt_00077.java" startline="2" endline="11" pcid="586">
+public void loadPixels() 
+{
+    for (int i = 0; i &lt; width; i++)
+    {
+        for (int j = 0; j &lt; height; j++)
+        {
+            pixels[i][j] = new Pixel(i, j);
+        }
+    }
+}   
+</source>
+<source file="systems/search_results/77/Screen.java" startline="41" endline="48" pcid="1184">
+	public void reset()
+	{
+		for (int x = 0; x &lt; COLUMN_SIZE; x++) {
+            for (int y = 0; y &lt; ROW_SIZE; y++) {
+            	pixels[x][y] = new Pixel(x, y);
+            }
+		}
+	}
+</source>
+<source file="systems/search_results/77/Environment.java" startline="22" endline="28" pcid="1255">
+    public void initGrid() {
+        for (int x = 0; x &lt; width; x++) {
+            for (int y = 0; y &lt; height; y++) {
+                grid[x][y] = new Cell(x, y);
+            }
+        }
+    }
+</source>
+<source file="systems/search_results/77/BattleField.java" startline="45" endline="51" pcid="1082">
+    public void createEmptyBattleField() {
+        for (int i = 0; i &lt; size; i++) {
+            for (int j = 0; j &lt; size; j++) {
+                cells[i][j] = new Cell(i, j);
+            }
+        }
+    }
+</source>
+<source file="systems/search_results/77/Game.java" startline="46" endline="52" pcid="1078">
+    public void generateThreads() {
+        for (int i = 0; i &lt; M; i++) {
+            for (int j = 0; j &lt; N; j++) {
+                cellThreads[i][j] = new CellThread(i, j);
+            }
+        }
+    }
+</source>
+<source file="systems/search_results/77/GameBoard.java" startline="22" endline="28" pcid="1318">
+    public void configBoard() {
+        for (int x = 0; x &lt; xGroote; x++) {
+            for (int y = 0; y &lt; yGroote; y++) {
+                bord[x][y] = new Space(x, y);
+            }
+        }
+    }
+</source>
+<source file="systems/search_results/77/Cine.java" startline="27" endline="33" pcid="1095">
+    public void inicializarAsientos() {
+        for (int i = 0; i &lt; row; i++) {
+            for (int j = 0; j &lt; column; j++) {
+                asientos[i][j] = new Asiento(i, j);
+            }
+        }
+    }
+</source>
+<source file="systems/search_results/77/MonsterEvolver.java" startline="505" endline="514" pcid="1112">
+	public void createMap()
+	{
+		for (int x = 0; x &lt; EVOLVER_WIDTH; x++)
+		{
+			for (int y = 0; y &lt; EVOLVER_HEIGHT; y++)
+			{
+				grid[x][y] = new EvolverTile(x, y);
+			}
+		}
+	}
+</source>
+<source file="systems/search_results/77/Exercise0.java" startline="18" endline="24" pcid="1283">
+        public void createRoom() {
+            for (int i = 0; i &lt; xCoordinateSize; i++) {
+                for (int j = 0; j &lt; yCoordinateSize; j++) {
+                    field[i][j] = new Room(i, j);
+                }
+            }
+        }
+</source>
+<source file="systems/search_results/77/Main.java" startline="226" endline="232" pcid="1242">
+		public void iniciaCampo() {
+			for (int i = 0; i &lt; LINHA; i++) {
+				for (int j = 0; j &lt; COLUNA; j++) {
+					campo[i][j] = new Casa(i, j);
+				}
+			}
+		}
+</source>
+<source file="systems/search_results/77/Display.java" startline="182" endline="188" pcid="1293">
+	public void initCells() {
+		for (int row = 0; row &lt; ROWS; row++) {
+			for (int col = 0; col &lt; COLS; col++) {
+				cell[row][col] = new Cell(row, col);
+			}
+		}
+	}
+</source>
+&lt;/class&gt;
+
+&lt;class classid="6" nclones="2" nlines="9" similarity="100"&gt;
+<source file="systems/4_8/prompt_00793.java" startline="4" endline="15" pcid="589">
+private void print() 
+{
+    for (int i = 0; i &lt; 3; i++)
+    {
+        for (int j = 0; j &lt; 3; j++)
+        {
+            System.out.print(board[i][j] + " ");
+        }
+        System.out.println();
+    }
+    System.out.println();
+}   
+</source>
+<source file="systems/search_results/793/SujikoSolver.java" startline="103" endline="111" pcid="1459">
+    private void printSolution() {
+        for (int i = 0; i &lt; 3; i++) {
+            for (int j = 0; j &lt; 3; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="7" nclones="3" nlines="4" similarity="100"&gt;
+<source file="systems/4_8/prompt_01237.java" startline="7" endline="11" pcid="711">
+public Range(int start, int end) 
+{
+    this.start = start;
+    this.end = end;
+}   
+</source>
+<source file="systems/search_results/77/MonsterEvolver.java" startline="891" endline="895" pcid="1122">
+	public EvolverTile(int x, int y)
+	{
+		this.x = x;
+		this.y = y;
+	}
+</source>
+<source file="systems/search_results/77/Environment.java" startline="245" endline="248" pcid="1274">
+        public Position(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="8" nclones="4" nlines="5" similarity="100"&gt;
+<source file="systems/4_8/prompt_01616.java" startline="9" endline="15" pcid="805">
+public static int getPowerOfTwoBiggerThan(int n) 
+{
+    int i = 1;
+    while (i &lt; n)
+        i &lt;&lt;= 1;
+    return i;
+}   
+</source>
+<source file="systems/search_results/1616/Data.java" startline="21" endline="25" pcid="1396">
+  public static int nextPowerOfTwo(int n) {
+    int r = 1;
+    while (r &lt; n) r &lt;&lt;= 1;
+    return r;
+  }
+</source>
+<source file="systems/search_results/1616/MathUtils.java" startline="31" endline="35" pcid="1344">
+	public static int getNextPowerOfTwo(int i) {
+		int result = 1;
+		while (result &lt; i) result &lt;&lt;= 1;
+		return result;
+	}
+</source>
+<source file="systems/search_results/1616/Data_1.java" startline="21" endline="25" pcid="1349">
+  public static int nextPowerOfTwo(int n) {
+    int r = 1;
+    while (r &lt; n) r &lt;&lt;= 1;
+    return r;
+  }
+</source>
+&lt;/class&gt;
+
+&lt;class classid="9" nclones="5" nlines="7" similarity="100"&gt;
+<source file="systems/4_8/prompt_01065.java" startline="4" endline="16" pcid="994">
+public void LoadPendingTickets() 
+{
+    // Iterate through the array of pending tickets
+    for (int i = 0; i &lt; pendingTickets.length; i++)
+    {
+        // Check if the current ticket is not null
+        if (pendingTickets[i] != null)
+        {
+            // Load the ticket into the system
+            LoadTicket(pendingTickets[i]);
+        }
+    }
+}   
+</source>
+<source file="systems/search_results/1065/ViewInfo_1.java" startline="308" endline="314" pcid="2120">
+    public void flushCommitCache() {
+        for (int i = 0; i &lt; comCache.length; i++) {
+            if (comCache[i] != null) {
+                addCommitView(comCache[i]);
+            }
+        }
+    }
+</source>
+<source file="systems/search_results/1065/ViewInfo.java" startline="241" endline="247" pcid="2060">
+    public void flushConfirmedCache() {
+        for (int i = 0; i &lt; cvCache.length; i++) {
+            if (cvCache[i] != null) {
+                addConfirmation(cvCache[i]);
+            }
+        }
+    }
+</source>
+<source file="systems/search_results/1065/ViewInfo_2.java" startline="268" endline="274" pcid="2078">
+    public void flushConfirmedCache(){
+	for (int i = 0; i &lt; cvCache.length; i++){
+	    if (cvCache[i] != null){
+		addConfirmation(cvCache[i]);
+	    } 
+	}
+    }
+</source>
+<source file="systems/search_results/1065/ViewInfo_1.java" startline="286" endline="292" pcid="2118">
+    public void flushConfirmedCache() {
+        for (int i = 0; i &lt; cvCache.length; i++) {
+            if (cvCache[i] != null) {
+                addConfirmation(cvCache[i]);
+            }
+        }
+    }
+</source>
+&lt;/class&gt;
+
+&lt;/clones&gt;
+
+</root>

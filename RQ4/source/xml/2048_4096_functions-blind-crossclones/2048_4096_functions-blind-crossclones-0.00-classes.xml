@@ -1,0 +1,219 @@
+<root>
+&lt;clones&gt;
+&lt;systeminfo processor="nicad6" system="2048_4096" system2="search_results" granularity="functions-blind" threshold="0%" minlines="4" maxlines="2500"/&gt;
+&lt;cloneinfo npcs="4021" npairs="184"/&gt;
+&lt;runinfo ncompares="421143" cputime="23159"/&gt;
+&lt;classinfo nclasses="15"/&gt;
+
+&lt;class classid="1" nclones="2" nlines="4" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_01491.java" startline="2" endline="6" pcid="13"&gt;&lt;/source>
+<source file="systems/search_results/507/EulerCamera.java" startline="644" endline="647" pcid="3758"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="2" nclones="8" nlines="7" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00271.java" startline="7" endline="15" pcid="57"&gt;&lt;/source>
+<source file="systems/search_results/271/FormatUtils.java" startline="54" endline="63" pcid="2420"&gt;&lt;/source>
+<source file="systems/search_results/271/FormatUtils.java" startline="149" endline="157" pcid="2426"&gt;&lt;/source>
+<source file="systems/search_results/271/FormatUtils.java" startline="70" endline="80" pcid="2421"&gt;&lt;/source>
+<source file="systems/search_results/271/FormatUtils.java" startline="119" endline="127" pcid="2424"&gt;&lt;/source>
+<source file="systems/search_results/271/FormatUtils.java" startline="87" endline="97" pcid="2422"&gt;&lt;/source>
+<source file="systems/search_results/271/FormatUtils.java" startline="134" endline="142" pcid="2425"&gt;&lt;/source>
+<source file="systems/search_results/271/FormatUtils.java" startline="104" endline="112" pcid="2423"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="3" nclones="2" nlines="10" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_01383.java" startline="2" endline="12" pcid="126"&gt;&lt;/source>
+<source file="systems/search_results/1383/DRMFileUtil.java" startline="182" endline="191" pcid="2446"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="4" nclones="6" nlines="11" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00992.java" startline="5" endline="19" pcid="186"&gt;&lt;/source>
+<source file="systems/search_results/992/AnimalFactory.java" startline="5" endline="13" pcid="2315"&gt;&lt;/source>
+<source file="systems/search_results/992/GameApplication.java" startline="46" endline="54" pcid="2305"&gt;&lt;/source>
+<source file="systems/search_results/992/Lab4_HandsOn1.java" startline="48" endline="62" pcid="2297"&gt;&lt;/source>
+<source file="systems/search_results/992/ShapeFactory.java" startline="4" endline="12" pcid="2292"&gt;&lt;/source>
+<source file="systems/search_results/992/PaymentMethodFactory.java" startline="3" endline="11" pcid="2291"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="5" nclones="38" nlines="6" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00733.java" startline="5" endline="12" pcid="290"&gt;&lt;/source>
+<source file="systems/search_results/733/BoxShape_1.java" startline="279" endline="286" pcid="3554"&gt;&lt;/source>
+<source file="systems/search_results/733/OpenGlToolkit.java" startline="1199" endline="1204" pcid="3384"&gt;&lt;/source>
+<source file="systems/search_results/733/BoxShape.java" startline="281" endline="288" pcid="3255"&gt;&lt;/source>
+<source file="systems/search_results/726/bvx$c.java" startline="105" endline="112" pcid="2002"&gt;&lt;/source>
+<source file="systems/search_results/733/AspectRatioFrameLayout.java" startline="52" endline="59" pcid="3271"&gt;&lt;/source>
+<source file="systems/search_results/726/PlanetRenderer.java" startline="996" endline="1003" pcid="2058"&gt;&lt;/source>
+<source file="systems/search_results/726/AspectRatioFrameLayout.java" startline="52" endline="59" pcid="2006"&gt;&lt;/source>
+<source file="systems/search_results/726/g.java" startline="222" endline="229" pcid="1464"&gt;&lt;/source>
+<source file="systems/search_results/726/Class167_Sub2.java" startline="3374" endline="3379" pcid="1714"&gt;&lt;/source>
+<source file="systems/search_results/726/OpenGlToolkit.java" startline="1199" endline="1204" pcid="2119"&gt;&lt;/source>
+<source file="systems/search_results/733/bvx$c.java" startline="105" endline="112" pcid="3267"&gt;&lt;/source>
+<source file="systems/search_results/726/BoxShape.java" startline="281" endline="288" pcid="1990"&gt;&lt;/source>
+<source file="systems/search_results/726/CircularBorderDrawable.java" startline="181" endline="188" pcid="1381"&gt;&lt;/source>
+<source file="systems/search_results/733/PlanetRenderer.java" startline="996" endline="1003" pcid="3323"&gt;&lt;/source>
+<source file="systems/search_results/726/x.java" startline="222" endline="229" pcid="1357"&gt;&lt;/source>
+<source file="systems/search_results/726/Layer.java" startline="123" endline="130" pcid="1390"&gt;&lt;/source>
+<source file="systems/search_results/726/CircleShape.java" startline="100" endline="107" pcid="1332"&gt;&lt;/source>
+<source file="systems/search_results/733/BezierView.java" startline="88" endline="93" pcid="3532"&gt;&lt;/source>
+<source file="systems/search_results/726/ShadowDrawableWrapper.java" startline="312" endline="319" pcid="1317"&gt;&lt;/source>
+<source file="systems/search_results/726/buw$c.java" startline="105" endline="112" pcid="1441"&gt;&lt;/source>
+<source file="systems/search_results/733/Class167_Sub2.java" startline="3374" endline="3379" pcid="2979"&gt;&lt;/source>
+<source file="systems/search_results/726/Class167_Sub2.java" startline="4265" endline="4270" pcid="1788"&gt;&lt;/source>
+<source file="systems/search_results/733/g.java" startline="222" endline="229" pcid="2729"&gt;&lt;/source>
+<source file="systems/search_results/726/Layer_2.java" startline="122" endline="129" pcid="1960"&gt;&lt;/source>
+<source file="systems/search_results/733/buw$c.java" startline="105" endline="112" pcid="2706"&gt;&lt;/source>
+<source file="systems/search_results/733/Layer_1.java" startline="122" endline="129" pcid="2678"&gt;&lt;/source>
+<source file="systems/search_results/733/ShadowDrawableWrapper.java" startline="312" endline="319" pcid="2582"&gt;&lt;/source>
+<source file="systems/search_results/733/Layer.java" startline="123" endline="130" pcid="2655"&gt;&lt;/source>
+<source file="systems/search_results/733/CircleShape.java" startline="100" endline="107" pcid="2597"&gt;&lt;/source>
+<source file="systems/search_results/726/BezierView.java" startline="88" endline="93" pcid="2267"&gt;&lt;/source>
+<source file="systems/search_results/733/CircularBorderDrawable.java" startline="181" endline="188" pcid="2646"&gt;&lt;/source>
+<source file="systems/search_results/733/Class167_Sub2.java" startline="4265" endline="4270" pcid="3053"&gt;&lt;/source>
+<source file="systems/search_results/733/x.java" startline="222" endline="229" pcid="2622"&gt;&lt;/source>
+<source file="systems/search_results/733/Layer_2.java" startline="122" endline="129" pcid="3225"&gt;&lt;/source>
+<source file="systems/search_results/726/BoxShape_1.java" startline="279" endline="286" pcid="2289"&gt;&lt;/source>
+<source file="systems/search_results/726/Layer_1.java" startline="122" endline="129" pcid="1413"&gt;&lt;/source>
+<source file="systems/2048_4096/prompt_00726.java" startline="5" endline="12" pcid="626"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="6" nclones="40" nlines="7" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_01724.java" startline="9" endline="19" pcid="301"&gt;&lt;/source>
+<source file="systems/search_results/1724/AddVoucherController.java" startline="102" endline="108" pcid="2336"&gt;&lt;/source>
+<source file="systems/search_results/1724/Index.java" startline="99" endline="105" pcid="2411"&gt;&lt;/source>
+<source file="systems/search_results/1724/AddVoucherController.java" startline="85" endline="91" pcid="2335"&gt;&lt;/source>
+<source file="systems/search_results/1724/Index.java" startline="82" endline="88" pcid="2410"&gt;&lt;/source>
+<source file="systems/search_results/1724/AuthLogin.java" startline="120" endline="126" pcid="2332"&gt;&lt;/source>
+<source file="systems/search_results/1724/AuthRegister.java" startline="103" endline="109" pcid="2339"&gt;&lt;/source>
+<source file="systems/search_results/1724/AuthLogin.java" startline="103" endline="109" pcid="2331"&gt;&lt;/source>
+<source file="systems/search_results/1724/LoginController.java" startline="33" endline="39" pcid="2407"&gt;&lt;/source>
+<source file="systems/search_results/1724/RegistrationController.java" startline="33" endline="39" pcid="2328"&gt;&lt;/source>
+<source file="systems/search_results/1724/StaffMember.java" startline="184" endline="190" pcid="2414"&gt;&lt;/source>
+<source file="systems/search_results/1724/RegistrationController.java" startline="24" endline="30" pcid="2327"&gt;&lt;/source>
+<source file="systems/search_results/1724/AuthRegister.java" startline="120" endline="126" pcid="2340"&gt;&lt;/source>
+<source file="systems/search_results/1724/SRVLCadastrarLocacao.java" startline="96" endline="103" pcid="2361"&gt;&lt;/source>
+<source file="systems/search_results/1724/StaffMember.java" startline="193" endline="199" pcid="2415"&gt;&lt;/source>
+<source file="systems/search_results/1724/ParcAtualiza.java" startline="131" endline="137" pcid="2366"&gt;&lt;/source>
+<source file="systems/search_results/1724/Home.java" startline="98" endline="104" pcid="2343"&gt;&lt;/source>
+<source file="systems/search_results/1724/ParcAtualiza.java" startline="147" endline="154" pcid="2367"&gt;&lt;/source>
+<source file="systems/search_results/1724/Home.java" startline="115" endline="121" pcid="2344"&gt;&lt;/source>
+<source file="systems/search_results/1724/Admin.java" startline="156" endline="162" pcid="2370"&gt;&lt;/source>
+<source file="systems/search_results/1724/AvisSaisi.java" startline="100" endline="106" pcid="2417"&gt;&lt;/source>
+<source file="systems/search_results/1724/Admin.java" startline="173" endline="179" pcid="2371"&gt;&lt;/source>
+<source file="systems/search_results/1724/HapusGedung.java" startline="70" endline="77" pcid="2347"&gt;&lt;/source>
+<source file="systems/search_results/1724/updateLinePositions.java" startline="163" endline="169" pcid="2374"&gt;&lt;/source>
+<source file="systems/search_results/1724/AvisSaisi.java" startline="117" endline="123" pcid="2418"&gt;&lt;/source>
+<source file="systems/search_results/1724/updateLinePositions.java" startline="181" endline="187" pcid="2375"&gt;&lt;/source>
+<source file="systems/search_results/1724/HapusGedung.java" startline="87" endline="95" pcid="2348"&gt;&lt;/source>
+<source file="systems/search_results/1724/SRVLCadastrarCliente.java" startline="190" endline="201" pcid="2383"&gt;&lt;/source>
+<source file="systems/search_results/1724/FilmListe.java" startline="139" endline="145" pcid="2351"&gt;&lt;/source>
+<source file="systems/search_results/1724/SRVLCadastrarCliente.java" startline="204" endline="214" pcid="2384"&gt;&lt;/source>
+<source file="systems/search_results/1724/FilmListe.java" startline="156" endline="162" pcid="2352"&gt;&lt;/source>
+<source file="systems/search_results/1724/SRVLCadastrarItem.java" startline="130" endline="137" pcid="2391"&gt;&lt;/source>
+<source file="systems/search_results/1724/ServletLogin.java" startline="32" endline="38" pcid="2354"&gt;&lt;/source>
+<source file="systems/search_results/1724/SRVLCadastrarItem.java" startline="140" endline="147" pcid="2392"&gt;&lt;/source>
+<source file="systems/search_results/1724/ServletLogin.java" startline="41" endline="47" pcid="2355"&gt;&lt;/source>
+<source file="systems/search_results/1724/InventoryController.java" startline="33" endline="39" pcid="2395"&gt;&lt;/source>
+<source file="systems/search_results/1724/SRVLCadastrarLocacao.java" startline="86" endline="93" pcid="2360"&gt;&lt;/source>
+<source file="systems/search_results/1724/FilmResultatRequete.java" startline="182" endline="188" pcid="2403"&gt;&lt;/source>
+<source file="systems/search_results/1724/LoginController.java" startline="24" endline="30" pcid="2406"&gt;&lt;/source>
+<source file="systems/search_results/1724/FilmResultatRequete.java" startline="199" endline="205" pcid="2404"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="7" nclones="2" nlines="6" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00914.java" startline="4" endline="11" pcid="344"&gt;&lt;/source>
+<source file="systems/search_results/992/GameApplication.java" startline="11" endline="16" pcid="2300"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="8" nclones="8" nlines="7" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00712.java" startline="3" endline="11" pcid="371"&gt;&lt;/source>
+<source file="systems/search_results/712/TShirtShop.java" startline="108" endline="115" pcid="1041"&gt;&lt;/source>
+<source file="systems/search_results/712/OracleExtractionHG.java" startline="722" endline="728" pcid="1066"&gt;&lt;/source>
+<source file="systems/search_results/712/BookShop.java" startline="74" endline="80" pcid="1101"&gt;&lt;/source>
+<source file="systems/search_results/712/TSP.java" startline="70" endline="76" pcid="1291"&gt;&lt;/source>
+<source file="systems/search_results/712/OracleExtractionHG_2.java" startline="748" endline="754" pcid="1193"&gt;&lt;/source>
+<source file="systems/search_results/712/OracleExtractionHG_1.java" startline="714" endline="720" pcid="1221"&gt;&lt;/source>
+<source file="systems/search_results/712/OracleExtractionHG_3.java" startline="718" endline="724" pcid="1259"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="9" nclones="2" nlines="6" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_01546.java" startline="2" endline="10" pcid="479"&gt;&lt;/source>
+<source file="systems/search_results/507/SeatTable.java" startline="150" endline="155" pcid="3716"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="10" nclones="13" nlines="5" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00036.java" startline="4" endline="10" pcid="719"&gt;&lt;/source>
+<source file="systems/search_results/36/SeparatePiecesRunner_8.java" startline="131" endline="135" pcid="3651"&gt;&lt;/source>
+<source file="systems/search_results/36/SeparatePiecesRunner_7.java" startline="131" endline="135" pcid="3661"&gt;&lt;/source>
+<source file="systems/search_results/36/SeparatePiecesRunner.java" startline="129" endline="133" pcid="3641"&gt;&lt;/source>
+<source file="systems/search_results/36/SeparatePiecesRunner_10.java" startline="130" endline="134" pcid="3631"&gt;&lt;/source>
+<source file="systems/search_results/36/SeparatePiecesRunner_1.java" startline="110" endline="114" pcid="3670"&gt;&lt;/source>
+<source file="systems/search_results/36/SeparatePiecesRunner_2.java" startline="130" endline="134" pcid="3680"&gt;&lt;/source>
+<source file="systems/search_results/36/SeparatePiecesRunner_5.java" startline="136" endline="140" pcid="3621"&gt;&lt;/source>
+<source file="systems/search_results/36/SeparatePiecesRunner_3.java" startline="136" endline="140" pcid="3611"&gt;&lt;/source>
+<source file="systems/search_results/36/SeparatePiecesRunner_4.java" startline="136" endline="140" pcid="3690"&gt;&lt;/source>
+<source file="systems/search_results/36/SeparatePiecesRunner_9.java" startline="131" endline="135" pcid="3700"&gt;&lt;/source>
+<source file="systems/search_results/36/SeparatePiecesRunner_11.java" startline="136" endline="140" pcid="3601"&gt;&lt;/source>
+<source file="systems/search_results/36/SeparatePiecesRunner_6.java" startline="131" endline="135" pcid="3591"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="11" nclones="2" nlines="12" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00400.java" startline="8" endline="21" pcid="906"&gt;&lt;/source>
+<source file="systems/search_results/400/MeetUpGroupMongo.java" startline="93" endline="104" pcid="3574"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="12" nclones="28" nlines="6" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00507.java" startline="8" endline="15" pcid="917"&gt;&lt;/source>
+<source file="systems/search_results/507/ScaleToRequest.java" startline="60" endline="65" pcid="3786"&gt;&lt;/source>
+<source file="systems/search_results/507/Cylinder.java" startline="28" endline="33" pcid="3839"&gt;&lt;/source>
+<source file="systems/search_results/507/CompilerHints.java" startline="78" endline="84" pcid="3779"&gt;&lt;/source>
+<source file="systems/search_results/507/Carro.java" startline="115" endline="120" pcid="3802"&gt;&lt;/source>
+<source file="systems/search_results/507/Carro.java" startline="126" endline="131" pcid="3804"&gt;&lt;/source>
+<source file="systems/search_results/507/Cylinder.java" startline="21" endline="26" pcid="3838"&gt;&lt;/source>
+<source file="systems/search_results/507/GraphRenderingOptionsImpl.java" startline="33" endline="39" pcid="3997"&gt;&lt;/source>
+<source file="systems/search_results/507/SeatTable.java" startline="136" endline="141" pcid="3714"&gt;&lt;/source>
+<source file="systems/search_results/507/Carro.java" startline="137" endline="142" pcid="3806"&gt;&lt;/source>
+<source file="systems/search_results/507/Camera.java" startline="175" endline="181" pcid="3819"&gt;&lt;/source>
+<source file="systems/search_results/507/ScaleByRequest.java" startline="47" endline="52" pcid="3721"&gt;&lt;/source>
+<source file="systems/search_results/507/ShapeSeedingStrategy.java" startline="80" endline="85" pcid="3932"&gt;&lt;/source>
+<source file="systems/search_results/507/FloatSampleBuffer.java" startline="508" endline="513" pcid="3984"&gt;&lt;/source>
+<source file="systems/search_results/507/SeatTable.java" startline="143" endline="148" pcid="3715"&gt;&lt;/source>
+<source file="systems/search_results/507/GeometryData.java" startline="52" endline="57" pcid="3895"&gt;&lt;/source>
+<source file="systems/search_results/507/GeometryData.java" startline="41" endline="46" pcid="3893"&gt;&lt;/source>
+<source file="systems/search_results/507/Imc.java" startline="28" endline="34" pcid="3886"&gt;&lt;/source>
+<source file="systems/search_results/507/MobileApp.java" startline="78" endline="83" pcid="3854"&gt;&lt;/source>
+<source file="systems/search_results/507/CubicTank.java" startline="170" endline="175" pcid="3867"&gt;&lt;/source>
+<source file="systems/search_results/507/FloatSampleBuffer.java" startline="473" endline="478" pcid="3981"&gt;&lt;/source>
+<source file="systems/search_results/507/Imc.java" startline="20" endline="26" pcid="3885"&gt;&lt;/source>
+<source file="systems/search_results/507/ContaCorrente.java" startline="36" endline="43" pcid="3878"&gt;&lt;/source>
+<source file="systems/search_results/507/CubicTank.java" startline="258" endline="263" pcid="3875"&gt;&lt;/source>
+<source file="systems/search_results/507/CubicTank.java" startline="236" endline="241" pcid="3873"&gt;&lt;/source>
+<source file="systems/search_results/507/Item.java" startline="57" endline="63" pcid="3921"&gt;&lt;/source>
+<source file="systems/search_results/507/CubicTank.java" startline="214" endline="219" pcid="3871"&gt;&lt;/source>
+<source file="systems/search_results/507/CubicTank.java" startline="192" endline="197" pcid="3869"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="13" nclones="2" nlines="4" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00608.java" startline="7" endline="11" pcid="970"&gt;&lt;/source>
+<source file="systems/search_results/1314/CustomGridLayout.java" startline="212" endline="215" pcid="2450"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="14" nclones="2" nlines="5" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_01314.java" startline="7" endline="12" pcid="987"&gt;&lt;/source>
+<source file="systems/search_results/1314/CustomGridLayout.java" startline="658" endline="662" pcid="2471"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;class classid="15" nclones="9" nlines="6" similarity="100"&gt;
+<source file="systems/2048_4096/prompt_00107.java" startline="8" endline="15" pcid="1031"&gt;&lt;/source>
+<source file="systems/search_results/733/g.java" startline="158" endline="165" pcid="2718"&gt;&lt;/source>
+<source file="systems/search_results/733/buw$c.java" startline="56" endline="63" pcid="2699"&gt;&lt;/source>
+<source file="systems/search_results/733/x.java" startline="158" endline="165" pcid="2611"&gt;&lt;/source>
+<source file="systems/search_results/733/bvx$c.java" startline="56" endline="63" pcid="3260"&gt;&lt;/source>
+<source file="systems/search_results/726/bvx$c.java" startline="56" endline="63" pcid="1995"&gt;&lt;/source>
+<source file="systems/search_results/726/buw$c.java" startline="56" endline="63" pcid="1434"&gt;&lt;/source>
+<source file="systems/search_results/726/x.java" startline="158" endline="165" pcid="1346"&gt;&lt;/source>
+<source file="systems/search_results/726/g.java" startline="158" endline="165" pcid="1453"&gt;&lt;/source>
+&lt;/class&gt;
+
+&lt;/clones&gt;
+
+</root>

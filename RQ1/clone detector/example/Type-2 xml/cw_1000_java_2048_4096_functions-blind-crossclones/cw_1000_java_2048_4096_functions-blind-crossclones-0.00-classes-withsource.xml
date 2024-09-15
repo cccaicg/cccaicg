@@ -1,0 +1,2048 @@
+<clones>
+<systeminfo processor="nicad6" system="cw_1000_java_2048_4096" system2="source" granularity="functions-blind" threshold="0%" minlines="4" maxlines="2500"/>
+<cloneinfo npcs="3040" npairs="397"/>
+<runinfo ncompares="361201" cputime="46"/>
+<classinfo nclasses="62"/>
+
+<class classid="1" nclones="25" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00017.java" startline="7" endline="11" pcid="14">
+public SpruceBuilder sortWith(SortFunction function) 
+{
+    this.sortFunction = function;
+    return this;
+}   
+</source>
+<source file="./systems/source/00832.java" startline="8" endline="11" pcid="1873">
+public DistributedLogNamespaceBuilder conf(DistributedLogConfiguration conf){
+    this._conf = conf;
+    return this;
+}
+</source>
+<source file="./systems/source/00823.java" startline="8" endline="11" pcid="1860">
+public DistributedLogNamespaceBuilder clientId(String clientId){
+    this._clientId = clientId;
+    return this;
+}
+</source>
+<source file="./systems/source/00010.java" startline="10" endline="13" pcid="1046">
+public SpruceBuilder addInterpolator(Interpolator interpolator){
+    this.interpolator = interpolator;
+    return this;
+}
+</source>
+<source file="./systems/source/00017.java" startline="7" endline="10" pcid="1054">
+public SpruceBuilder sortWith(SortFunction function){
+    this.sortFunction = function;
+    return this;
+}
+</source>
+<source file="./systems/source/00063.java" startline="6" endline="9" pcid="1095">
+public ApiClient setTempFolderPath(String tempFolderPath){
+  this.tempFolderPath = tempFolderPath;
+  return this;
+}
+</source>
+<source file="./systems/source/01926.java" startline="7" endline="10" pcid="2967">
+public Builder strategy(InternetObservingStrategy strategy){
+  this.strategy = strategy;
+  return this;
+}
+</source>
+<source file="./systems/source/01931.java" startline="6" endline="9" pcid="2972">
+public Builder errorHandler(ErrorHandler errorHandler){
+  this.errorHandler = errorHandler;
+  return this;
+}
+</source>
+<source file="./systems/source/00826.java" startline="8" endline="11" pcid="1863">
+public Builder setInputStream(InputStream in){
+    this.in = in;
+    return this;
+}
+</source>
+<source file="./systems/source/01933.java" startline="6" endline="9" pcid="2974">
+public Builder host(String host){
+  this.host = host;
+  return this;
+}
+</source>
+<source file="./systems/source/00825.java" startline="9" endline="12" pcid="1862">
+public DistributedLogNamespaceBuilder uri(URI uri){
+    this._uri = uri;
+    return this;
+}
+</source>
+<source file="./systems/source/00607.java" startline="7" endline="10" pcid="1644">
+public Builder setHeaderClickListener(OnHeaderClickListener headerClickListener){
+    this.headerClickListener = headerClickListener;
+    return this;
+}
+</source>
+<source file="./systems/source/00833.java" startline="8" endline="11" pcid="1874">
+public DistributedLogNamespaceBuilder statsLogger(StatsLogger statsLogger){
+    this._statsLogger = statsLogger;
+    return this;
+}
+</source>
+<source file="./systems/source/01305.java" startline="7" endline="10" pcid="2360">
+public Builder attachTo(View actionView){
+    this.actionView = actionView;
+    return this;
+}
+</source>
+<source file="./systems/source/01307.java" startline="6" endline="9" pcid="2362">
+public Builder setAnimationHandler(MenuAnimationHandler animationHandler){
+    this.animationHandler = animationHandler;
+    return this;
+}
+</source>
+<source file="./systems/source/00672.java" startline="9" endline="12" pcid="1703">
+public Crouton setOnClickListener(OnClickListener onClickListener){
+  this.onClickListener = onClickListener;
+  return this;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00825.java" startline="9" endline="13" pcid="438">
+public DistributedLogNamespaceBuilder uri(URI uri) 
+{
+    this.uri = uri;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01933.java" startline="6" endline="10" pcid="1000">
+public Builder host(String host) 
+{
+    this.host = host;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00826.java" startline="8" endline="12" pcid="439">
+public Builder setInputStream(InputStream in) 
+{
+    this.inputStream = in;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01858.java" startline="7" endline="11" pcid="972">
+public TeamBuilder updatePrefix(JsonMessage prefix) 
+{
+    this.prefix = prefix;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01745.java" startline="10" endline="14" pcid="916">
+public RetryTemplateBuilder customPolicy(RetryPolicy policy) 
+{
+    this.policy = policy;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00071.java" startline="6" endline="10" pcid="43">
+public ApiClient setDateFormat(DateFormat dateFormat) 
+{
+    this.dateFormat = dateFormat;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01840.java" startline="7" endline="11" pcid="962">
+public TeamBuilder updateTeamDisplayName(JsonMessage displayName) 
+{
+    this.displayName = displayName;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01497.java" startline="2" endline="6" pcid="791">
+public NormalListDialog title(String title) 
+{
+    this.title = title;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01307.java" startline="6" endline="10" pcid="677">
+public Builder setAnimationHandler(MenuAnimationHandler animationHandler) 
+{
+    this.animationHandler = animationHandler;
+    return this;
+}   
+</source>
+</class>
+
+<class classid="2" nclones="4" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00031.java" startline="2" endline="6" pcid="24">
+public CaseExecutionEntity getParent() 
+{
+    ensureParentLoaded();
+    return parent;
+}   
+</source>
+<source file="./systems/source/00024.java" startline="2" endline="5" pcid="1062">
+public CaseExecutionEntity getSubCaseInstance(){
+  ensureSubCaseInstanceInitialized();
+  return subCaseInstance;
+}
+</source>
+<source file="./systems/source/00032.java" startline="2" endline="5" pcid="1068">
+public ExecutionEntity getSubProcessInstance(){
+  ensureSubProcessInstanceInitialized();
+  return subProcessInstance;
+}
+</source>
+<source file="./systems/source/00031.java" startline="2" endline="5" pcid="1067">
+public CaseExecutionEntity getParent(){
+  ensureParentInitialized();
+  return parent;
+}
+</source>
+</class>
+
+<class classid="3" nclones="2" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00077.java" startline="6" endline="10" pcid="45">
+public ApiClient setUserAgent(String userAgent) 
+{
+    addDefaultHeader("User-Agent", userAgent);
+    return this;
+}   
+</source>
+<source file="./systems/source/00077.java" startline="6" endline="9" pcid="1109">
+public ApiClient setUserAgent(String userAgent){
+  addDefaultHeader("User-Agent", userAgent);
+  return this;
+}
+</source>
+</class>
+
+<class classid="4" nclones="4" nlines="7" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00180.java" startline="7" endline="15" pcid="97">
+@Override
+public StandardSource<C> close(Statement statement) throws SQLException 
+{
+    if (statement != null)
+    {
+        statement.close();
+    }
+    return this;
+}   
+</source>
+<source file="./systems/source/00180.java" startline="7" endline="13" pcid="1223">
+@Override
+public StandardSource<C> close(Statement statement) throws SQLException{
+    if (statement != null) {
+        statement.close();
+    }
+    return this;
+}
+</source>
+<source file="./systems/source/00199.java" startline="7" endline="13" pcid="1240">
+@Override
+public StandardSource<C> close(ResultSet result) throws SQLException{
+    if (result != null) {
+        result.close();
+    }
+    return this;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00199.java" startline="7" endline="15" pcid="108">
+@Override
+public StandardSource<C> close(ResultSet result) throws SQLException 
+{
+    if (result != null)
+    {
+        result.close();
+    }
+    return this;
+}   
+</source>
+</class>
+
+<class classid="5" nclones="2" nlines="14" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00244.java" startline="6" endline="20" pcid="134">
+public static byte[] hexStrToByteArray(String str) 
+{
+    if (str == null) {
+        return null;
+    }
+    if (str.length() == 0) {
+        return new byte[0];
+    }
+    byte[] byteArray = new byte[str.length() / 2];
+    for (int i = 0; i < byteArray.length; i++) {
+        String subStr = str.substring(2 * i, 2 * i + 2);
+        byteArray[i] = ((byte) Integer.parseInt(subStr, 16));
+    }
+    return byteArray;
+}   
+</source>
+<source file="./systems/source/00244.java" startline="6" endline="19" pcid="1286">
+public static byte[] hexStrToByteArray(String str){
+	if (str == null) {
+		return null;
+	}
+	if (str.length() == 0) {
+		return new byte[0];
+	}
+	byte[] byteArray = new byte[str.length() / 2];
+	for (int i = 0; i < byteArray.length; i++){
+		String subStr = str.substring(2 * i, 2 * i + 2);
+		byteArray[i] = ((byte)Integer.parseInt(subStr, 16));
+	}
+	return byteArray;
+}
+</source>
+</class>
+
+<class classid="6" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00254.java" startline="6" endline="11" pcid="142">
+public static void toTakePicture(int requestcode, Activity activity) 
+{
+    Intent intent = new Intent(Intent.ACTION_PICK, null);
+    intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*");
+    activity.startActivityForResult(intent, requestcode);
+}   
+</source>
+<source file="./systems/source/00254.java" startline="6" endline="11" pcid="1296">
+public static void toTakePicture(int requestcode, Activity activity){
+    Intent intent = new Intent(Intent.ACTION_PICK, null);
+    intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI,
+            "image/*");
+    activity.startActivityForResult(intent, requestcode);
+}
+</source>
+</class>
+
+<class classid="7" nclones="2" nlines="8" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00262.java" startline="8" endline="17" pcid="148">
+public static String captchaNumber(int length) 
+{
+    StringBuilder sb = new StringBuilder();
+    Random random = new Random();
+    for (int i = 0; i < length; i++)
+    {
+        sb.append(random.nextInt(10));
+    }
+    return sb.toString();
+}   
+</source>
+<source file="./systems/source/00262.java" startline="8" endline="15" pcid="1303">
+public static String captchaNumber(int length){
+    StringBuilder sb = new StringBuilder();
+    Random rand = new Random();
+    for (int i = 0; i < length; i++) {
+        sb.append(rand.nextInt(10));
+    }
+    return sb.toString();
+}
+</source>
+</class>
+
+<class classid="8" nclones="4" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00300.java" startline="7" endline="11" pcid="170">
+public FormattedBuilder<T> minimumLength(int minimumLength) 
+{
+    this.minimumLength = minimumLength;
+    return this;
+}   
+</source>
+<source file="./systems/source/00300.java" startline="7" endline="10" pcid="1340">
+public FormattedBuilder<T> minimumLength(int minimumLength){
+	this.minimumLength = minimumLength;
+	return this;
+}
+</source>
+<source file="./systems/source/00303.java" startline="7" endline="10" pcid="1343">
+public FormattedBuilder<T> maximumLength(int maximumLength){
+	this.maximumLength = maximumLength;
+	return this;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00303.java" startline="7" endline="11" pcid="172">
+public FormattedBuilder<T> maximumLength(int maximumLength) 
+{
+    this.maximumLength = maximumLength;
+    return this;
+}   
+</source>
+</class>
+
+<class classid="9" nclones="8" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00301.java" startline="9" endline="13" pcid="171">
+public FlatFileItemWriterBuilder<T> shouldDeleteIfEmpty(boolean shouldDelete) 
+{
+    this.shouldDeleteIfEmpty = shouldDelete;
+    return this;
+}   
+</source>
+<source file="./systems/source/00314.java" startline="9" endline="13" pcid="1354">
+public FlatFileItemWriterBuilder<T> append(boolean append){
+	this.append = append;
+
+	return this;
+}
+</source>
+<source file="./systems/source/00312.java" startline="9" endline="13" pcid="1352">
+public FlatFileItemWriterBuilder<T> shouldDeleteIfExists(boolean shouldDelete){
+	this.shouldDeleteIfExists = shouldDelete;
+
+	return this;
+}
+</source>
+<source file="./systems/source/00310.java" startline="8" endline="12" pcid="1350">
+public FlatFileItemWriterBuilder<T> transactional(boolean transactional){
+	this.transactional = transactional;
+
+	return this;
+}
+</source>
+<source file="./systems/source/00302.java" startline="9" endline="13" pcid="1342">
+public FlatFileItemWriterBuilder<T> forceSync(boolean forceSync){
+	this.forceSync = forceSync;
+
+	return this;
+}
+</source>
+<source file="./systems/source/00301.java" startline="9" endline="13" pcid="1341">
+public FlatFileItemWriterBuilder<T> shouldDeleteIfEmpty(boolean shouldDelete){
+	this.shouldDeleteIfEmpty = shouldDelete;
+
+	return this;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00310.java" startline="8" endline="12" pcid="176">
+public FlatFileItemWriterBuilder<T> transactional(boolean transactional) 
+{
+    this.transactional = transactional;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00314.java" startline="9" endline="13" pcid="177">
+public FlatFileItemWriterBuilder<T> append(boolean append) 
+{
+    this.append = append;
+    return this;
+}   
+</source>
+</class>
+
+<class classid="10" nclones="10" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00304.java" startline="10" endline="14" pcid="173">
+public FlatFileItemWriterBuilder<T> name(String name) 
+{
+    this.name = name;
+    return this;
+}   
+</source>
+<source file="./systems/source/00304.java" startline="10" endline="14" pcid="1344">
+public FlatFileItemWriterBuilder<T> name(String name){
+	this.name = name;
+
+	return this;
+}
+</source>
+<source file="./systems/source/00305.java" startline="8" endline="12" pcid="1345">
+public FlatFileItemWriterBuilder<T> resource(Resource resource){
+	this.resource = resource;
+
+	return this;
+}
+</source>
+<source file="./systems/source/00319.java" startline="8" endline="11" pcid="1359">
+public DelimitedBuilder<T> delimiter(String delimiter){
+	this.delimiter = delimiter;
+	return this;
+}
+</source>
+<source file="./systems/source/00318.java" startline="8" endline="12" pcid="1358">
+public FlatFileItemWriterBuilder<T> headerCallback(FlatFileHeaderCallback callback){
+	this.headerCallback = callback;
+
+	return this;
+}
+</source>
+<source file="./systems/source/00313.java" startline="7" endline="11" pcid="1353">
+public FlatFileItemWriterBuilder<T> footerCallback(FlatFileFooterCallback callback){
+	this.footerCallback = callback;
+
+	return this;
+}
+</source>
+<source file="./systems/source/00307.java" startline="6" endline="9" pcid="1347">
+public FormattedBuilder<T> format(String format){
+	this.format = format;
+	return this;
+}
+</source>
+<source file="./systems/source/00308.java" startline="6" endline="9" pcid="1348">
+public FormattedBuilder<T> locale(Locale locale){
+	this.locale = locale;
+	return this;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00305.java" startline="8" endline="12" pcid="174">
+public FlatFileItemWriterBuilder<T> resource(Resource resource) 
+{
+    this.resource = resource;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00307.java" startline="6" endline="10" pcid="175">
+public FormattedBuilder<T> format(String format) 
+{
+    this.format = format;
+    return this;
+}   
+</source>
+</class>
+
+<class classid="11" nclones="7" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00333.java" startline="7" endline="11" pcid="189">
+public RegionBootstrap(BootstrapNotifier application, Region region) 
+{
+    this.application = application;
+    this.region = region;
+}   
+</source>
+<source file="./systems/source/01051.java" startline="7" endline="10" pcid="2099">
+public Crawler(DBManager dbManager, Executor executor){
+    this.dbManager = dbManager;
+    this.executor = executor;
+}
+</source>
+<source file="./systems/source/00357.java" startline="7" endline="10" pcid="1401">
+public AHBottomNavigationItem(String title, Drawable drawable){
+	this.title = title;
+	this.drawable = drawable;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01413.java" startline="8" endline="12" pcid="744">
+public EmojiKeyboardsExtractor(File sourceUnicodeEmojiListFile, File targetResourceFolder) 
+{
+    this.sourceUnicodeEmojiListFile = sourceUnicodeEmojiListFile;
+    this.targetResourceFolder = targetResourceFolder;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00433.java" startline="7" endline="11" pcid="249">
+public ExportResult(ResultType type, T exportedData) 
+{
+    this.type = type;
+    this.exportedData = exportedData;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00808.java" startline="6" endline="10" pcid="428">
+public KBucketEntry (InetSocketAddress addr, Key id) 
+{
+	this.addr = addr;
+	this.id = id;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00818.java" startline="5" endline="9" pcid="433">
+public AbstractLookupRequest (Key target, Method m) 
+{
+    this.target = target;
+    this.method = m;
+}   
+</source>
+</class>
+
+<class classid="12" nclones="3" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00338.java" startline="8" endline="14" pcid="192">
+public Region(String uniqueId, Identifier id1, Identifier id2, Identifier id3) 
+{
+    this.uniqueId = uniqueId;
+    this.id1 = id1;
+    this.id2 = id2;
+    this.id3 = id3;
+}   
+</source>
+<source file="./systems/source/01111.java" startline="9" endline="14" pcid="2156">
+public GuessItem(String movieName, String movieYear, VideoClassification videoClassification, String imdbId){
+	this.title = movieName;
+	this.year = movieYear;
+	this.videoClassification = videoClassification;
+	this.imdbId = imdbId;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01952.java" startline="13" endline="19" pcid="1008">
+public DBAuthenticator(String driver, String jdbcUrl, String sqlQuery, String digestMethod) 
+{
+    this.driver = driver;
+    this.jdbcUrl = jdbcUrl;
+    this.sqlQuery = sqlQuery;
+    this.digestMethod = digestMethod;
+}   
+</source>
+</class>
+
+<class classid="13" nclones="3" nlines="8" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00345.java" startline="7" endline="16" pcid="196">
+public static int getSoftButtonsBarSizePort(Context context) 
+{
+    int result = 0;
+    int resourceId = context.getResources().getIdentifier("navigation_bar_height", "dimen", "android");
+    if (resourceId > 0)
+    {
+        result = context.getResources().getDimensionPixelSize(resourceId);
+    }
+    return result;
+}   
+</source>
+<source file="./systems/source/00379.java" startline="2" endline="9" pcid="1426">
+public static int getStatusBarHeight(Context context){
+    int result = 0;
+    int resId = context.getResources().getIdentifier("status_bar_height", "dimen", "android");
+    if (resId > 0) {
+        result = context.getResources().getDimensionPixelOffset(resId);
+    }
+    return result;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00379.java" startline="2" endline="11" pcid="220">
+public static int getStatusBarHeight(Context context) 
+{
+    int result = 0;
+    int resourceId = context.getResources().getIdentifier("status_bar_height", "dimen", "android");
+    if (resourceId > 0)
+    {
+        result = context.getResources().getDimensionPixelSize(resourceId);
+    }
+    return result;
+}   
+</source>
+</class>
+
+<class classid="14" nclones="2" nlines="13" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00349.java" startline="6" endline="20" pcid="199">
+public static void updateTextSize(final TextView textView, float fromSize, float toSize) 
+{
+    ValueAnimator animator = ValueAnimator.ofFloat(fromSize, toSize);
+    animator.setDuration(300);
+    animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener()
+    {
+        @Override
+        public void onAnimationUpdate(ValueAnimator animation)
+        {
+            float animatedValue = (float) animation.getAnimatedValue();
+            textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, animatedValue);
+        }
+    });
+    animator.start();
+}   
+</source>
+<source file="./systems/source/00349.java" startline="4" endline="15" pcid="1391">
+public static void updateTextSize(final TextView textView, float fromSize, float toSize){
+	ValueAnimator animator = ValueAnimator.ofFloat(fromSize, toSize);
+	animator.setDuration(150);
+	animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+		@Override
+		public void onAnimationUpdate(ValueAnimator valueAnimator) {
+			float animatedValue = (float) valueAnimator.getAnimatedValue();
+			textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, animatedValue);
+		}
+	});
+	animator.start();
+}
+</source>
+</class>
+
+<class classid="15" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00353.java" startline="4" endline="10" pcid="201">
+public void willBeHidden() 
+{
+    if (mFragment != null)
+    {
+        mFragment.willBeHidden();
+    }
+}   
+</source>
+<source file="./systems/source/01202.java" startline="4" endline="8" pcid="2258">
+public void clearOnPageChangeListeners(){
+    if (mOnPageChangeListeners != null) {
+        mOnPageChangeListeners.clear();
+    }
+}
+</source>
+</class>
+
+<class classid="16" nclones="3" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00381.java" startline="11" endline="16" pcid="222">
+@NonNull
+public CompleteBuilder defaultRxScheduler(@Nullable Scheduler defaultRxScheduler) 
+{
+    this.defaultRxScheduler = defaultRxScheduler;
+    return this;
+}   
+</source>
+<source file="./systems/source/00381.java" startline="11" endline="15" pcid="1428">
+@NonNull
+public CompleteBuilder defaultRxScheduler(@Nullable Scheduler defaultRxScheduler){
+    this.defaultRxScheduler = defaultRxScheduler;
+    return this;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00386.java" startline="7" endline="12" pcid="224">
+@NonNull
+public CompleteBuilder typeMappingFinder(@NonNull TypeMappingFinder typeMappingFinder) 
+{
+    this.typeMappingFinder = typeMappingFinder;
+    return this;
+}   
+</source>
+</class>
+
+<class classid="17" nclones="3" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00431.java" startline="6" endline="11" pcid="248">
+public ExportResult(ResultType type) 
+{
+    this.type = type;
+    this.data = null;
+    this.error = null;
+}   
+</source>
+<source file="./systems/source/00902.java" startline="6" endline="10" pcid="1950">
+public TreeNode(T val){
+    this.val = val;
+    this.left = null;
+    this.right = null;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00902.java" startline="6" endline="11" pcid="483">
+public TreeNode(T val) 
+{
+    this.val = val;
+    this.left = null;
+    this.right = null;
+}   
+</source>
+</class>
+
+<class classid="18" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00443.java" startline="2" endline="8" pcid="255">
+public static TestParam[] array(String[] values) 
+{
+    int[] vals = new int[values.length];
+    for(int i = 0; i < vals.length; i++)
+        vals[i] = Integer.decode(values[i]);
+    return array(vals);
+}   
+</source>
+<source file="./systems/source/00443.java" startline="2" endline="7" pcid="1492">
+public static TestParam[] array(String[] values){
+  int[] vals = new int[values.length];
+  for(int i = 0; i < vals.length; i++)
+    vals[i] = Integer.decode(values[i]);
+  return array(vals);
+}
+</source>
+</class>
+
+<class classid="19" nclones="2" nlines="9" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00450.java" startline="12" endline="23" pcid="258">
+public int getMaxValueOfPackage2(int n, int m, int[] v, int[] val) 
+{
+    int[] dp = new int[m+1];
+    for(int i=1; i<=n; i++)
+    {
+        for(int j=m; j>=v[i-1]; j--)
+        {
+            dp[j] = Math.max(dp[j], dp[j-v[i-1]]+val[i-1]);
+        }
+    }
+    return dp[m];
+}   
+</source>
+<source file="./systems/source/00450.java" startline="12" endline="21" pcid="1499">
+public int getMaxValueOfPackage2(int n, int m, int[] v, int[] val){
+    int[] dp = new int[m + 1];
+    for (int i = 1; i <= n; i++) {
+        //优化使用j>=v[i-1], 仅需要查看 v[i-1] ~ m 这个体积区间的最大价值是否需要更新
+        for (int j = m; j >=v[i-1]; j--) {
+            dp[j] = Math.max(dp[j], dp[j-v[i-1]] + val[i-1]);
+        }
+    }
+    return dp[m];
+}
+</source>
+</class>
+
+<class classid="20" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00480.java" startline="2" endline="7" pcid="272">
+public ExposerRsp(boolean exposed, String md5, long seckillId) 
+{
+    this.exposed = exposed;
+    this.md5 = md5;
+    this.seckillId = seckillId;
+}   
+</source>
+<source file="./systems/source/00480.java" startline="2" endline="6" pcid="1531">
+public ExposerRsp(boolean exposed, String md5, long seckillId){
+    this.exposed = exposed;
+    this.md5 = md5;
+    this.seckillId = seckillId;
+}
+</source>
+</class>
+
+<class classid="21" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00492.java" startline="5" endline="10" pcid="276">
+public CookieRememberMeManager rememberMeManager() 
+{
+	CookieRememberMeManager cookieRememberMeManager = new CookieRememberMeManager();
+	cookieRememberMeManager.setCookie(rememberMeCookie());
+	return cookieRememberMeManager;
+}   
+</source>
+<source file="./systems/source/00485.java" startline="5" endline="9" pcid="1536">
+public RedisCacheManager cacheManager(){
+    RedisCacheManager redisCacheManager = new RedisCacheManager();
+    redisCacheManager.setRedisManager(redisManager());
+    return redisCacheManager;
+}
+</source>
+</class>
+
+<class classid="22" nclones="3" nlines="7" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00546.java" startline="6" endline="13" pcid="310">
+public boolean isVolatile() 
+{
+    ASTNode$State state = state();
+    try {
+        return getModifiers().isVolatile();
+    } finally {
+    }
+}   
+</source>
+<source file="./systems/source/00546.java" startline="6" endline="11" pcid="1600">
+public boolean isVolatile(){
+  ASTNode$State state = state();
+  try {  return getModifiers().isVolatile();  }
+  finally {
+  }
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00548.java" startline="6" endline="11" pcid="311">
+public boolean isStatic() 
+{
+    ASTNode$State state = state();
+    try {  return getBlock().isStatic();  }
+    finally { }
+}   
+</source>
+</class>
+
+<class classid="23" nclones="2" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00549.java" startline="9" endline="13" pcid="312">
+public void setTypeAccess(Access node, int i) 
+{
+    List<Access> list = getTypeAccessList();
+    list.setChild(node, i);
+}   
+</source>
+<source file="./systems/source/00549.java" startline="9" endline="12" pcid="1603">
+public void setTypeAccess(Access node, int i){
+  List<Access> list = getTypeAccessList();
+  list.setChild(node, i);
+}
+</source>
+</class>
+
+<class classid="24" nclones="2" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00556.java" startline="5" endline="9" pcid="318">
+public AssignEdge(final VarNode from, final VarNode to) 
+{
+    this.from = from;
+    this.to = to;
+}   
+</source>
+<source file="./systems/source/00556.java" startline="5" endline="8" pcid="1610">
+public AssignEdge(final VarNode from, final VarNode to){
+  this.src = from;
+  this.dst = to;
+}
+</source>
+</class>
+
+<class classid="25" nclones="6" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00561.java" startline="7" endline="11" pcid="319">
+public T setStrokeDashWidth(float strokeDashWidth) 
+{
+    this.strokeDashWidth = strokeDashWidth;
+    return (T) this;
+}   
+</source>
+<source file="./systems/source/00577.java" startline="7" endline="10" pcid="1631">
+public T setTopLeftRadius(float radius){
+    this.mTopLeftRadius = radius;
+    return (T) this;
+}
+</source>
+<source file="./systems/source/00565.java" startline="7" endline="10" pcid="1619">
+public T setRadius(float radius){
+    this.mRadius = radius;
+    return (T) this;
+}
+</source>
+<source file="./systems/source/00563.java" startline="7" endline="10" pcid="1617">
+public T setTopRightRadius(float radius){
+    this.mTopRightRadius = radius;
+    return (T) this;
+}
+</source>
+<source file="./systems/source/00561.java" startline="7" endline="10" pcid="1615">
+public T setStrokeDashWidth(float strokeDashWidth){
+    this.mStrokeDashWidth = strokeDashWidth;
+    return (T) this;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00563.java" startline="7" endline="11" pcid="320">
+public T setTopRightRadius(float radius) 
+{
+    this.topRightRadius = radius;
+    return (T) this;
+}   
+</source>
+</class>
+
+<class classid="26" nclones="10" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00571.java" startline="7" endline="11" pcid="325">
+public T setBackgroundPressedColor(int color) 
+{
+    this.mBackgroundPressedColor = color;
+    return (T) this;
+}   
+</source>
+<source file="./systems/source/00579.java" startline="7" endline="10" pcid="1633">
+public T setBackgroundSelectedColor(int color){
+    this.mBackgroundSelectedColor = color;
+    return (T) this;
+}
+</source>
+<source file="./systems/source/00576.java" startline="7" endline="10" pcid="1630">
+public T setStrokeCheckedColor(int strokeCheckedColor){
+    this.mStrokeCheckedColor = strokeCheckedColor;
+    return (T) this;
+}
+</source>
+<source file="./systems/source/00562.java" startline="7" endline="10" pcid="1616">
+public T setStrokeSelectedColor(int strokeSelectedColor){
+    this.mStrokeSelectedColor = strokeSelectedColor;
+    return (T) this;
+}
+</source>
+<source file="./systems/source/00574.java" startline="7" endline="10" pcid="1628">
+public T setStrokeColor(int strokeColor){
+    this.mStrokeColor = strokeColor;
+    return (T) this;
+}
+</source>
+<source file="./systems/source/00570.java" startline="7" endline="10" pcid="1624">
+public T setStrokeWidth(int strokeWidth){
+    this.mStrokeWidth = strokeWidth;
+    return (T) this;
+}
+</source>
+<source file="./systems/source/00564.java" startline="7" endline="10" pcid="1618">
+public T setStrokeDisabledColor(int strokeDisabledColor){
+    this.mStrokeDisabledColor = strokeDisabledColor;
+    return (T) this;
+}
+</source>
+<source file="./systems/source/00571.java" startline="7" endline="10" pcid="1625">
+public T setBackgroundPressedColor(int color){
+    this.mBackgroundPressedColor = color;
+    return (T) this;
+}
+</source>
+<source file="./systems/source/00573.java" startline="7" endline="10" pcid="1627">
+public T setRippleColor(int color){
+    this.mRippleColor = color;
+    return (T) this;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_00576.java" startline="7" endline="11" pcid="329">
+public T setStrokeCheckedColor(int strokeCheckedColor) 
+{
+    this.strokeCheckedColor = strokeCheckedColor;
+    return (T) this;
+}   
+</source>
+</class>
+
+<class classid="27" nclones="2" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00578.java" startline="7" endline="11" pcid="330">
+public T setOnSelectedChangeListener(OnSelectedChangeListener listener) 
+{
+    this.listener = listener;
+    return (T) this;
+}   
+</source>
+<source file="./systems/source/00578.java" startline="7" endline="10" pcid="1632">
+public T setOnSelectedChangeListener(OnSelectedChangeListener listener){
+    this.mOnSelectedChangeListener = listener;
+    return (T) this;
+}
+</source>
+</class>
+
+<class classid="28" nclones="13" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00602.java" startline="7" endline="11" pcid="333">
+public Builder disableHeaderClick(boolean disableHeaderClick) 
+{
+    this.disableHeaderClick = disableHeaderClick;
+    return this;
+}   
+</source>
+<source file="./systems/source/01632.java" startline="6" endline="9" pcid="2689">
+public Builder setCropReplaceSource(boolean cropReplaceSource){
+    this.cropReplaceSource = cropReplaceSource;
+    return this;
+}
+</source>
+<source file="./systems/source/00822.java" startline="8" endline="11" pcid="1859">
+public Builder setEnvelopeEntry(boolean enabled){
+    this.envelopeEntry = enabled;
+    return this;
+}
+</source>
+<source file="./systems/source/00602.java" startline="7" endline="10" pcid="1639">
+public Builder disableHeaderClick(boolean disableHeaderClick){
+    this.disableHeaderClick = disableHeaderClick;
+    return this;
+}
+</source>
+<source file="./systems/source/01620.java" startline="6" endline="9" pcid="2676">
+public Builder setRotateReplaceSource(boolean rotateReplaceSource){
+    this.rotateReplaceSource = rotateReplaceSource;
+    return this;
+}
+</source>
+<source file="./systems/source/01624.java" startline="6" endline="9" pcid="2680">
+public Builder setForceCropEdit(boolean forceCropEdit){
+    this.forceCropEdit = forceCropEdit;
+    return this;
+}
+</source>
+<source file="./systems/source/01630.java" startline="6" endline="9" pcid="2687">
+public Builder setForceCrop(boolean forceCrop){
+    this.forceCrop = forceCrop;
+    return this;
+}
+</source>
+<source file="./systems/source/00600.java" startline="7" endline="10" pcid="1637">
+public Builder enableDivider(boolean enableDivider){
+    this.enableDivider = enableDivider;
+    return this;
+}
+</source>
+<source file="./systems/source/01631.java" startline="6" endline="9" pcid="2688">
+public Builder setEnablePreview(boolean preview){
+    this.preview = preview;
+    return this;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01620.java" startline="6" endline="10" pcid="862">
+public Builder setRotateReplaceSource(boolean rotateReplaceSource) 
+{
+    this.rotateReplaceSource = rotateReplaceSource;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01624.java" startline="6" endline="10" pcid="866">
+public Builder setForceCropEdit(boolean forceCropEdit) 
+{
+    this.forceCropEdit = forceCropEdit;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01980.java" startline="6" endline="10" pcid="1027">
+public Builder setIsActive(boolean value) 
+{
+    this.isActive = value;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01631.java" startline="6" endline="10" pcid="869">
+public Builder setEnablePreview(boolean preview) 
+{
+    this.enablePreview = preview;
+    return this;
+}   
+</source>
+</class>
+
+<class classid="29" nclones="2" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00608.java" startline="7" endline="11" pcid="335">
+public Builder(int pinnedHeaderId, int pinnedHeaderType) 
+{
+    this.pinnedHeaderId = pinnedHeaderId;
+    this.pinnedHeaderType = pinnedHeaderType;
+}   
+</source>
+<source file="./systems/source/00608.java" startline="7" endline="10" pcid="1645">
+public Builder(int pinnedHeaderId, int pinnedHeaderType){
+    this.pinnedHeaderId = pinnedHeaderId;
+    this.pinnedHeaderType = pinnedHeaderType;
+}
+</source>
+</class>
+
+<class classid="30" nclones="2" nlines="24" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00692.java" startline="14" endline="39" pcid="365">
+public static char[] encode(byte[] in, int iOff, int iLen) 
+{
+    int oDataLen = (iLen * 4 + 2) / 3; // output length without padding
+    int oLen = ((iLen + 2) / 3) * 4; // output length including padding
+    char[] out = new char[oLen];
+    int ip = iOff;
+    int iEnd = iOff + iLen;
+    int op = 0;
+    while (ip < iEnd)
+    {
+        int i0 = in[ip++] & 0xff;
+        int i1 = ip < iEnd ? in[ip++] & 0xff : 0;
+        int i2 = ip < iEnd ? in[ip++] & 0xff : 0;
+        int o0 = i0 >>> 2;
+        int o1 = ((i0 & 3) << 4) | (i1 >>> 4);
+        int o2 = ((i1 & 0xf) << 2) | (i2 >>> 6);
+        int o3 = i2 & 0x3F;
+        out[op++] = map1[o0];
+        out[op++] = map1[o1];
+        out[op] = op < oDataLen ? map1[o2] : '=';
+        op++;
+        out[op] = op < oDataLen ? map1[o3] : '=';
+        op++;
+    }
+    return out;
+}   
+</source>
+<source file="./systems/source/00692.java" startline="14" endline="37" pcid="1724">
+public static char[] encode(byte[] in, int iOff, int iLen){
+    int oDataLen = (iLen * 4 + 2) / 3; // output length without padding
+    int oLen = ((iLen + 2) / 3) * 4; // output length including padding
+    char[] out = new char[oLen];
+    int ip = iOff;
+    int iEnd = iOff + iLen;
+    int op = 0;
+    while (ip < iEnd) {
+        int i0 = in[ip++] & 0xff;
+        int i1 = ip < iEnd ? in[ip++] & 0xff : 0;
+        int i2 = ip < iEnd ? in[ip++] & 0xff : 0;
+        int o0 = i0 >>> 2;
+        int o1 = ((i0 & 3) << 4) | (i1 >>> 4);
+        int o2 = ((i1 & 0xf) << 2) | (i2 >>> 6);
+        int o3 = i2 & 0x3F;
+        out[op++] = map1[o0];
+        out[op++] = map1[o1];
+        out[op] = op < oDataLen ? map1[o2] : '=';
+        op++;
+        out[op] = op < oDataLen ? map1[o3] : '=';
+        op++;
+    }
+    return out;
+}
+</source>
+</class>
+
+<class classid="31" nclones="2" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00770.java" startline="8" endline="15" pcid="408">
+private static Object unwrap(Object object) 
+{
+    if (object instanceof Reflector)
+    {
+        return ((Reflector) object).get();
+    }
+    return object;
+}   
+</source>
+<source file="./systems/source/00770.java" startline="8" endline="14" pcid="1809">
+private static Object unwrap(Object object){
+    if (object instanceof Reflector) {
+        return ((Reflector) object).get();
+    }
+
+    return object;
+}
+</source>
+</class>
+
+<class classid="32" nclones="2" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00812.java" startline="5" endline="12" pcid="429">
+public Optional<Throwable> getError() 
+{
+    if (isSuccess())
+    {
+        throw new IllegalStateException("Operation was successful");
+    }
+    return Optional.ofNullable(failureCause);
+}   
+</source>
+<source file="./systems/source/00812.java" startline="5" endline="10" pcid="1848">
+public Optional<Throwable> getError(){
+    if (isSuccess()) {
+        throw new IllegalStateException("Attempt to retrieve error from successful result");
+    }
+    return Optional.ofNullable(error);
+}
+</source>
+</class>
+
+<class classid="33" nclones="4" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00835.java" startline="8" endline="12" pcid="443">
+public Builder setEntryId(long entryId) 
+{
+    this.entryId = entryId;
+    return this;
+}   
+</source>
+<source file="./systems/source/00835.java" startline="8" endline="11" pcid="1876">
+public Builder setEntryId(long entryId){
+    this.entryId = entryId;
+    return this;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01524.java" startline="4" endline="8" pcid="806">
+public Room withId(long id) 
+{
+    this.id = id;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01743.java" startline="10" endline="14" pcid="914">
+public RetryTemplateBuilder withinMillis(long timeout) 
+{
+    this.withinMillis = timeout;
+    return this;
+}   
+</source>
+</class>
+
+<class classid="34" nclones="2" nlines="12" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00855.java" startline="4" endline="19" pcid="457">
+public int getStatusHeight(Context context) 
+{
+    int statusHeight = -1;
+    try
+    {
+        Class<?> clazz = Class.forName("com.android.internal.R$dimen");
+        Object object = clazz.newInstance();
+        int height = Integer.parseInt(clazz.getField("status_bar_height")
+                .get(object).toString());
+        statusHeight = context.getResources().getDimensionPixelSize(height);
+    } catch (Exception e)
+    {
+        e.printStackTrace();
+    }
+    return statusHeight;
+}   
+</source>
+<source file="./systems/source/00855.java" startline="4" endline="15" pcid="1903">
+public int getStatusHeight(Context context){
+    int statusHeight = -1;
+    try {
+        Class<?> clazz = Class.forName("com.android.internal.R$dimen");
+        Object object = clazz.newInstance();
+        int height = Integer.parseInt(clazz.getField("status_bar_height").get(object).toString());
+        statusHeight = context.getResources().getDimensionPixelSize(height);
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+    return statusHeight;
+}
+</source>
+</class>
+
+<class classid="35" nclones="2" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00914.java" startline="4" endline="11" pcid="486">
+public static synchronized ThreadSafeLazyLoadedMouseDriver getInstance() 
+{
+    if (instance == null)
+    {
+        instance = new ThreadSafeLazyLoadedMouseDriver();
+    }
+    return instance;
+}   
+</source>
+<source file="./systems/source/00914.java" startline="4" endline="10" pcid="1960">
+public static synchronized ThreadSafeLazyLoadedMouseDriver getInstance(){
+    if (instance == null) {
+        instance = new ThreadSafeLazyLoadedMouseDriver();
+    }
+
+    return instance;
+}
+</source>
+</class>
+
+<class classid="36" nclones="2" nlines="9" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_00962.java" startline="3" endline="16" pcid="508">
+public void releaseConn() 
+{
+    if (conn != null)
+    {
+        try
+        {
+            conn.close();
+        }
+        catch (SQLException e)
+        {
+            e.printStackTrace();
+        }
+    }
+}   
+</source>
+<source file="./systems/source/00962.java" startline="2" endline="10" pcid="2005">
+public void releaseConn(){
+    if(resultSet != null){
+        try{
+            resultSet.close();
+        }catch(SQLException e){
+            e.printStackTrace();
+        }
+    }
+}
+</source>
+</class>
+
+<class classid="37" nclones="2" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01116.java" startline="7" endline="11" pcid="593">
+public GuessCandidate(double score, GuessItem guessItem) 
+{
+    this.score = score;
+    this.guessItem = guessItem;
+}   
+</source>
+<source file="./systems/source/01116.java" startline="7" endline="10" pcid="2161">
+public GuessCandidate(double score, GuessItem guessItem){
+	this.score = score;
+	this.guessItem = guessItem;
+}
+</source>
+</class>
+
+<class classid="38" nclones="2" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01217.java" startline="11" endline="18" pcid="637">
+public void addOnPageChangeListener(OnPageChangeListener listener) 
+{
+    if (mOnPageChangeListeners == null)
+    {
+        mOnPageChangeListeners = new ArrayList<>();
+    }
+    mOnPageChangeListeners.add(listener);
+}   
+</source>
+<source file="./systems/source/01217.java" startline="11" endline="16" pcid="2274">
+public void addOnPageChangeListener(OnPageChangeListener listener){
+    if (mOnPageChangeListeners == null) {
+        mOnPageChangeListeners = new ArrayList<>();
+    }
+    mOnPageChangeListeners.add(listener);
+}
+</source>
+</class>
+
+<class classid="39" nclones="2" nlines="8" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01225.java" startline="9" endline="18" pcid="642">
+public static boolean isNumeric(String str) 
+{
+    Pattern pattern = Pattern.compile("[0-9]*");
+    Matcher isNum = pattern.matcher(str);
+    if (!isNum.matches())
+    {
+        return false;
+    }
+    return true;
+}   
+</source>
+<source file="./systems/source/01225.java" startline="6" endline="13" pcid="2283">
+public static boolean isNumeric(String str){
+	Pattern pattern = Pattern.compile("[0-9]*");
+	Matcher isNum = pattern.matcher(str);
+	if( !isNum.matches() ){
+		return false;
+	}
+	return true;
+}
+</source>
+</class>
+
+<class classid="40" nclones="2" nlines="7" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01227.java" startline="9" endline="17" pcid="643">
+public static String stringFilter(String str) 
+{
+    str = str.replaceAll("【", "[").replaceAll("】", "]")
+            .replaceAll("！", "!").replaceAll("：", ":");// ��换中文标号
+    String regEx = "[『』]"; // ��除��特��字符
+    Pattern p = Pattern.compile(regEx);
+    Matcher m = p.matcher(str);
+    return m.replaceAll("").trim();
+}   
+</source>
+<source file="./systems/source/01227.java" startline="7" endline="13" pcid="2285">
+public static String stringFilter(String str){
+	str = str.replaceAll("【", "[").replaceAll("】", "]").replaceAll("！", "!").replaceAll("：", ":");// 替换中文标号
+	String regEx = "[『』]"; // 清除掉特殊字符
+	Pattern p = Pattern.compile(regEx);
+	Matcher m = p.matcher(str);
+	return m.replaceAll("").trim();
+}
+</source>
+</class>
+
+<class classid="41" nclones="2" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01228.java" startline="21" endline="29" pcid="644">
+public static boolean equals(String str1, String str2) 
+{
+    if (str1 == null)
+    {
+        return str2 == null;
+    }
+
+    return str1.equals(str2);
+}   
+</source>
+<source file="./systems/source/01228.java" startline="21" endline="28" pcid="2286">
+public static boolean equals(String str1, String str2){
+	if ( str1 == null )
+	{
+		return str2 == null;
+	}
+
+	return str1.equals(str2);
+}
+</source>
+</class>
+
+<class classid="42" nclones="2" nlines="11" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01230.java" startline="7" endline="21" pcid="645">
+public static String toDBC(String input) 
+{
+    char[] c = input.toCharArray();
+    for (int i = 0; i < c.length; i++)
+    {
+        if (c[i] == 12288)
+        {
+            c[i] = (char) 32;
+            continue;
+        }
+        if (c[i] > 65280 && c[i] < 65375)
+            c[i] = (char) (c[i] - 65248);
+    }
+    return new String(c);
+}   
+</source>
+<source file="./systems/source/01230.java" startline="7" endline="18" pcid="2287">
+public static String toDBC(String input){
+	char[] c = input.toCharArray();
+	for (int i = 0; i < c.length; i++) {
+		if (c[i] == 12288) {
+			c[i] = (char) 32;
+			continue;
+		}
+		if (c[i] > 65280 && c[i] < 65375)
+			c[i] = (char) (c[i] - 65248);
+	}
+	return new String(c);
+}
+</source>
+</class>
+
+<class classid="43" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01272.java" startline="7" endline="12" pcid="664">
+public static Map<String, String> removeParamsForAlipaySign(Map<String, String> map) 
+{
+    map.remove("sign");
+    map.remove("sign_type");
+    return map;
+}   
+</source>
+<source file="./systems/source/01272.java" startline="7" endline="12" pcid="2328">
+public static Map<String, String> removeParamsForAlipaySign(Map<String, String> map){
+    map.remove("sign");
+    map.remove("sign_type");
+
+    return map;
+}
+</source>
+</class>
+
+<class classid="44" nclones="2" nlines="7" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01287.java" startline="6" endline="16" pcid="669">
+public static RouteUtils parseQuitely(Route conditionRoute) 
+{
+    try
+    {
+        return parse(conditionRoute);
+    }
+    catch (ParseException e)
+    {
+        throw new RuntimeException(e);
+    }
+}   
+</source>
+<source file="./systems/source/01287.java" startline="5" endline="11" pcid="2343">
+public static RouteUtils parseQuitely(Route conditionRoute){
+    try {
+        return parse(conditionRoute);
+    } catch (ParseException e) {
+        throw new RuntimeException(e);
+    }
+}
+</source>
+</class>
+
+<class classid="45" nclones="2" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01365.java" startline="14" endline="18" pcid="715">
+            public void onAnimationUpdate(ValueAnimator animation)
+            {
+                float radius = (float) animation.getAnimatedValue();
+                myView.setCameraDistance(radius);
+            }
+</source>
+<source file="./systems/source/00344.java" startline="9" endline="12" pcid="1385">
+		public void onAnimationUpdate(ValueAnimator valueAnimator) {
+			float animatedValue = (float) valueAnimator.getAnimatedValue();
+			view.setAlpha(animatedValue);
+		}
+</source>
+</class>
+
+<class classid="46" nclones="2" nlines="9" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01369.java" startline="6" endline="17" pcid="719">
+public static <T> FlowableTransformer<T, T> rxSchedulerHelper() 
+{
+    return new FlowableTransformer<T, T>()
+    {
+        @Override
+        public Publisher<T> apply(Flowable<T> upstream)
+        {
+            return upstream.subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread());
+        }
+    };
+}   
+</source>
+<source file="./systems/source/01369.java" startline="6" endline="14" pcid="2427">
+public static <T> FlowableTransformer<T, T> rxSchedulerHelper(){    //compose简化线程
+    return new FlowableTransformer<T, T>() {
+        @Override
+        public Flowable<T> apply(Flowable<T> observable) {
+            return observable.subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread());
+        }
+    };
+}
+</source>
+</class>
+
+<class classid="47" nclones="14" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01481.java" startline="2" endline="6" pcid="783">
+public NormalListDialog titleTextColor(int titleTextColor) 
+{
+    this.titleTextColor = titleTextColor;
+    return this;
+}   
+</source>
+<source file="./systems/source/01921.java" startline="7" endline="10" pcid="2962">
+public Builder interval(int interval){
+  this.interval = interval;
+  return this;
+}
+</source>
+<source file="./systems/source/00606.java" startline="7" endline="10" pcid="1643">
+public Builder setDividerId(int dividerId){
+    this.dividerId = dividerId;
+    return this;
+}
+</source>
+<source file="./systems/source/00827.java" startline="9" endline="12" pcid="1864">
+public DistributedLogNamespaceBuilder regionId(int regionId){
+    this._regionId = regionId;
+    return this;
+}
+</source>
+<source file="./systems/source/01499.java" startline="2" endline="5" pcid="2561">
+public NormalDialog titleLineColor(int titleLineColor){
+    this.mTitleLineColor = titleLineColor;
+    return this;
+}
+</source>
+<source file="./systems/source/01938.java" startline="7" endline="10" pcid="2981">
+public Builder timeout(int timeout){
+  this.timeout = timeout;
+  return this;
+}
+</source>
+<source file="./systems/source/01932.java" startline="7" endline="10" pcid="2973">
+public Builder initialInterval(int initialInterval){
+  this.initialInterval = initialInterval;
+  return this;
+}
+</source>
+<source file="./systems/source/01939.java" startline="6" endline="9" pcid="2982">
+public Builder port(int port){
+  this.port = port;
+  return this;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01921.java" startline="7" endline="11" pcid="995">
+public Builder interval(int interval) 
+{
+    this.interval = interval;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01498.java" startline="2" endline="6" pcid="792">
+public NormalListDialog lvBgColor(int lvBgColor) 
+{
+    this.lvBgColor = lvBgColor;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01939.java" startline="6" endline="10" pcid="1001">
+public Builder port(int port) 
+{
+    this.port = port;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01485.java" startline="2" endline="6" pcid="784">
+public NormalListDialog dividerColor(int dividerColor) 
+{
+    this.dividerColor = dividerColor;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01499.java" startline="2" endline="6" pcid="793">
+public NormalDialog titleLineColor(int titleLineColor) 
+{
+    this.titleLineColor = titleLineColor;
+    return this;
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01754.java" startline="11" endline="15" pcid="922">
+public RetryTemplateBuilder maxAttempts(int maxAttempts) 
+{
+    this.maxAttempts = maxAttempts;
+    return this;
+}   
+</source>
+</class>
+
+<class classid="48" nclones="2" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01491.java" startline="2" endline="6" pcid="786">
+public NormalListDialog itemTextSize(float itemTextSize_SP) 
+{
+    this.itemTextSize_SP = itemTextSize_SP;
+    return this;
+}   
+</source>
+<source file="./systems/source/01493.java" startline="2" endline="5" pcid="2552">
+public NormalDialog titleLineHeight(float titleLineHeight_DP){
+    this.mTitleLineHeight = titleLineHeight_DP;
+    return this;
+}
+</source>
+</class>
+
+<class classid="49" nclones="7" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01551.java" startline="2" endline="8" pcid="823">
+private void notifyChange() 
+{
+    if (mListener != null)
+    {
+        mListener.onDataSetChange();
+    }
+}   
+</source>
+<source file="./systems/source/01563.java" startline="4" endline="8" pcid="2619">
+private void notifyCloseToRightListener(){
+  if (listener != null) {
+    listener.onClosedToRight();
+  }
+}
+</source>
+<source file="./systems/source/01565.java" startline="4" endline="8" pcid="2621">
+private void notifyCloseToLeftListener(){
+  if (listener != null) {
+    listener.onClosedToLeft();
+  }
+}
+</source>
+<source file="./systems/source/01574.java" startline="4" endline="8" pcid="2630">
+private void notifyMaximizeToListener(){
+  if (listener != null) {
+    listener.onMaximized();
+  }
+}
+</source>
+<source file="./systems/source/01577.java" startline="4" endline="8" pcid="2633">
+private void notifyMinimizeToListener(){
+  if (listener != null) {
+    listener.onMinimized();
+  }
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01577.java" startline="4" endline="10" pcid="839">
+private void notifyMinimizeToListener() 
+{
+    if (mDraggableListener != null)
+    {
+        mDraggableListener.onMinimize();
+    }
+}   
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01565.java" startline="4" endline="10" pcid="833">
+private void notifyCloseToLeftListener() 
+{
+    if (mCloseToLeftListener != null)
+    {
+        mCloseToLeftListener.onCloseToLeft();
+    }
+}   
+</source>
+</class>
+
+<class classid="50" nclones="2" nlines="13" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01553.java" startline="3" endline="25" pcid="825">
+public static int calculateInSampleSize(
+        BitmapFactory.Options options, int reqWidth, int reqHeight) 
+{
+    // Raw height and width of image
+    final int height = options.outHeight;
+    final int width = options.outWidth;
+    int inSampleSize = 1;
+
+    if (height > reqHeight || width > reqWidth) {
+
+        final int halfHeight = height / 2;
+        final int halfWidth = width / 2;
+
+        // Calculate the largest inSampleSize value that is a power of 2 and keeps both
+        // height and width larger than the requested height and width.
+        while ((halfHeight / inSampleSize) >= reqHeight
+                && (halfWidth / inSampleSize) >= reqWidth) {
+            inSampleSize *= 2;
+        }
+    }
+
+    return inSampleSize;
+}       
+</source>
+<source file="./systems/source/01553.java" startline="3" endline="24" pcid="2609">
+public static int calculateInSampleSize(
+        BitmapFactory.Options options, int reqWidth, int reqHeight){
+    // Raw height and width of image
+    final int height = options.outHeight;
+    final int width = options.outWidth;
+    int inSampleSize = 1;
+
+    if (height > reqHeight || width > reqWidth) {
+
+        final int halfHeight = height / 2;
+        final int halfWidth = width / 2;
+
+        // Calculate the largest inSampleSize value that is a power of 2 and keeps both
+        // height and width larger than the requested height and width.
+        while ((halfHeight / inSampleSize) >= reqHeight
+                && (halfWidth / inSampleSize) >= reqWidth) {
+            inSampleSize *= 2;
+        }
+    }
+
+    return inSampleSize;
+}
+</source>
+</class>
+
+<class classid="51" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01580.java" startline="7" endline="12" pcid="842">
+@NonNull
+public Builder minTimeBetweenCrashesMs(int minTimeBetweenCrashesMs) 
+{
+    this.minTimeBetweenCrashesMs = minTimeBetweenCrashesMs;
+    return this;
+}   
+</source>
+<source file="./systems/source/01580.java" startline="7" endline="11" pcid="2636">
+@NonNull
+public Builder minTimeBetweenCrashesMs(int minTimeBetweenCrashesMs){
+    config.minTimeBetweenCrashesMs = minTimeBetweenCrashesMs;
+    return this;
+}
+</source>
+</class>
+
+<class classid="52" nclones="4" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01582.java" startline="5" endline="10" pcid="843">
+@NonNull
+public Builder errorActivity(@Nullable Class<? extends Activity> errorActivityClass) 
+{
+    this.errorActivityClass = errorActivityClass;
+    return this;
+}   
+</source>
+<source file="./systems/source/01594.java" startline="6" endline="10" pcid="2650">
+@NonNull
+public Builder restartActivity(@Nullable Class<? extends Activity> restartActivityClass){
+    config.restartActivityClass = restartActivityClass;
+    return this;
+}
+</source>
+<source file="./systems/source/01582.java" startline="5" endline="9" pcid="2638">
+@NonNull
+public Builder errorActivity(@Nullable Class<? extends Activity> errorActivityClass){
+    config.errorActivityClass = errorActivityClass;
+    return this;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01594.java" startline="6" endline="11" pcid="850">
+@NonNull
+public Builder restartActivity(@Nullable Class<? extends Activity> restartActivityClass) 
+{
+    this.restartActivityClass = restartActivityClass;
+    return this;
+}   
+</source>
+</class>
+
+<class classid="53" nclones="2" nlines="11" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01584.java" startline="7" endline="20" pcid="845">
+@NonNull
+private static String getDeviceModelName() 
+{
+    String manufacturer = Build.MANUFACTURER;
+    String model = Build.MODEL;
+    if (model.startsWith(manufacturer))
+    {
+        return capitalize(model);
+    }
+    else
+    {
+        return capitalize(manufacturer) + " " + model;
+    }
+}   
+</source>
+<source file="./systems/source/01584.java" startline="7" endline="16" pcid="2640">
+@NonNull
+private static String getDeviceModelName(){
+    String manufacturer = Build.MANUFACTURER;
+    String model = Build.MODEL;
+    if (model.startsWith(manufacturer)) {
+        return capitalize(model);
+    } else {
+        return capitalize(manufacturer) + " " + model;
+    }
+}
+</source>
+</class>
+
+<class classid="54" nclones="4" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01590.java" startline="7" endline="12" pcid="848">
+@NonNull
+public Builder showErrorDetails(boolean showErrorDetails) 
+{
+    this.showErrorDetails = showErrorDetails;
+    return this;
+}   
+</source>
+<source file="./systems/source/01589.java" startline="6" endline="10" pcid="2645">
+@NonNull
+public Builder trackActivities(boolean trackActivities){
+    config.trackActivities = trackActivities;
+    return this;
+}
+</source>
+<source file="./systems/source/01590.java" startline="7" endline="11" pcid="2646">
+@NonNull
+public Builder showErrorDetails(boolean showErrorDetails){
+    config.showErrorDetails = showErrorDetails;
+    return this;
+}
+</source>
+<source file="./systems/source/01588.java" startline="7" endline="11" pcid="2644">
+@NonNull
+public Builder enabled(boolean enabled){
+    config.enabled = enabled;
+    return this;
+}
+</source>
+</class>
+
+<class classid="55" nclones="2" nlines="7" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01592.java" startline="6" endline="11" pcid="849">
+@NonNull
+public Builder errorDrawable(@Nullable @DrawableRes Integer errorDrawable) 
+{
+    this.errorDrawable = errorDrawable;
+    return this;
+}   
+</source>
+<source file="./systems/source/01592.java" startline="6" endline="10" pcid="2648">
+@NonNull
+public Builder errorDrawable(@Nullable @DrawableRes Integer errorDrawable){
+    config.errorDrawable = errorDrawable;
+    return this;
+}
+</source>
+</class>
+
+<class classid="56" nclones="2" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01623.java" startline="2" endline="8" pcid="865">
+@Override
+    protected void onSaveInstanceState(Bundle outState) 
+{
+    super.onSaveInstanceState(outState);
+    outState.putBoolean("isSuccess", isSuccess);
+    outState.putParcelable("imageUri", imageUri);
+}   
+</source>
+<source file="./systems/source/01623.java" startline="2" endline="7" pcid="2679">
+@Override
+    protected void onSaveInstanceState(Bundle outState){
+        super.onSaveInstanceState(outState);
+        outState.putParcelable("takePhotoUri", mTakePhotoUri);
+        outState.putString("photoTargetFolder", mPhotoTargetFolder);
+    }
+</source>
+</class>
+
+<class classid="57" nclones="3" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01750.java" startline="16" endline="20" pcid="918">
+public RetryTemplateBuilder traversingCauses() 
+{
+    this.traversingCauses = true;
+    return this;
+}   
+</source>
+<source file="./systems/source/01852.java" startline="6" endline="9" pcid="2904">
+public TeamBuilder updateTeamPacket(){
+    this.updateTeam = true;
+    return this;
+}
+</source>
+<source file="./systems/cw_1000_java_2048_4096/prompt_01852.java" startline="6" endline="10" pcid="968">
+public TeamBuilder updateTeamPacket() 
+{
+    this.updateTeamPacket = true;
+    return this;
+}   
+</source>
+</class>
+
+<class classid="58" nclones="2" nlines="5" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01831.java" startline="8" endline="14" pcid="959">
+public static void requireTrue(boolean expression) 
+{
+    if (!expression)
+    {
+        throw new IllegalArgumentException();
+    }
+}   
+</source>
+<source file="./systems/source/01831.java" startline="8" endline="12" pcid="2883">
+public static void requireTrue(boolean expression){
+    if (!expression) {
+        throw new IllegalArgumentException();
+    }
+}
+</source>
+</class>
+
+<class classid="59" nclones="2" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01834.java" startline="12" endline="19" pcid="960">
+public static <T> T requireNonNull(T obj, String message) 
+{
+    if (obj == null)
+    {
+        throw new NullPointerException(message);
+    }
+    return obj;
+}   
+</source>
+<source file="./systems/source/01834.java" startline="12" endline="17" pcid="2886">
+public static <T> T requireNonNull(T obj, String message){
+    if (obj == null) {
+        throw new NullPointerException(message);
+    }
+    return obj;
+}
+</source>
+</class>
+
+<class classid="60" nclones="2" nlines="6" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01853.java" startline="6" endline="12" pcid="969">
+public static void execute(@Nullable Runnable callback) 
+{
+    if (callback != null)
+    {
+        callback.run();
+    }
+}   
+</source>
+<source file="./systems/source/01853.java" startline="6" endline="10" pcid="2905">
+public static void execute(@Nullable Runnable callback){
+    if (callback != null) {
+        callback.run();
+    }
+}
+</source>
+</class>
+
+<class classid="61" nclones="4" nlines="4" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01924.java" startline="7" endline="11" pcid="996">
+public Builder httpResponse(final int httpResponse) 
+{
+    this.httpResponse = httpResponse;
+    return this;
+}   
+</source>
+<source file="./systems/source/00660.java" startline="10" endline="14" pcid="1691">
+public Builder setOutAnimation(final int outAnimationResId){
+  this.outAnimationResId = outAnimationResId;
+
+  return this;
+}
+</source>
+<source file="./systems/source/01924.java" startline="7" endline="10" pcid="2965">
+public Builder httpResponse(final int httpResponse){
+  this.httpResponse = httpResponse;
+  return this;
+}
+</source>
+<source file="./systems/source/00667.java" startline="10" endline="14" pcid="1698">
+public Builder setInAnimation(final int inAnimationResId){
+  this.inAnimationResId = inAnimationResId;
+
+  return this;
+}
+</source>
+</class>
+
+<class classid="62" nclones="2" nlines="9" similarity="100">
+<source file="./systems/cw_1000_java_2048_4096/prompt_01982.java" startline="6" endline="17" pcid="1028">
+public Builder setRefIdBytes(
+    com.google.protobuf.ByteString value) 
+{
+  if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+
+  refId_ = value;
+  onChanged();
+  return this;
+}   
+</source>
+<source file="./systems/source/01982.java" startline="6" endline="16" pcid="3024">
+public Builder setRefIdBytes(
+    com.google.protobuf.ByteString value){
+  if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+  
+  refId_ = value;
+  onChanged();
+  return this;
+}
+</source>
+</class>
+
+</clones>
